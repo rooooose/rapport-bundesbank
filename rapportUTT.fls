@@ -2313,13 +2313,6 @@ INPUT .\src\parts\firstPart.tex
 INPUT src\parts\firstPart.tex
 INPUT C:\Users\Rose\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Users\Rose\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
-INPUT .\src\contents\pics\\latexsup.png
-INPUT .\src\contents\pics\\latexsup.png
-INPUT src\contents\pics\\latexsup.png
-INPUT .\src\contents\pics\\latexsup.png
-INPUT .\src\contents\pics\\latexsup.png
-INPUT .\src\contents\pics\\latexsup.png
-INPUT .\src\contents\pics\\latexsup.png
 INPUT .\Ressources-graphiques\logos\UTT.eps
 INPUT .\Ressources-graphiques\logos\UTT.eps
 INPUT Ressources-graphiques\logos\UTT.eps
@@ -2330,6 +2323,13 @@ INPUT .\Ressources-graphiques\logos\UTT-eps-converted-to.pdf
 INPUT .\Ressources-graphiques\logos\UTT.eps
 INPUT .\Ressources-graphiques\logos\UTT-eps-converted-to.pdf
 INPUT .\Ressources-graphiques\logos\UTT-eps-converted-to.pdf
+INPUT .\src\contents\pics\\latexsup.png
+INPUT .\src\contents\pics\\latexsup.png
+INPUT src\contents\pics\\latexsup.png
+INPUT .\src\contents\pics\\latexsup.png
+INPUT .\src\contents\pics\\latexsup.png
+INPUT .\src\contents\pics\\latexsup.png
+INPUT .\src\contents\pics\\latexsup.png
 INPUT .\Ressources-graphiques\logos\UTT.eps
 INPUT .\Ressources-graphiques\logos\UTT.eps
 INPUT Ressources-graphiques\logos\UTT.eps
