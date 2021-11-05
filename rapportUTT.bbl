@@ -93,6 +93,7 @@
       \field{month}{9}
       \field{title}{{Former le citoyen-soldat sous la République jacobine}}
       \field{year}{2019}
+      \true{nocite}
       \verb{urlraw}
       \verb https://hal-amu.archives-ouvertes.fr/hal-02115427
       \endverb
@@ -187,6 +188,7 @@
       \field{note}{url : \shortUrl{http://gen.lib.rus.ec/book/index.php?md5=8B547BCDF967B08655D6360F6FE9D809}}
       \field{title}{Computer Networking: A Top-Down Approach}
       \field{year}{2021}
+      \true{nocite}
     \endentry
     \entry{crypto}{online}{}
       \name{author}{1}{}{%
@@ -206,6 +208,7 @@
       \field{labeltitlesource}{title}
       \field{note}{[En ligne; page disponible]}
       \field{title}{Portail de Cryptologie}
+      \true{nocite}
       \verb{urlraw}
       \verb https://fr.wikipedia.org/wiki/Portail:Cryptologie
       \endverb

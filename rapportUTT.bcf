@@ -2345,10 +2345,6 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">src/parts/bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">guiragossian:hal-02115427</bcf:citekey>
-    <bcf:citekey order="2">crypto</bcf:citekey>
-    <bcf:citekey order="3">topdown</bcf:citekey>
-    <bcf:citekey order="4">topdown</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

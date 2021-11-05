@@ -25,6 +25,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {A.2}Fonctionnalités à réaliser}{5}{subsubsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.3}Gestion de projet}{5}{subsubsection.2.1.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {B}Antécédents}{6}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {C}Méthode choisie et objectifs visés}{7}{subsection.2.3}%
@@ -35,40 +37,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {F}Résultats par rapport à l'objectif et planning réel}{10}{subsection.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {F.1}Un plus gros bout de code !}{10}{subsubsection.2.6.1}%
+\contentsline {section}{Conclusion}{11}{section*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {G}Une code sur plusieurs pages}{10}{subsection.2.7}%
+\contentsline {section}{Bibliographie}{}{section*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {H}Du code afficher plus simplement}{11}{subsection.2.8}%
+\contentsline {section}{Table des figures}{}{section*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {III}Dit comme ça...}{14}{section.3}%
+\contentsline {section}{Liste des tableaux}{}{section*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A}Phénomènes d'induction}{14}{subsection.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {A.1}Loi de Lentz}{14}{subsubsection.3.1.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {A.2}Théorème de Gauss}{14}{subsubsection.3.1.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B}Vous avez dit potentiel ?}{14}{subsection.3.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C}Des bras et des kets}{15}{subsection.3.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D}Une matrice}{15}{subsection.3.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {E}Une autre sous-section}{15}{subsection.3.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {IV}En forme d'article scientifique}{17}{section.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Annexes}{I}{section*.8}%
+\contentsline {section}{Annexes}{I}{section*.7}%
 \defcounter {refsection}{0}\relax 
 \etoc@startlocaltoc {1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A}Des longs tableaux}{I}{subsection.Alph0.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {B}Annexe B}{III}{subsection.Alph0.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliographie}{}{section*.10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Table des figures}{}{section*.10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Liste des tableaux}{}{section*.10}%

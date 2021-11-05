@@ -21,6 +21,7 @@ Il détermine 4 niveaux de référencement basés sur une triple évaluation :\\
 • Celle du public (les consomm’acteurs)\\
 \\
 Ainsi, les entreprises peuvent se démarquer des produits « pseudo-verts » mis en vente sur le marché de manière abondante, et par conséquent, donner confiance , orienter et informer le consom’acteur de manière éthique.
+Ce projet se décline en un site web et une application mobile.
 \\\\
 
 \begin{figure}[H]
@@ -31,7 +32,7 @@ Ainsi, les entreprises peuvent se démarquer des produits « pseudo-verts » mis
 
 Le site s'adresse donc aux entreprises proposant des produits et/ou services verts, aux particuliers souhaitant trouver ces produits et services, 
 mais aussi aux villes/régions qui peuvent voir les entreprises vertes disponibles sur leur territoire. Il se compose donc de 3 parties distinctes, 1 pour chaque cible.
-Je me suis occupée principalement de la partie dédiée aux entreprises
+Je me suis occupée principalement de la partie dédiée aux entreprises.
 \\\\
 \begin{figure}[H]
     \centering
@@ -45,73 +46,84 @@ Plus largement, on pourra visualiser l'ensemble des entreprises inscrites dans l
 
 \subsubsection{Fonctionnalités à réaliser}
 
-Objectifs V0
+Au niveau des fonctionnalités, je devais dans un premier temps m'occuper de la représentation des entreprises sur des cartes.
+
+Fonctionnalités en gros
+Les tâches à réaliser se définissaient petit à petit, en effet il est important dans l'association de savoir prendre des initiatives : 
+on nous donne les grandes lignes, à nous de voir précisément les différentes tâches à réaliser pour atteindre l'objectif posé
+
+\subsubsection{Gestion de projet}
 
 \pagebreak
 \subsection{Antécédents}
 \pagebreak
 \subsection{Méthode choisie et objectifs visés}
+Objectifs V0
 suivi du travail
 \pagebreak
 \subsection{Planning prévisionnel du travail}
 \pagebreak
 \subsection{Application de la méthode}
 
+Fonctionnalités en détail
+Problèmes rencontrés
+Communication avec autres départements
+
 \pagebreak
 \subsection{Résultats par rapport à l'objectif et planning réel}
 
-Une version humainement lisible d'une fork bombe peut s'écrire ainsi:
-% Il ny a pas de bashcode disponible
-\begin{minted}{bash}
-#!/bin/bash
-fbomb(){
-    fbomb | fbomb &
-}
+% Une version humainement lisible d'une fork bombe peut s'écrire ainsi:
+% % Il ny a pas de bashcode disponible
+% \begin{minted}{bash}
+% #!/bin/bash
+% fbomb(){
+%     fbomb | fbomb &
+% }
 
-fbomb
-\end{minted}
+% fbomb
+% \end{minted}
 
-\subsubsection{Un plus gros bout de code !}
-\begin{listing}[H]
-    \inputminted{python}{src/parts/code/example.py}
-    \caption{square and multiply python code}
-    \label{cd:square_and_mult}
-\end{listing}
+% \subsubsection{Un plus gros bout de code !}
+% \begin{listing}[H]
+%     \inputminted{python}{src/parts/code/example.py}
+%     \caption{square and multiply python code}
+%     \label{cd:square_and_mult}
+% \end{listing}
 
-\subsection{Une code sur plusieurs pages}
+% \subsection{Une code sur plusieurs pages}
 
-\inputminted{python}{src/parts/code/example2.py}
+% \inputminted{python}{src/parts/code/example2.py}
 
-% https://tex.stackexchange.com/questions/12428/code-spanning-over-two-pages-with-minted-inside-listing-with-caption
+% % https://tex.stackexchange.com/questions/12428/code-spanning-over-two-pages-with-minted-inside-listing-with-caption
 
-\subsection{Du code afficher plus simplement}
+% \subsection{Du code afficher plus simplement}
 
-Sinon, on peut directement utiliser le site \url{https://carbon.now.sh} ou en version raccourcie de l'url \shortUrl{https://carbon.now.sh} pour afficher du code en image ainsi :
-% Use H to place the figure HERE
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{carbon.png}
-\end{figure}
+% Sinon, on peut directement utiliser le site \url{https://carbon.now.sh} ou en version raccourcie de l'url \shortUrl{https://carbon.now.sh} pour afficher du code en image ainsi :
+% % Use H to place the figure HERE
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=\textwidth]{carbon.png}
+% \end{figure}
 
-Gardez ce bout de code dans un coin, car ça m'a beaucoup aidé pour réparer automatiquement le
-"réseau" sur mon petit OS après qu'un méchant VPN mal configuré ait tout bazardé mes
-configurations.
-\ideaEnd
-On peut aussi afficher du "code" ou tout autre chose d'une façon "bloc note" avec ceci :
-\begin{mycodebox}
-    \begin{verbatim}
-        message :  Q     B     I     T
-        binary : 10000 00001 01000 10011
-        Key :    11100 01011 01001 10010
-        EncrB :  01100 00100 10010 00000
-        EncrM :    M     I     S     A
-    \end{verbatim}
-\end{mycodebox}
+% Gardez ce bout de code dans un coin, car ça m'a beaucoup aidé pour réparer automatiquement le
+% "réseau" sur mon petit OS après qu'un méchant VPN mal configuré ait tout bazardé mes
+% configurations.
+% \ideaEnd
+% On peut aussi afficher du "code" ou tout autre chose d'une façon "bloc note" avec ceci :
+% \begin{mycodebox}
+%     \begin{verbatim}
+%         message :  Q     B     I     T
+%         binary : 10000 00001 01000 10011
+%         Key :    11100 01011 01001 10010
+%         EncrB :  01100 00100 10010 00000
+%         EncrM :    M     I     S     A
+%     \end{verbatim}
+% \end{mycodebox}
 
-Et si on a \yellowhl{envie} d'inclure directement un fichier \texttt{.txt}, on peut le faire !
+% Et si on a \yellowhl{envie} d'inclure directement un fichier \texttt{.txt}, on peut le faire !
 
-\VerbatimInput{src/contents/quCR_CHSH_Measurement.txt}
+% \VerbatimInput{src/contents/quCR_CHSH_Measurement.txt}
 
-On peut aussi choisir d'écrire directement du code au sein même de notre ligne. Si je veux expliquer que
-\incode{$x = y + 1$}, je peux.
+% On peut aussi choisir d'écrire directement du code au sein même de notre ligne. Si je veux expliquer que
+% \incode{$x = y + 1$}, je peux.
 
