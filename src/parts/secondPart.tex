@@ -55,7 +55,14 @@ La 1ère devait figurer sur le profil de l'entreprise avec un point la représen
 
 La 2nde devait être plus générale en affichant toutes les entreprises inscrites sur le Répertoire vert. 
 Elle devait faire l'objet d'un filtre comportant plusieurs critères pour les entreprises : catégorie, sous-catégorie, code postal, prix des produits/services vendus, etc\dots
-\\\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Carte.png}
+    \caption{Design de la page carte à implémenter}
+\end{figure}
+
+
 Mais d'autres tâches se sont peu après avérées beaucoup plus urgentes que la carte des entreprises. J'ai donc dû me charger de rendre l'inscription, la connexion et la réinitialisation de mot de passe fonctionnelles, 
 mais aussi de faire en sorte que l'utilisateur puisse visualiser et gérer entièrement son profil et ses produits/services. J'ai aussi travaillé sur le responsive du site et sur la création de diverses nouvelles pages. Toutes mes tâches seront détaillées dans la partie E.
 
@@ -107,17 +114,55 @@ La plupart des pages intégrées n'étaient pas terminées, car les informations
 Un compte sur le site du Répertoire Vert est transversal, c'est-à-dire qu'il peut être utilisé sur les autres sites créés par Gaea21. 
 Par conséquent, les informations de connexion des utlisateurs sont stockées dans une autre base de données. 
 Il fallait donc envoyer les données nécessaires à l'API via une requête Ajax ou PHP pour qu'un traitement soit fait dans la base de données distante. 
-Cette API, dont voici la \href{https://gaea21user.sustlivprogram.org/swagger/#/}{documentation}, était donc complètement fonctionnelle.
+Cette API, dont voici la \href{https://gaea21user.sustlivprogram.org/swagger/#/}{documentation}, était donc déjà complètement fonctionnelle.
 \end{callout}
 
 Etant donné le turn-over important dans l'association, l'un des principaux défi était de se familiariser avec le code existant et les nombreux fichiers. 
-Certaines fonctionnalités étaient déjà créées et pouvaient donc être réutilisées. Et en parallèle, beaucoup de fichiers ou morceaux de code étaient inutilisés, et certains se répétaient. 
+Certaines fonctionnalités étaient déjà créées et pouvaient donc être réutilisées. Mais en parallèle, beaucoup de fichiers ou morceaux de code étaient inutilisés, et certains se répétaient. 
 Il fallait donc savoir distinguer ce qui était utile de ce qui était à ignorer.
 
 \pagebreak
-\subsection{Méthode choisie et objectifs visés}
-Objectifs V0
+\subsection{Objectifs visés et méthode choisie}
+
+\subsubsection{Les objectifs}
+
+Avant toute chose, mon 1er objectif était l'accomplissement de ma formation ReactJS et Symfony en 3 semaines.
+\\
+A l'échelle de Gaea21, le 1er objectif était de délivrer la version 0 du site. 
+Cette version devait permettre à une entreprise de : 
+
+\begin{itemize}
+    \item S'inscrire et se connecter
+    \item Visualiser son profil et modifier ses informations et son mot de passe
+    \item Désactiver son compte
+    \item Ajouter des produits et/ou services
+    \item Visualiser ses produits/services, les supprimer et les modifier
+    \item Visualiser ses statistiques, comme le nombre de clics sur ses produits
+    \item Parcourir les différentes catégories et sous-catégories, et voir la liste des entreprises appartenant à chaque sous-catégorie.
+    \item Visualiser les profils des autres entreprises ainsi que leurs produits/services
+\end{itemize}
+
+Cependant, je n'ai été au courant de cet objectif que 2 semaines après mon intégration au projet. 
+Le 1er objectif que l'on m'avait donné pour le projet était celui des cartes mentionnées en partie A. 
+
+En effet, la version 0 était dejà censée être quasiment terminée à ce moment-là, c'est pourquoi on m'a attribué une tâche moins urgente. 
+2 semaines plus tard, on m'a donc demandé d'aider un collègue à mettre en commun toutes les fonctionnalités pour mettre la V0 en production 
+(autrement dit, merge toutes les branches Git sur la la branche principale).
+C'est alors que nous nous sommes rendu compte que la V0 n'était pas du tout aboutie, c'est-à dire que presque aucune fonctionnalité de la liste ci-dessus n'était terminée. 
+Or nous n'étions plus que 2 sur le projet. Il fallait donc basculer sur ces tâches en priorité.
+
+Une fois la V0 terminée en version ordinateur, L'objectif était de faire le responsive de toutes les pages intégrées. 
+\\
+En parallèle, pour le lancement du site, il fallait aussi ajouter à la base de données une soixantaine d'entreprises qui avaient dejà été inscrites, mais qui ont été supprimées durant le développement.
+Elles devaient alors recevoir un mail afin de réinitialiser leur mot de passe.
+
+\subsubsection{La méthodologie}
+
 suivi du travail
+
+Recueil des besoins du responsable de l’association, Mise en place d’un planning et
+répartition des tâches dans l’équipe, Mise en oeuvre, Réunion hebdomadaire avec le
+responsable et l’équipe et Déploiement de la version terminée du site.
 
 
 \pagebreak
