@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.8.6)  3 DEC 2021 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.8.6)  6 DEC 2021 15:44
 entering extended mode
 **"c:/Users/Rose/Documents/UTT ISI/ISI3 Stage/Gaea21/Rapport de stage/Latex-rapport-UTT/rapportUTT.tex"
 (c:/Users/Rose/Documents/UTT ISI/ISI3 Stage/Gaea21/Rapport de stage/Latex-rapport-UTT/rapportUTT.tex
@@ -1506,7 +1506,9 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cftsubsecindent=\skip268
 \cftsubsecnumwidth=\skip269
 \cftbeforesubsubsecskip=\skip270
-\cftsubsubsecinoreparaskip=\skip273
+\cftsubsubsecindent=\skip271
+\cftsubsubsecnumwidth=\skip272
+\cftbeforeparaskip=\skip273
 \cftparaindent=\skip274
 \cftparanumwidth=\skip275
 \cftbeforesubparaskip=\skip276
@@ -1524,22 +1526,18 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cftbeforetabskip=\skip286
 \cfttabindent=\skip287
 \cfttabnumwidth=\skip288
-)
-(C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/etoc\etoc.sty
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/etoc\etoc.sty
 Package: etoc 2021/07/13 v1.09d Completely customisable TOCs (JFB)
 \Etoc@toctoks=\toks62
 \c@etoc@tocid=\count572
 \c@etoc@tocdepth=\count573
 \etoc@framed@titlebox=\box166
 \etoc@framed@contentsbox=\box167
-)
-(C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/shorttoc\shorttoc.sty
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/shorttoc\shorttoc.sty
 Package: shorttoc 2002/08/20 v1.3 Short table of contents (JPFD)
-)
-(C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count574
@@ -1554,11 +1552,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen378
 \Gm@layoutvoffset=\dimen379
 \Gm@dimlist=\toks63
-
-(C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
-rs
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip289
 \f@nch@O@elh=\skip290
 \f@nch@O@erh=\skip291
@@ -1568,8 +1563,7 @@ rs
 \f@nch@O@erf=\skip295
 \f@nch@O@olf=\skip296
 \f@nch@O@orf=\skip297
-)
-(C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks64
 \footnotemargin=\dimen380
@@ -1578,18 +1572,14 @@ Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
 Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
-
 Package footmisc Info: Declaring symbol style lamport* on input line 903.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
-.
-)
-(C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\perpage.sty
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\perpage.sty
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
 )
 \c@pp@a@footnote=\count578
 )
-runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > ra
-pportUTT.aex <nul: /p x=^%~$PATH:i>> rapportUTT.aex)...executed.
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > rapportUTT.aex <nul: /p x=^%~$PATH:i>> rapportUTT.aex)...executed.
 
 runsystem(del rapportUTT.aex)...executed.
 
@@ -1597,21 +1587,14 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 69
-.
-
-(C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 69.
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-(rapportUTT.aux)
-Runaway argument?
-{\defcounter {ref 
-! File ended while scanning use of \@writefile.
-<inserted text> 
-                \par 
-l.69 \begin{document}
-                     
-?  ... okay on input line 69.
+) (rapportUTT.aux)
+\openout1 = `rapportUTT.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
@@ -2143,12 +2126,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--139
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--164
+Underfull \hbox (badness 10000) in paragraph at lines 154--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--164
+Underfull \hbox (badness 10000) in paragraph at lines 154--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--166
 
  []
 
@@ -2166,17 +2154,31 @@ File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pd
 Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 166.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 168--180
+Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
+(epstopdf)                    date: 2021-09-19 14:55:45
+(epstopdf)                    size: 2851486 bytes
+(epstopdf)             Output file: <Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-19 14:55:45
+(epstopdf)                    size: 15452 bytes
+(epstopdf)             Command: <miktex-epstopdf-unrestricted --outfile=Ressources-graphiques/logos/UTT-eps-converted-to.pdf Ressources-graphiques/logos/UTT.eps>
+(epstopdf)             \includegraphics on input line 168.
+Package epstopdf Info: Output file is already uptodate.
+File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pdf)
+<use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
+Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 168.
+(pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 170--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--180
+Underfull \hbox (badness 10000) in paragraph at lines 170--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--180
+Underfull \hbox (badness 10000) in paragraph at lines 170--182
 
  []
 
@@ -2187,13 +2189,32 @@ Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 15452 bytes
 (epstopdf)             Command: <miktex-epstopdf-unrestricted --outfile=Ressources-graphiques/logos/UTT-eps-converted-to.pdf Ressources-graphiques/logos/UTT.eps>
-(epstopdf)             \includegraphics on input line 184.
+(epstopdf)             \includegraphics on input line 186.
 Package epstopdf Info: Output file is already uptodate.
 File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pdf)
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
-Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 184.
+Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 186.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
-[11]
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+<src/contents/pics//Planning prévisionnel.jpg, id=178, 1589.94pt x 1112.155pt>
+File: src/contents/pics//Planning prévisionnel.jpg Graphic file (type jpg)
+<use src/contents/pics//Planning prévisionnel.jpg>
+Package pdftex.def Info: src/contents/pics//Planning prévisionnel.jpg  used on input line 196.
+(pdftex.def)             Requested size: 455.24408pt x 318.44386pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--209
+
+ []
+
 Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 2851486 bytes
@@ -2201,13 +2222,13 @@ Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 15452 bytes
 (epstopdf)             Command: <miktex-epstopdf-unrestricted --outfile=Ressources-graphiques/logos/UTT-eps-converted-to.pdf Ressources-graphiques/logos/UTT.eps>
-(epstopdf)             \includegraphics on input line 192.
+(epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
 File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pdf)
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
-Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 192.
+Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 209.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
- [12]
+[13 <./src/contents/pics//Planning prévisionnel.jpg>]
 Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 2851486 bytes
@@ -2215,13 +2236,27 @@ Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 15452 bytes
 (epstopdf)             Command: <miktex-epstopdf-unrestricted --outfile=Ressources-graphiques/logos/UTT-eps-converted-to.pdf Ressources-graphiques/logos/UTT.eps>
-(epstopdf)             \includegraphics on input line 200.
+(epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
 File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pdf)
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
-Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 200.
+Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 212.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
- [13])
+ [14]
+Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
+(epstopdf)                    date: 2021-09-19 14:55:45
+(epstopdf)                    size: 2851486 bytes
+(epstopdf)             Output file: <Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-19 14:55:45
+(epstopdf)                    size: 15452 bytes
+(epstopdf)             Command: <miktex-epstopdf-unrestricted --outfile=Ressources-graphiques/logos/UTT-eps-converted-to.pdf Ressources-graphiques/logos/UTT.eps>
+(epstopdf)             \includegraphics on input line 220.
+Package epstopdf Info: Output file is already uptodate.
+File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pdf)
+<use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
+Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 220.
+(pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
+ [15])
 Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 2851486 bytes
@@ -2235,7 +2270,7 @@ File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pd
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
 Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 111.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
- [14] (src/parts/Conclusion.tex)
+ [16] (src/parts/Conclusion.tex)
 Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 2851486 bytes
@@ -2249,7 +2284,7 @@ File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pd
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
 Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 117.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
- [15
+ [17
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 128.
@@ -2381,17 +2416,17 @@ Package logreq Info: Writing requests to 'rapportUTT.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53380 strings out of 478870
- 1088611 string characters out of 2849311
- 1961273 words of memory out of 3000000
- 70109 multiletter control sequences out of 15000+600000
- 478921 words of font info for 147 fonts, out of 8000000 for 9000
+ 53394 strings out of 478870
+ 1089031 string characters out of 2849311
+ 1960273 words of memory out of 3000000
+ 70116 multiletter control sequences out of 15000+600000
+ 479012 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  114i,14n,131p,1371b,1968s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on rapportUTT.pdf (26 pages, 7877020 bytes).
+Output written on rapportUTT.pdf (28 pages, 8344819 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 45839 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 45844 words of extra memory for PDF output out of 51595 (max. 10000000)
 
