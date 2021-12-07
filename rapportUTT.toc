@@ -37,22 +37,56 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {D}Planning prévisionnel du travail}{13}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {D.1}1er planning prévisionnel}{13}{subsubsection.2.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {D.2}2nd planning prévisionnel}{14}{subsubsection.2.4.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {E}Application de la méthode}{15}{subsection.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.1}Formation React et Symfony}{15}{subsubsection.2.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.2}Cartes des entreprises}{15}{subsubsection.2.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.3}Rendre inscription et connexion fonctionnelles}{15}{subsubsection.2.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.4}Uploader une image}{15}{subsubsection.2.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.5}Ajouter - supprimer - modifier un produit ou service}{15}{subsubsection.2.5.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.6}Page profil et produits}{15}{subsubsection.2.5.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.7}Modification du profil}{15}{subsubsection.2.5.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.8}Nouvelles pages intégrées}{15}{subsubsection.2.5.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.9}Carousel filtrant les produits}{15}{subsubsection.2.5.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.10}Activation manuelle des comptes}{15}{subsubsection.2.5.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.11}Tri des entreprises affichées sur la page sous-catégories}{15}{subsubsection.2.5.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.12}Ajout des entreprises manquantes}{15}{subsubsection.2.5.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.13}Réinitialisation de mot de passe}{15}{subsubsection.2.5.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.14}Rendre les graphes de statistiques du Dashboard fonctionnels}{15}{subsubsection.2.5.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.15}Responsive}{15}{subsubsection.2.5.15}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {F}Résultats par rapport à l'objectif et planning réel}{16}{subsection.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Conclusion}{17}{section*.10}%
+\contentsline {section}{Conclusion}{17}{section*.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliographie}{}{section*.11}%
+\contentsline {section}{Bibliographie}{}{section*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Table des figures}{}{section*.11}%
+\contentsline {section}{Table des figures}{}{section*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Liste des tableaux}{}{section*.11}%
+\contentsline {section}{Liste des tableaux}{}{section*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Annexes}{I}{section*.12}%
+\contentsline {section}{Annexes}{I}{section*.13}%
 \defcounter {refsection}{0}\relax 
 \etoc@startlocaltoc {1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A}Des longs tableaux}{I}{subsection.Alph0.1}%
+\contentsline {subsection}{\numberline {A}Plannings Poker}{I}{subsection.Alph0.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {B}Annexe B}{III}{subsection.Alph0.2}%

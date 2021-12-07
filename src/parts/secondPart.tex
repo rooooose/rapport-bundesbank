@@ -184,12 +184,13 @@ Des points début, mi-stage et fin de stage étaient réalisés avec le tuteur e
 
 \pagebreak
 \subsection{Planning prévisionnel du travail}
+
+\subsubsection{1er planning prévisionnel}
 ~\\
 
 Les tâches étant ajoutées et révélées au fur et à mesure, il n'y avait pas de vision globale réaliste du projet en amont.\\
 Le planning ci-dessous présente donc les prévisions ou souhaits d'Yvan et/ou de mes tuteurs au début de mon stage.\\ 
 Mais comme toutes ces personnes travaillaient sur d'autres projets, elles n'étaient pas vraiment au courant de l'état d'avancement précis du projet, ce qui explique la grande différence entre ce planning et les objectifs listés précédemment.
-\\De plus, ce projet était marqué par un fort turnover. Il fallait donc un temps d'adaptation et de familiarisation pour chaque nouvelle recrue, notamment pour l'installation du projet, savoir quel fichier correspondait à quoi, etc...
 
 \begin{figure}[H]
     \centering
@@ -207,11 +208,68 @@ Au retour des vacances, on ne m'a pas vraiment précisé ce que je ferais, mais 
 \\
 La dernière semaine de stage était consacrée à la rédaction d'un rapport de transmission, permettant aux suivants de reprendre mon code.
 
+\subsubsection{2nd planning prévisionnel}
+~\\
+Mi-septembre, le planning a pu évoluer en une version un peu plus réaliste.\\
+Lorsque tout le monde a compris que la V0 n'était en réalité pas du tout terminée, Yvan nous avait fixé la deadline pour cette version au 7 octobre.
+\\Après cela, il fallait rendre les pages fonctionnelles responsive. Et une fois cela terminé, nous pouvions nous atteler à la V1.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Planning prévisionnel mi-stage.jpg}
+    \caption{Planning prévisionnel de septembre}
+\end{figure}
 
 \pagebreak
 \subsection{Application de la méthode}
 
-Fonctionnalités en détail
+\subsubsection{Formation React et Symfony}
+
+\subsubsection{Cartes des entreprises}
+
+Récupération des entreprises appartenant à une sous catégories : ajout dans la table "product" d'un attribut company\_id car l'attribut initial "owner" renvoyait à un individu de l'entité "user".
+Or un produit appartient forcément à une entreprise.
+\\\\
+Pb rencontré : Migrations de la bdd : DBB à jour mais pas le code => toutes les clées etrangeres sont deja créées ce qui crée des problèmes lors des migrations
+
+\subsubsection{Rendre inscription et connexion fonctionnelles}
+
+\subsubsection{Uploader une image}
+
+\subsubsection{Ajouter - supprimer - modifier un produit ou service}
+
+\subsubsection{Page profil et produits}
+
+\subsubsection{Modification du profil}
+
+\subsubsection{Nouvelles pages intégrées}
+Tarifs/niveaux
+Page en construction
+Compte activé
+
+\subsubsection{Carousel filtrant les produits}
+
+\subsubsection{Activation manuelle des comptes}
+
+\subsubsection{Tri des entreprises affichées sur la page sous-catégories}
+
+\subsubsection{Ajout des entreprises manquantes}
+
+\subsubsection{Réinitialisation de mot de passe}
+
+\subsubsection{Rendre les graphes de statistiques du Dashboard fonctionnels}
+
+\subsubsection{Responsive}
+Pré-homepage\\
+Homepage entreprise\\
+Menu\\
+Dashboard\\
+Inscription
+
+
++ résolution bugs, front (comme désactivation compte, page sous categories)
+
+
 Problèmes rencontrés
 Git
 Communication avec autres départements
@@ -220,6 +278,7 @@ Communication avec autres départements
 \subsection{Résultats par rapport à l'objectif et planning réel}
 
 Parler du retard V0
+\\De plus, ce projet était marqué par un fort turnover. Il fallait donc un temps d'adaptation et de familiarisation pour chaque nouvelle recrue, notamment pour l'installation du projet, savoir quel fichier correspondait à quoi, etc...
 assigner des tâches qui correspondent aux objectifs de formation de chacun
 Compétences acquises
 
