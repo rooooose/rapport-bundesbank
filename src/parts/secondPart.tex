@@ -225,6 +225,30 @@ Lorsque tout le monde a compris que la V0 n'était en réalité pas du tout term
 
 \subsubsection{Formation React et Symfony}
 
+Le 1er mois de stage était donc consacré à la formation ReactJS et Symfony 5.\\\\
+J'ai commencé par ReactJS, en suivant un cours du site Graphikart sur ce framework. 
+J'y ai appris les bases, ainsi que des notions plus avancées, comme les hooks, contextes, etc...
+Des petits exercices faits par l'association m'ont permis de consolider mes acquis.\\\\
+
+1 semaine après, j'ai débuté la formation Symfony, qui se faisait quant à elle sur le site SymfonyCasts, avec des vidéos également.
+J'ai donc pu apprendre les bases de ce framweork, avec le principe de routes, services, bundles, contrôleurs, mais aussi la partie bases de données avec Doctrine.\\\\
+
+La finalité de ces deux formations était un exercice dont l'objectif était de réaliser un CRUD (Create, Read, Update, Delete) liant Symfony et React.
+Il était donc demandé :\\
+- D'afficher dans un tableau les informations d'une table "utilisateur" de la base de données avec ReactJS, après l'avoir créée.\\
+- D'ajouter les fonctionnalités supprimer et modifier pour chaque ligne, et aussi ajouter un nouvel utilisateur.
+- D'ajouter les possessions de l'utilisateur, visibles sur une autre page en cliquant sur le nom d'un utilisateur, et de pouvoir en ajouter.
+- De calculer l'âge de l'utilisateur grâce à un service.
+
+La 1ere chose à faire était la création de l'entité Utilisateur avec tous ses attributs, en ligne de commande.\\
+Puis, une fois la page créée grâce à un fichier Twig (front-end) et une fonction dans le controleur indiquant la route vers cette page (back-end), il fallait afficher les informations de la base de données dans un tableau html, en passant par javascript.\\
+Pour ce faire, il fallait tout d'abord récupérer l'ensemble des informations de chaque utilisateur via le controleur. J'ai donc fait une requete Doctrine via le Repository de l'entité Utilisateur.
+
+
+difficulté : serialiser les données en json, surtout tableaux de tableaux (possessions)
+
+
+
 \subsubsection{Cartes des entreprises}
 
 Récupération des entreprises appartenant à une sous catégories : ajout dans la table "product" d'un attribut company\_id car l'attribut initial "owner" renvoyait à un individu de l'entité "user".

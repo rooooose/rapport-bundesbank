@@ -51,31 +51,31 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {E.4}Uploader une image}{15}{subsubsection.2.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.5}Ajouter - supprimer - modifier un produit ou service}{15}{subsubsection.2.5.5}%
+\contentsline {subsubsection}{\numberline {E.5}Ajouter - supprimer - modifier un produit ou service}{16}{subsubsection.2.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.6}Page profil et produits}{15}{subsubsection.2.5.6}%
+\contentsline {subsubsection}{\numberline {E.6}Page profil et produits}{16}{subsubsection.2.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.7}Modification du profil}{15}{subsubsection.2.5.7}%
+\contentsline {subsubsection}{\numberline {E.7}Modification du profil}{16}{subsubsection.2.5.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.8}Nouvelles pages intégrées}{15}{subsubsection.2.5.8}%
+\contentsline {subsubsection}{\numberline {E.8}Nouvelles pages intégrées}{16}{subsubsection.2.5.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.9}Carousel filtrant les produits}{15}{subsubsection.2.5.9}%
+\contentsline {subsubsection}{\numberline {E.9}Carousel filtrant les produits}{16}{subsubsection.2.5.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.10}Activation manuelle des comptes}{15}{subsubsection.2.5.10}%
+\contentsline {subsubsection}{\numberline {E.10}Activation manuelle des comptes}{16}{subsubsection.2.5.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.11}Tri des entreprises affichées sur la page sous-catégories}{15}{subsubsection.2.5.11}%
+\contentsline {subsubsection}{\numberline {E.11}Tri des entreprises affichées sur la page sous-catégories}{16}{subsubsection.2.5.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.12}Ajout des entreprises manquantes}{15}{subsubsection.2.5.12}%
+\contentsline {subsubsection}{\numberline {E.12}Ajout des entreprises manquantes}{16}{subsubsection.2.5.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.13}Réinitialisation de mot de passe}{15}{subsubsection.2.5.13}%
+\contentsline {subsubsection}{\numberline {E.13}Réinitialisation de mot de passe}{16}{subsubsection.2.5.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.14}Rendre les graphes de statistiques du Dashboard fonctionnels}{15}{subsubsection.2.5.14}%
+\contentsline {subsubsection}{\numberline {E.14}Rendre les graphes de statistiques du Dashboard fonctionnels}{16}{subsubsection.2.5.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.15}Responsive}{15}{subsubsection.2.5.15}%
+\contentsline {subsubsection}{\numberline {E.15}Responsive}{16}{subsubsection.2.5.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {F}Résultats par rapport à l'objectif et planning réel}{16}{subsection.2.6}%
+\contentsline {subsection}{\numberline {F}Résultats par rapport à l'objectif et planning réel}{17}{subsection.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Conclusion}{17}{section*.11}%
+\contentsline {section}{Conclusion}{18}{section*.11}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Bibliographie}{}{section*.12}%
 \defcounter {refsection}{0}\relax 
