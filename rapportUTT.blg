@@ -1,17 +1,17 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'rapportUTT.blg'
-[157] biber-MSWIN64:340> INFO - === 
-[228] Biber.pm:415> INFO - Reading 'rapportUTT.bcf'
-[386] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[403] Biber.pm:4340> INFO - Processing section 0
-[417] Biber.pm:4531> INFO - Looking for bibtex format file 'src/parts/bibliography.bib' for section 0
-[655] bibtex.pm:1689> INFO - LaTeX decoding ...
-[675] bibtex.pm:1494> INFO - Found BibTeX data source 'src/parts/bibliography.bib'
-[744] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Rose\AppData\Local\Temp\biber_tmp_7ibg\f4d088b3f9f145b5c3058da33afd57d4_12452.utf8, line 6, warning: 79 characters of junk seen at toplevel
-[760] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[760] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[760] Biber.pm:4168> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'fr-FR'
-[760] Biber.pm:4174> INFO - No sort tailoring available for locale 'fr-FR'
-[772] bbl.pm:654> INFO - Writing 'rapportUTT.bbl' with encoding 'UTF-8'
-[775] bbl.pm:757> INFO - Output to rapportUTT.bbl
-[775] Biber.pm:128> INFO - WARNINGS: 1
+[169] biber-MSWIN64:340> INFO - === 
+[239] Biber.pm:415> INFO - Reading 'rapportUTT.bcf'
+[398] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[415] Biber.pm:4340> INFO - Processing section 0
+[430] Biber.pm:4531> INFO - Looking for bibtex format file 'src/parts/bibliography.bib' for section 0
+[542] bibtex.pm:1689> INFO - LaTeX decoding ...
+[594] bibtex.pm:1494> INFO - Found BibTeX data source 'src/parts/bibliography.bib'
+[663] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\Rose\AppData\Local\Temp\biber_tmp_1ZsR\f4d088b3f9f145b5c3058da33afd57d4_15972.utf8, line 8, warning: 166 characters of junk seen at toplevel
+[677] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[678] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[678] Biber.pm:4168> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'fr-FR'
+[678] Biber.pm:4174> INFO - No sort tailoring available for locale 'fr-FR'
+[691] bbl.pm:654> INFO - Writing 'rapportUTT.bbl' with encoding 'UTF-8'
+[694] bbl.pm:757> INFO - Output to rapportUTT.bbl
+[695] Biber.pm:128> INFO - WARNINGS: 1

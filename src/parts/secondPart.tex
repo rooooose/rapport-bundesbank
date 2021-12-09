@@ -235,21 +235,67 @@ J'ai donc pu apprendre les bases de ce framweork, avec le principe de routes, se
 
 La finalité de ces deux formations était un exercice dont l'objectif était de réaliser un CRUD (Create, Read, Update, Delete) liant Symfony et React.
 Il était donc demandé :\\
-- D'afficher dans un tableau les informations d'une table "utilisateur" de la base de données avec ReactJS, après l'avoir créée.\\
-- D'ajouter les fonctionnalités supprimer et modifier pour chaque ligne, et aussi ajouter un nouvel utilisateur.
-- D'ajouter les possessions de l'utilisateur, visibles sur une autre page en cliquant sur le nom d'un utilisateur, et de pouvoir en ajouter.
-- De calculer l'âge de l'utilisateur grâce à un service.
+\begin{itemize}
+    \item D'afficher dans un tableau les informations d'une table "utilisateur" de la base de données avec ReactJS, après l'avoir créée.
+    \item D'ajouter les fonctionnalités supprimer et modifier pour chaque ligne, et aussi ajouter un nouvel utilisateur.
+    \item D'ajouter les possessions de l'utilisateur, visibles sur une autre page en cliquant sur le nom d'un utilisateur, et de pouvoir en ajouter.
+    \item De calculer l'âge de l'utilisateur grâce à un service.
+\end{itemize}
 
-La 1ere chose à faire était la création de l'entité Utilisateur avec tous ses attributs, en ligne de commande.\\
-Puis, une fois la page créée grâce à un fichier Twig (front-end) et une fonction dans le controleur indiquant la route vers cette page (back-end), il fallait afficher les informations de la base de données dans un tableau html, en passant par javascript.\\
-Pour ce faire, il fallait tout d'abord récupérer l'ensemble des informations de chaque utilisateur via le controleur. J'ai donc fait une requete Doctrine via le Repository de l'entité Utilisateur.
+La 1ere chose à faire était la \textbf{création de l'entité Utilisateur} avec tous ses attributs, en ligne de commande.
+\begin{figure}[H]
+    \includegraphics[width=6cm, left]{makeEntity.png}
+\end{figure}
 
 
-difficulté : serialiser les données en json, surtout tableaux de tableaux (possessions)
+Puis, une fois la page créée grâce à un fichier \textbf{Twig} (front-end) et une fonction dans le \textbf{contrôleur} indiquant la route vers cette page (back-end), il fallait afficher les informations de la base de données dans un tableau html, en passant par \textbf{React}.\\
+Pour ce faire, il fallait tout d'abord récupérer l'ensemble des informations de chaque utilisateur via le controleur. J'ai donc fait \textbf{une requete Doctrine} via le Repository de l'entité Utilisateur.
+\\Puis, il fallait envoyer ces données au javascript sous forme de tableau json. Chaque page de l'application correspondait à un \textbf{composant React}. 
+Le tableau affichant les utilisateurs était donc un composant récupérant les données dynamiquement par son état, via une \textbf{requête Ajax GET}.\\
+Quant à la suppression d'un utilisateur, on appelle la fonction de suppression située dans le contrôleur Symfony via une \textbf{requête Ajax POST}.\\
+Les fonctionnalités d'ajout et de modification reposent sur le même principe.\\
+Pour calculer l'âge il suffisait d'importer le service en question dans le controleur afin d'utiliser la fonction.\\
+Voici donc le résultat de ces 1eres fonctionnalités :
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{ExC_index.png}
+    \caption{Accueil de l'appli}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{ExC_edit.png}
+    \caption{Modification d'un utilisateur}
+\end{figure}
+
+
+
+Pour ajouter les possessions de chaque utilisateur, une nouvelle table/entité était nécessaire, ayant une relation \textbf{ManyToOne} du côté de la possession. 
+Cela signifie qu'un utilisateur peut avoir plusieurs possessions, mais qu'une possession ne peut appartenir qu'à un seul utilisateur. \\
+Il était facile de récupérer les possessions d'un utilisateur selon son id, mais la difficulté était la sérialisation des données à envoyer au JS sous forme de tableau json.
+En effet, on récupérait un tableau de tableaux. Il fallait donc boucler dans le 1er tableau pour sérialiser chaque possession.\\
+Une fois cela terminé, j'ai développé la fonctionnalité d'ajout d'une possession, comme pour les utilisateurs.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{ExC_possessions.png}
+    \caption{Page de l'utilisateur avec ses possessions}
+\end{figure}
+
+Une fois cet exercice validé, j'ai pu être intégrée au projet Répertoire Vert.
 
 
 \subsubsection{Cartes des entreprises}
+
+Ma toute première tâche était donc l'intégration d'une carte permettant à l'entreprise de se localiser visuellement. 
+Avant toute chose, j'ai étudié les différents fichiers existants, à la recherche d'un éventuel code que je pourrais réutiliser.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{design_profil_carte.PNG}
+    \caption{Design de la page profil avec la carte}
+\end{figure}
+
 
 Récupération des entreprises appartenant à une sous catégories : ajout dans la table "product" d'un attribut company\_id car l'attribut initial "owner" renvoyait à un individu de l'entité "user".
 Or un produit appartient forcément à une entreprise.

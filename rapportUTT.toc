@@ -45,45 +45,45 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {E.1}Formation React et Symfony}{15}{subsubsection.2.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.2}Cartes des entreprises}{15}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {E.2}Cartes des entreprises}{17}{subsubsection.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.3}Rendre inscription et connexion fonctionnelles}{15}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {E.3}Rendre inscription et connexion fonctionnelles}{18}{subsubsection.2.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.4}Uploader une image}{15}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {E.4}Uploader une image}{18}{subsubsection.2.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.5}Ajouter - supprimer - modifier un produit ou service}{16}{subsubsection.2.5.5}%
+\contentsline {subsubsection}{\numberline {E.5}Ajouter - supprimer - modifier un produit ou service}{18}{subsubsection.2.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.6}Page profil et produits}{16}{subsubsection.2.5.6}%
+\contentsline {subsubsection}{\numberline {E.6}Page profil et produits}{18}{subsubsection.2.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.7}Modification du profil}{16}{subsubsection.2.5.7}%
+\contentsline {subsubsection}{\numberline {E.7}Modification du profil}{18}{subsubsection.2.5.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.8}Nouvelles pages intégrées}{16}{subsubsection.2.5.8}%
+\contentsline {subsubsection}{\numberline {E.8}Nouvelles pages intégrées}{18}{subsubsection.2.5.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.9}Carousel filtrant les produits}{16}{subsubsection.2.5.9}%
+\contentsline {subsubsection}{\numberline {E.9}Carousel filtrant les produits}{18}{subsubsection.2.5.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.10}Activation manuelle des comptes}{16}{subsubsection.2.5.10}%
+\contentsline {subsubsection}{\numberline {E.10}Activation manuelle des comptes}{18}{subsubsection.2.5.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.11}Tri des entreprises affichées sur la page sous-catégories}{16}{subsubsection.2.5.11}%
+\contentsline {subsubsection}{\numberline {E.11}Tri des entreprises affichées sur la page sous-catégories}{19}{subsubsection.2.5.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.12}Ajout des entreprises manquantes}{16}{subsubsection.2.5.12}%
+\contentsline {subsubsection}{\numberline {E.12}Ajout des entreprises manquantes}{19}{subsubsection.2.5.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.13}Réinitialisation de mot de passe}{16}{subsubsection.2.5.13}%
+\contentsline {subsubsection}{\numberline {E.13}Réinitialisation de mot de passe}{19}{subsubsection.2.5.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.14}Rendre les graphes de statistiques du Dashboard fonctionnels}{16}{subsubsection.2.5.14}%
+\contentsline {subsubsection}{\numberline {E.14}Rendre les graphes de statistiques du Dashboard fonctionnels}{19}{subsubsection.2.5.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.15}Responsive}{16}{subsubsection.2.5.15}%
+\contentsline {subsubsection}{\numberline {E.15}Responsive}{19}{subsubsection.2.5.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {F}Résultats par rapport à l'objectif et planning réel}{17}{subsection.2.6}%
+\contentsline {subsection}{\numberline {F}Résultats par rapport à l'objectif et planning réel}{20}{subsection.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Conclusion}{18}{section*.11}%
+\contentsline {section}{Conclusion}{21}{section*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliographie}{}{section*.12}%
+\contentsline {section}{Bibliographie}{}{section*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Table des figures}{}{section*.12}%
+\contentsline {section}{Table des figures}{}{section*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Liste des tableaux}{}{section*.12}%
+\contentsline {section}{Liste des tableaux}{}{section*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Annexes}{I}{section*.13}%
+\contentsline {section}{Annexes}{I}{section*.18}%
 \defcounter {refsection}{0}\relax 
 \etoc@startlocaltoc {1}
 \defcounter {refsection}{0}\relax 
