@@ -288,16 +288,52 @@ Une fois cet exercice validé, j'ai pu être intégrée au projet Répertoire Ve
 
 \subsubsection{Cartes des entreprises}
 
-Ma toute première tâche était donc l'intégration d'une carte permettant à l'entreprise de se localiser visuellement. 
-Avant toute chose, j'ai étudié les différents fichiers existants, à la recherche d'un éventuel code que je pourrais réutiliser.
+\paragraph{Carte d'1 entreprise}
+Ma toute première tâche était donc l'intégration d'une carte permettant à l'entreprise de se localiser visuellement. Voici le design l'intégrant :
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{design_profil_carte.PNG}
     \caption{Design de la page profil avec la carte}
 \end{figure}
 
+Avant toute chose, j'ai étudié les différents fichiers existants, à la recherche d'un éventuel code que je pourrais réutiliser.
+\\Il en existait effectivement un, une page avait été créée, contenant une carte avec toutes les entreprises de la base de données. \textbf{LeafletJS} était utilisée, une bibliothèque JavaScript libre de cartographie.
+\\Il m'a simplement fallu modifier l'url de la requête ajax, afin de récupérer les coordonnées de non pas toutes les entreprises, mais d'une seule selon son id. J'ai également copié ce code dans un fichier javascript à part.
 
-Récupération des entreprises appartenant à une sous catégories : ajout dans la table "product" d'un attribut company\_id car l'attribut initial "owner" renvoyait à un individu de l'entité "user".
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{resultat_profil_carte.PNG}
+    \caption{Résultat de la page profil avec la carte}
+\end{figure}
+
+Cependant, pour afficher l'emplacement de l'entreprise, il était nécessaire de récupérer les coordonnées GPS à partir de l'adresse, et ce dès l'inscription.\\
+Après m'être familiarisée avec le code de l'inscription, j'y ai ajouté une requête Ajax vers l'API \textbf{OpenStreetMap} : "\emph{un projet collaboratif de cartographie en ligne qui vise à constituer une base de données géographiques libre du monde, en utilisant le système GPS et d'autres données libres}".
+En mettant l'adresse en paramètre, on peut ainsi récupérer les latitude et longitude associées. Ces données sont ensuite envoyées au contrôleur pour être enregistrées en base de données.
+
+\paragraph{Carte de toutes les entreprises}
+
+La prochaine tâche concernait la page affichant toutes les entreprises sur une carte, avec la possibilité de les filtrer, et d'obtenir plus d'informations sur chaque entreprise :
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{design_carte_details.PNG}
+    \caption{Design page carte}
+\end{figure}
+
+J'ai décidé d'implémenter cette fonctionnalité en ReactJS, car l'affichage est considérablement modifié à chaque clic.
+\\On a donc un composant principal qui est la carte, se chargeant d'afficher les bons points sur la carte et de les filtrer selon les critères reçus par les autres composants.
+\\L'autre composant correspond au "Side Menu", qui s'affiche de 3 manières dans l'ordre ci-dessous.
+
+\begin{figure}[H]
+    \includegraphics[width=5cm]{sidemenu1.PNG}
+    \includegraphics[width=5cm]{sidemenu2.PNG}
+    \includegraphics[width=5cm]{sidemenu3.PNG}
+    \caption{Affichages successifs du side menu}
+\end{figure}
+On a d'abord les catégories, puis les sous-catégories, et enfin les entreprises correspondant à la sous-catégorie cliquée.
+
+Récupération des entreprises appartenant à une sous-catégorie : ajout dans la table "product" d'un attribut company\_id car l'attribut initial "owner" renvoyait à un individu de l'entité "user".
 Or un produit appartient forcément à une entreprise.
 \\\\
 Pb rencontré : Migrations de la bdd : DBB à jour mais pas le code => toutes les clées etrangeres sont deja créées ce qui crée des problèmes lors des migrations

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.8.6)  9 DEC 2021 16:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.8.6)  12 DEC 2021 16:57
 entering extended mode
 **"c:/Users/Rose/Documents/UTT ISI/ISI3 Stage/Gaea21/Rapport de stage/Latex-rapport-UTT/rapportUTT.tex"
 (c:/Users/Rose/Documents/UTT ISI/ISI3 Stage/Gaea21/Rapport de stage/Latex-rapport-UTT/rapportUTT.tex
@@ -2328,7 +2328,7 @@ Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  u
 <src/contents/pics//design_profil_carte.PNG, id=216, 557.08125pt x 336.65775pt>
 File: src/contents/pics//design_profil_carte.PNG Graphic file (type png)
 <use src/contents/pics//design_profil_carte.PNG>
-Package pdftex.def Info: src/contents/pics//design_profil_carte.PNG  used on input line 295.
+Package pdftex.def Info: src/contents/pics//design_profil_carte.PNG  used on input line 296.
 (pdftex.def)             Requested size: 455.24408pt x 275.12105pt.
 Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
@@ -2337,14 +2337,81 @@ Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 15452 bytes
 (epstopdf)             Command: <miktex-epstopdf-unrestricted --outfile=Ressources-graphiques/logos/UTT-eps-converted-to.pdf Ressources-graphiques/logos/UTT.eps>
-(epstopdf)             \includegraphics on input line 298.
+(epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pdf)
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
-Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 298.
+Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 299.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
  [17 <./src/contents/pics//ExC_possessions.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 300--304
+<src/contents/pics//resultat_profil_carte.PNG, id=225, 914.2155pt x 471.56175pt>
+File: src/contents/pics//resultat_profil_carte.PNG Graphic file (type png)
+<use src/contents/pics//resultat_profil_carte.PNG>
+Package pdftex.def Info: src/contents/pics//resultat_profil_carte.PNG  used on input line 306.
+(pdftex.def)             Requested size: 455.24408pt x 234.82329pt.
+Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
+(epstopdf)                    date: 2021-09-19 14:55:45
+(epstopdf)                    size: 2851486 bytes
+(epstopdf)             Output file: <Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-19 14:55:45
+(epstopdf)                    size: 15452 bytes
+(epstopdf)             Command: <miktex-epstopdf-unrestricted --outfile=Ressources-graphiques/logos/UTT-eps-converted-to.pdf Ressources-graphiques/logos/UTT.eps>
+(epstopdf)             \includegraphics on input line 309.
+Package epstopdf Info: Output file is already uptodate.
+File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pdf)
+<use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
+Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 309.
+(pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
+ [18 <./src/contents/pics//design_profil_carte.PNG>]
+<src/contents/pics//design_carte_details.PNG, id=233, 688.974pt x 492.6405pt>
+File: src/contents/pics//design_carte_details.PNG Graphic file (type png)
+<use src/contents/pics//design_carte_details.PNG>
+Package pdftex.def Info: src/contents/pics//design_carte_details.PNG  used on input line 320.
+(pdftex.def)             Requested size: 455.24408pt x 325.51207pt.
+Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
+(epstopdf)                    date: 2021-09-19 14:55:45
+(epstopdf)                    size: 2851486 bytes
+(epstopdf)             Output file: <Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-19 14:55:45
+(epstopdf)                    size: 15452 bytes
+(epstopdf)             Command: <miktex-epstopdf-unrestricted --outfile=Ressources-graphiques/logos/UTT-eps-converted-to.pdf Ressources-graphiques/logos/UTT.eps>
+(epstopdf)             \includegraphics on input line 323.
+Package epstopdf Info: Output file is already uptodate.
+File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pdf)
+<use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
+Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 323.
+(pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
+ [19 <./src/contents/pics//resultat_profil_carte.PNG>]
+<src/contents/pics//sidemenu1.PNG, id=242, 107.2005pt x 207.77625pt>
+File: src/contents/pics//sidemenu1.PNG Graphic file (type png)
+<use src/contents/pics//sidemenu1.PNG>
+Package pdftex.def Info: src/contents/pics//sidemenu1.PNG  used on input line 329.
+(pdftex.def)             Requested size: 142.26378pt x 275.76825pt.
+<src/contents/pics//sidemenu2.PNG, id=243, 136.1085pt x 266.79675pt>
+File: src/contents/pics//sidemenu2.PNG Graphic file (type png)
+<use src/contents/pics//sidemenu2.PNG>
+Package pdftex.def Info: src/contents/pics//sidemenu2.PNG  used on input line 330.
+(pdftex.def)             Requested size: 142.26378pt x 278.89098pt.
+<src/contents/pics//sidemenu3.PNG, id=244, 129.48375pt x 226.446pt>
+File: src/contents/pics//sidemenu3.PNG Graphic file (type png)
+<use src/contents/pics//sidemenu3.PNG>
+Package pdftex.def Info: src/contents/pics//sidemenu3.PNG  used on input line 331.
+(pdftex.def)             Requested size: 142.26378pt x 248.82184pt.
+Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
+(epstopdf)                    date: 2021-09-19 14:55:45
+(epstopdf)                    size: 2851486 bytes
+(epstopdf)             Output file: <Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-09-19 14:55:45
+(epstopdf)                    size: 15452 bytes
+(epstopdf)             Command: <miktex-epstopdf-unrestricted --outfile=Ressources-graphiques/logos/UTT-eps-converted-to.pdf Ressources-graphiques/logos/UTT.eps>
+(epstopdf)             \includegraphics on input line 334.
+Package epstopdf Info: Output file is already uptodate.
+File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pdf)
+<use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
+Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 334.
+(pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
+ [20 <./src/contents/pics//design_carte_details.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 336--340
 
  []
 
@@ -2355,13 +2422,13 @@ Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 15452 bytes
 (epstopdf)             Command: <miktex-epstopdf-unrestricted --outfile=Ressources-graphiques/logos/UTT-eps-converted-to.pdf Ressources-graphiques/logos/UTT.eps>
-(epstopdf)             \includegraphics on input line 326.
+(epstopdf)             \includegraphics on input line 360.
 Package epstopdf Info: Output file is already uptodate.
 File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pdf)
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
-Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 326.
+Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 360.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
-[18 <./src/contents/pics//design_profil_carte.PNG>]
+[21 <./src/contents/pics//sidemenu1.PNG> <./src/contents/pics//sidemenu2.PNG> <./src/contents/pics//sidemenu3.PNG>]
 Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 2851486 bytes
@@ -2369,13 +2436,13 @@ Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 15452 bytes
 (epstopdf)             Command: <miktex-epstopdf-unrestricted --outfile=Ressources-graphiques/logos/UTT-eps-converted-to.pdf Ressources-graphiques/logos/UTT.eps>
-(epstopdf)             \includegraphics on input line 348.
+(epstopdf)             \includegraphics on input line 384.
 Package epstopdf Info: Output file is already uptodate.
 File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pdf)
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
-Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 348.
+Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 384.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
- [19])
+ [22])
 Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 2851486 bytes
@@ -2389,7 +2456,7 @@ File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pd
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
 Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 111.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
- [20] (src/parts/Conclusion.tex)
+ [23] (src/parts/Conclusion.tex)
 Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 2851486 bytes
@@ -2403,7 +2470,7 @@ File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pd
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
 Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 117.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
- [21
+ [24
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 128.
@@ -2535,17 +2602,17 @@ Package logreq Info: Writing requests to 'rapportUTT.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53495 strings out of 478870
- 1091556 string characters out of 2849311
+ 53553 strings out of 478870
+ 1093269 string characters out of 2849311
  1961270 words of memory out of 3000000
- 70175 multiletter control sequences out of 15000+600000
- 479388 words of font info for 152 fonts, out of 8000000 for 9000
+ 70212 multiletter control sequences out of 15000+600000
+ 479963 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  114i,15n,131p,1371b,1968s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on rapportUTT.pdf (32 pages, 8684701 bytes).
+Output written on rapportUTT.pdf (35 pages, 10270991 bytes).
 PDF statistics:
- 538 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 46010 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 570 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 46035 words of extra memory for PDF output out of 51595 (max. 10000000)
 
