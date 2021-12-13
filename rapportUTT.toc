@@ -33,55 +33,55 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {C.1}Les objectifs}{10}{subsubsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {C.2}La méthodologie}{12}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {C.2}La méthodologie}{11}{subsubsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D}Planning prévisionnel du travail}{13}{subsection.2.4}%
+\contentsline {subsection}{\numberline {D}Planning prévisionnel du travail}{12}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {D.1}1er planning prévisionnel}{13}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {D.1}1er planning prévisionnel}{12}{subsubsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {D.2}2nd planning prévisionnel}{14}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {D.2}2nd planning prévisionnel}{13}{subsubsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {E}Application de la méthode}{15}{subsection.2.5}%
+\contentsline {subsection}{\numberline {E}Application de la méthode}{14}{subsection.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.1}Formation React et Symfony}{15}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {E.1}Formation React et Symfony}{14}{subsubsection.2.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.2}Cartes des entreprises}{17}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {E.2}Cartes des entreprises}{16}{subsubsection.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Carte d'1 entreprise}{17}{subsubsection.2.5.2}%
+\contentsline {paragraph}{Carte d'1 entreprise}{16}{subsubsection.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Carte de toutes les entreprises}{19}{figure.caption.16}%
+\contentsline {paragraph}{Carte de toutes les entreprises}{18}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Le filtre}{22}{figure.caption.19}%
+\contentsline {subparagraph}{Le filtre}{21}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.3}Rendre inscription et connexion fonctionnelles}{22}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {E.3}Rendre inscription et connexion fonctionnelles}{21}{subsubsection.2.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.4}Uploader une image}{23}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {E.4}Uploader une image}{22}{subsubsection.2.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.5}Ajouter - supprimer - modifier un produit ou service}{23}{subsubsection.2.5.5}%
+\contentsline {subsubsection}{\numberline {E.5}Ajouter - supprimer - modifier un produit ou service}{22}{subsubsection.2.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.6}Page profil et produits}{23}{subsubsection.2.5.6}%
+\contentsline {subsubsection}{\numberline {E.6}Page profil et produits}{22}{subsubsection.2.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.7}Modification du profil}{23}{subsubsection.2.5.7}%
+\contentsline {subsubsection}{\numberline {E.7}Modification du profil}{22}{subsubsection.2.5.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.8}Carousel filtrant les produits}{23}{subsubsection.2.5.8}%
+\contentsline {subsubsection}{\numberline {E.8}Carousel filtrant les produits}{22}{subsubsection.2.5.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.9}Activation manuelle des comptes}{23}{subsubsection.2.5.9}%
+\contentsline {subsubsection}{\numberline {E.9}Activation manuelle des comptes}{22}{subsubsection.2.5.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.10}Tri des entreprises affichées sur la page sous-catégories}{23}{subsubsection.2.5.10}%
+\contentsline {subsubsection}{\numberline {E.10}Tri des entreprises affichées sur la page sous-catégories}{22}{subsubsection.2.5.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.11}Ajout des entreprises manquantes}{23}{subsubsection.2.5.11}%
+\contentsline {subsubsection}{\numberline {E.11}Ajout des entreprises manquantes}{22}{subsubsection.2.5.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.12}Réinitialisation de mot de passe}{23}{subsubsection.2.5.12}%
+\contentsline {subsubsection}{\numberline {E.12}Réinitialisation de mot de passe}{22}{subsubsection.2.5.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.13}Rendre les graphes de statistiques du Dashboard fonctionnels}{23}{subsubsection.2.5.13}%
+\contentsline {subsubsection}{\numberline {E.13}Rendre les graphes de statistiques du Dashboard fonctionnels}{22}{subsubsection.2.5.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.14}Désactivation du compte Répertoire Vert}{23}{subsubsection.2.5.14}%
+\contentsline {subsubsection}{\numberline {E.14}Désactivation du compte Répertoire Vert}{22}{subsubsection.2.5.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.15}Responsive}{23}{subsubsection.2.5.15}%
+\contentsline {subsubsection}{\numberline {E.15}Responsive}{22}{subsubsection.2.5.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {F}Résultats par rapport à l'objectif et planning réel}{24}{subsection.2.6}%
+\contentsline {subsection}{\numberline {F}Résultats par rapport à l'objectif et planning réel}{23}{subsection.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Conclusion}{25}{section*.20}%
+\contentsline {section}{Conclusion}{24}{section*.20}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Bibliographie}{}{section*.21}%
 \defcounter {refsection}{0}\relax 

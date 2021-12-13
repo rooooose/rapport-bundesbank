@@ -85,7 +85,7 @@ Cette responsabilité impliquait aussi la vérification du travail de mes coéqu
 Tout cela m'a permis d'acquérir une vision globale du projet, me permettant de cerner les différentes tâches restantes et comment elles devaient être réalisées.
 \\\\
 Une autre responsabilité que j'avais était la mise en production du site web deux fois par semaine. 
-\\Pour ce faire, il fallait mettre à jour le site sur un serveur Linux distant à l'aide de Git, un logiciel de gestion de versions que j'ai particulièrement utilisé durant ce stage. Cette étape de mise en production était très importante, car elle nous permettait d'appréhender d'éventuels bugs tout de suite plutôt que de les accumuler, ce qui assurait la qualité du rendu.
+\\Cette étape de mise en production était très importante, car elle nous permettait d'appréhender d'éventuels bugs tout de suite plutôt que de les accumuler, ce qui assurait la qualité du rendu.
 
 
 \pagebreak
@@ -164,23 +164,32 @@ Elles devaient alors recevoir un mail afin de réinitialiser leur mot de passe.\
 \\\\
 Pour finir, nous devions également entamer la page Actualités ainsi que l'inscription à la newsletter de Gaea21, à implémenter normalement pour la V1, mais qui ont été jugées finalement plus urgentes que le responsive de la V0.
 
-\pagebreak
 
 \subsubsection{La méthodologie}
 ~\\
 Durant toute la durée du stage, il y avait un suivi régulier, permettant une gestion de projet selon la méthode agile.
 \\\\
-Ainsi, cela fonctionnait par cycles répétés : 
-\\
+Ainsi, cela fonctionnait par cycles répétés :\\ 
+
 Tous les jeudis, une réunion avec l'ensemble du département IT et le client (Yvan, le responsable de l'association) avait lieu afin de recueillir ses besoins pour le site.\\
-Si nécessaire, un poker planning était réalisé pour répartir les tâches efficacement selon les difficultés et le temps prévu. 
-\\Tous les jours, une réunion de suivi avec le tuteur et l'équipe permettait de partager notre avancée et obtenir de l'aide sur des points de blocage.
-\\Pour finir, tous les lundi et jeudi, une mise en ligne du site était nécessaire pour garder la version en ligne toujours à jour et présentable au client.
-\\\\En parallèle, il était très important de remplir les outils de suivi, à savoir : \\
-- le journal de bord pour les heures et les tâches réalisées par jour/semaine/mois\\ 
-- le tableau des tâches pour organiser les tâches à faire/en cours/faites, et répertorier le temps mis pour chacune d'entre elles.\\
+Si nécessaire, un poker planning était réalisé pour répartir les tâches efficacement selon les difficultés et le temps prévu.\\
+
+Tous les jours, une réunion de suivi avec le tuteur et l'équipe permettait de partager notre avancée et obtenir de l'aide sur des points de blocage.\\
+
+Pour finir, tous les lundi et jeudi, une mise en ligne du site était nécessaire pour garder la version en ligne toujours à jour et présentable au client.
+
+D'un point de vue technique, il fallait mettre à jour le site sur un serveur Linux distant à l'aide de Git, un logiciel de gestion de versions que j'ai particulièrement utilisé durant ce stage. \\
+
+Justement, il était important de faire des \textbf{commits et push} au moins 1 fois par jour, pour garder un contrôle des versions du site.
+Chaque membre de l'équipe possédait une branche à son nom. Plusieurs fois par semaine, un merge des toutes les branches sur la branche de développement était réalisé, avant de faire un merge sur master de la branche de Développement.
+En effet, la branche master est celle utilisée pour la mise en production, elle doit donc être propre, fonctionnelle et régulièrement mise à jour. \\
+
+D'autre part, il ne fallait pas négliger le remplissage les outils de suivi, à savoir : \\
+- \textbf{le journal de bord} pour les heures et les tâches réalisées par jour/semaine/mois\\ 
+- \textbf{le tableau des tâches} pour organiser les tâches à faire/en cours/faites, et répertorier le temps mis pour chacune d'entre elles.\\
 
 Des points début, mi-stage et fin de stage étaient réalisés avec le tuteur et la coach RH pour vérifier le remplissage des outils et voir si tout allait bien.
+
 
 \pagebreak
 \subsection{Planning prévisionnel du travail}
@@ -423,10 +432,7 @@ Inscription
 
 + résolution bugs, front (page en construction, page sous categories)
 
-
-
-Problèmes rencontrés
-Git
+Git push et merge
 Communication avec autres départements
 
 \pagebreak
