@@ -309,7 +309,7 @@ Avant toute chose, j'ai étudié les différents fichiers existants, à la reche
 
 Cependant, pour afficher l'emplacement de l'entreprise, il était nécessaire de récupérer les coordonnées GPS à partir de l'adresse, et ce dès l'inscription.\\
 Après m'être familiarisée avec le code de l'inscription, j'y ai ajouté une requête Ajax vers l'API \textbf{OpenStreetMap} : "\emph{un projet collaboratif de cartographie en ligne qui vise à constituer une base de données géographiques libre du monde, en utilisant le système GPS et d'autres données libres}".
-En mettant l'adresse en paramètre, on peut ainsi récupérer les latitude et longitude associées. Ces données sont ensuite envoyées au contrôleur pour être enregistrées en base de données.
+En mettant l'adresse entrée par l'utilisateur en paramètre, on peut ainsi récupérer les latitude et longitude associées. Ces données sont ensuite envoyées au contrôleur pour être enregistrées en base de données.
 
 \paragraph{Carte de toutes les entreprises}
 
@@ -322,8 +322,8 @@ La prochaine tâche concernait la page affichant toutes les entreprises sur une 
 \end{figure}
 
 J'ai décidé d'implémenter cette fonctionnalité en ReactJS, car l'affichage est considérablement modifié à chaque clic.
-\\On a donc un composant principal qui est la carte, se chargeant d'afficher les bons points sur la carte et de les filtrer selon les critères reçus par les autres composants.
-\\L'autre composant correspond au "Side Menu", qui s'affiche de 3 manières dans l'ordre ci-dessous.
+\\On a donc un composant principal \textbf{MapPage}, se chargeant d'afficher la carte, les bons points des entreprises et de les filtrer selon les critères reçus par les autres composants.
+\\L'autre composant appelé par le principal correspond au "Side Menu", qui s'affiche de 3 manières dans l'ordre ci-dessous, grâce aux clics sur les différents boutons.
 
 \begin{figure}[H]
     \includegraphics[width=5cm]{sidemenu1.PNG}
@@ -331,14 +331,64 @@ J'ai décidé d'implémenter cette fonctionnalité en ReactJS, car l'affichage e
     \includegraphics[width=5cm]{sidemenu3.PNG}
     \caption{Affichages successifs du side menu}
 \end{figure}
-On a d'abord les catégories, puis les sous-catégories, et enfin les entreprises correspondant à la sous-catégorie cliquée.
 
-Récupération des entreprises appartenant à une sous-catégorie : ajout dans la table "product" d'un attribut company\_id car l'attribut initial "owner" renvoyait à un individu de l'entité "user".
-Or un produit appartient forcément à une entreprise.
-\\\\
-Pb rencontré : Migrations de la bdd : DBB à jour mais pas le code => toutes les clées etrangeres sont deja créées ce qui crée des problèmes lors des migrations
+On a d'abord les catégories, puis les sous-catégories, et enfin les entreprises correspondant à la sous-catégorie cliquée.
+\\Le composant principal \textbf{SideMenu} appelle le sous-composant \textbf{SubCategoryMenu}, qui gère les 2nd affichage. 
+Il appelle lui-même le sous-sous-composant \textbf{SubCategoryDetail}, qui appelle \textbf{CompanyDetail} pour le 3ème affichage.\\
+
+Bien sûr, toutes les informations du menu sont affichées dynamiquement et donc récupérées par requête Ajax, et stockées dans les \textbf{états} des différents composants.\\
+On commence par l'ensemble des catégories dès le "montage" du composant (méthode componentDidMount).
+Au clic de l'une des catégories, on récupère toutes ses sous-catégories, et au clic d'une sous-catégorie, les entreprises associées.
+Mais la relation Sous-catégories/Entreprises ne fait pas directement. 
+Il faut passer ici par les produits. 
+\begin{myboxedtext}
+En effet lorsqu'une entreprise s'inscrit, elle choisit ses catégories, mais pas ses sous-catégories. Elles s'ajoutent progressivement au fur et à mesure que l'entreprise ajoutera des produits et services.
+Ces derniers sont bien associés directement à des sous-catégories.
+\end{myboxedtext}
+
+Pour récupérer les entreprises appartenant à une sous-catégorie donc, j'ai dû ajouter dans la table "product" un attribut company\_id, car l'attribut initial "owner" renvoyait à un individu de l'entité "user". 
+Or un produit appartient forcément à une entreprise. 
+Ce nouvel attribut lie les 2 tables par une relation OneToMany du côté de l'entreprise.
+
+\begin{callout}{A savoir}
+    L'entité Company, au même titre que Person, hérite de User.
+\end{callout}
+
+C'est ici que je me suis heurtée à un problème : Lorsque l'on veut faire migrer de nouveaux changements de structure dans la BDD, un \textbf{fichier de migration} est créé.
+Ce fichier contient les règles SQL à exécuter lors de la nouvelle migration. Mais dans ce projet et pour une raison inconnue, de nombreuses autres règles dejà exécutées dans la base de données sont écrites.
+Cela empêche donc l'exécution du fichier, car certaines règles ne peuvent être exécutées 2 fois. Il fallait donc supprimer manuellement toutes les règles inutiles du fichier généré.\\
+
+En plus des données des bonnes entreprises affichées, il fallait noter la distance entre la position de l'utilisateur et celle de l'entreprise. 
+Dans le composant CompanyDetail, une fonction se charge donc de calculer la distance à vol d'oiseau à partir des latitudes et longitudes.
+
+On obtient les coordonnées GPS de l'utilisateur grâce à la librairie Leaflet, depuis le composant principal \textbf{MapPage}, et on les envoie au SideMenu par des propriétés lors de son appel.
+
+\begin{figure}[H]
+    \includegraphics[width=10cm]{getUserLocation.png}
+    \caption{Code de récupération de la localisation de l'utilisateur}
+\end{figure}
+
+\subparagraph{Le filtre}
+
+
+
+
+
+Les boutons "Y aller" et "Calculer votre empreinte carbone" ont été intégrés, mais je n'ai pas eu le temps de les rendre fonctionnels, comme je devais finalement m'occuper de la V0 du site.
+
+
 
 \subsubsection{Rendre inscription et connexion fonctionnelles}
+
+Ajout Catégories, demande d'evaluation checkbox, zone d'influence
+Regex adresse mail, verification adresses identiques
+Champs obligatoires,
+messages d'erreur,
+loader
+Envoi mail
+Connexion empêchée tant que le compte Gaea21 n'a pas été activé.
+Page tarifs niveaux
+Page compte activé
 
 \subsubsection{Uploader une image}
 
@@ -347,11 +397,6 @@ Pb rencontré : Migrations de la bdd : DBB à jour mais pas le code => toutes le
 \subsubsection{Page profil et produits}
 
 \subsubsection{Modification du profil}
-
-\subsubsection{Nouvelles pages intégrées}
-Tarifs/niveaux
-Page en construction
-Compte activé
 
 \subsubsection{Carousel filtrant les produits}
 
@@ -365,6 +410,9 @@ Compte activé
 
 \subsubsection{Rendre les graphes de statistiques du Dashboard fonctionnels}
 
+\subsubsection{Désactivation du compte Répertoire Vert}
+envoi mail désactivation compte, pop up confirmation, faire en sorte que les entreprises n'apparaissent pas dans resultats de recherche (carte, sous categories)
+
 \subsubsection{Responsive}
 Pré-homepage\\
 Homepage entreprise\\
@@ -373,7 +421,8 @@ Dashboard\\
 Inscription
 
 
-+ résolution bugs, front (comme désactivation compte, page sous categories)
++ résolution bugs, front (page en construction, page sous categories)
+
 
 
 Problèmes rencontrés
