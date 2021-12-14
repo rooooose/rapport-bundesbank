@@ -379,11 +379,46 @@ On obtient les coordonnées GPS de l'utilisateur grâce à la librairie Leaflet,
 
 \subparagraph{Le filtre}
 
+En cliquant sur une catégorie dans le Side-Menu, les entreprises sur la carte devaient être filtrées pour ne montrer que celles appartenant à cette catégorie.\\
+J'ai commencé par créer une \textbf{fonction de filtrage} assez générale dans le composant MapPage. 
+
+Il s'agit d'un filtrage exclusif, c'est-à-dire que l'élément doit respecter \textbf{tous} les critères et non au moins 1.
+Elle tient compte des \textbf{critères} et des \textbf{paramètres}. Le critère utilisé ici est "categories", car on filtre selon les categories.
+Le paramètre est quant à lui la valeur de la catégorie choisie.
+
+On passe par plusieurs étapes imbriquées :
+\begin{itemize}
+    \item On parcourt chaque entreprise à filtrer
+    \item On parcourt chaque critère (même si ici il n'y en a qu'un) souhaité
+    \item On parcourt chaque paramètre souhaité de ce critère
+    \item On parcourt les valeurs de catégories que l'entreprise courante possède
+    \item Si elle possède le paramètre souhaité, le paramètre est respecté
+    \item Si tous les paramètres sont respectés, le critère est respecté
+    \item Si tous les critères sont respectés, on peut ajouter l'entreprise au tableau filtré
+\end{itemize}
+
+\subparagraph{L'affichage des marqueurs filtrés}
+Une fois le tableau des entreprises filtrées généré, il faut supprimer tous les marqueurs inutiles de la carte.
+
+Pour cela : 
+\begin{itemize}
+    \item On parcourt chaque marqueur actuel de la carte
+    \item On parcourt chaque entreprise filtrée
+    \item Si le marqueur et l'entreprise filtrée ont les memes coordonnées GPS et le meme nom, on garde le marqueur
+    \item Sinon on le supprime de la carte \\
+\end{itemize}
 
 
+Comme la fonction qui filtre et affiche les bons marqueurs doit être appelée depuis le composant SideMenu et que les paramètres doivent y être définis également, on envoie toutes les informations nécessaires comme ci-dessous :
 
+\begin{figure}[H]
+    \includegraphics[width=10cm]{envoiPropsFiltrage.PNG}
+    \caption{Code d'envoi des propriétés nécessaires au filtrage au SideMenu}
+\end{figure}
 
-Les boutons "Y aller" et "Calculer votre empreinte carbone" ont été intégrés, mais je n'ai pas eu le temps de les rendre fonctionnels, comme je devais finalement m'occuper de la V0 du site.
+La propriété setParams permet au SideMenu d'ajouter la valeur de la catégorie cliquée à l'état du composant père MapPage, et d'appeler la fonction de filtre une fois l'état bien mis à jour : la fonction setState est une \textbf{fonction asynchrone}, c'est pourquoi elle accepte un paramètre de type callback.\\
+
+Les boutons "Y aller" et "Calculer votre empreinte carbone" du 3ème SideMenu ont été intégrés, mais je n'ai pas eu le temps de les rendre fonctionnels, comme je devais finalement m'occuper de la V0 du site.
 
 
 
@@ -432,7 +467,6 @@ Inscription
 
 + résolution bugs, front (page en construction, page sous categories)
 
-Git push et merge
 Communication avec autres départements
 
 \pagebreak
