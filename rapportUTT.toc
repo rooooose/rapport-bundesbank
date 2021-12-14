@@ -35,25 +35,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {C.2}La méthodologie}{11}{subsubsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D}Planning prévisionnel du travail}{12}{subsection.2.4}%
+\contentsline {subsection}{\numberline {D}Planning prévisionnel du travail}{13}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {D.1}1er planning prévisionnel}{12}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {D.1}1er planning prévisionnel}{13}{subsubsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {D.2}2nd planning prévisionnel}{13}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {D.2}2nd planning prévisionnel}{14}{subsubsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {E}Application de la méthode}{14}{subsection.2.5}%
+\contentsline {subsection}{\numberline {E}Application de la méthode}{15}{subsection.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.1}Formation React et Symfony}{14}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {E.1}Formation React et Symfony}{15}{subsubsection.2.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.2}Cartes des entreprises}{16}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {E.2}Cartes des entreprises}{17}{subsubsection.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Carte d'1 entreprise}{16}{subsubsection.2.5.2}%
+\contentsline {paragraph}{Carte d'1 entreprise}{17}{subsubsection.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Carte de toutes les entreprises}{18}{figure.caption.16}%
+\contentsline {paragraph}{Carte de toutes les entreprises}{18}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Le filtre}{21}{figure.caption.19}%
+\contentsline {subparagraph}{Le filtre}{21}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{L'affichage des marqueurs filtrés}{22}{figure.caption.19}%
+\contentsline {subparagraph}{L'affichage des marqueurs filtrés}{22}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {E.3}Rendre inscription et connexion fonctionnelles}{22}{subsubsection.2.5.3}%
 \defcounter {refsection}{0}\relax 
@@ -69,7 +69,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {E.9}Activation manuelle des comptes}{23}{subsubsection.2.5.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.10}Tri des entreprises affichées sur la page sous-catégories}{23}{subsubsection.2.5.10}%
+\contentsline {subsubsection}{\numberline {E.10}Page sous-catégories}{23}{subsubsection.2.5.10}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {E.11}Ajout des entreprises manquantes}{23}{subsubsection.2.5.11}%
 \defcounter {refsection}{0}\relax 
@@ -81,17 +81,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {E.15}Responsive}{23}{subsubsection.2.5.15}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {E.16}Plannings Poker}{23}{subsubsection.2.5.16}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {F}Résultats par rapport à l'objectif et planning réel}{24}{subsection.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Conclusion}{25}{section*.21}%
+\contentsline {section}{Conclusion}{25}{section*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliographie}{}{section*.22}%
+\contentsline {section}{Bibliographie}{}{section*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Table des figures}{}{section*.22}%
+\contentsline {section}{Table des figures}{}{section*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Liste des tableaux}{}{section*.22}%
+\contentsline {section}{Liste des tableaux}{}{section*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Annexes}{I}{section*.23}%
+\contentsline {section}{Annexes}{I}{section*.22}%
 \defcounter {refsection}{0}\relax 
 \etoc@startlocaltoc {1}
 \defcounter {refsection}{0}\relax 
