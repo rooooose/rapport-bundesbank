@@ -422,13 +422,78 @@ Les boutons "Y aller" et "Calculer votre empreinte carbone" du 3ème SideMenu on
 
 \subsubsection{Rendre inscription et connexion fonctionnelles}
 
-Ajout Catégories, demande d'evaluation checkbox, zone d'influence
-Regex adresse mail, verification adresses identiques
-Champs obligatoires,
-messages d'erreur,
-loader
-Envoi mail
+La principale fonctionnalité à terminer était l'inscription et la connexion d'une entreprise.
+
+\paragraph{Inscription}
+
+Bien que le principal ait déja été codé, l'inscription n'était pas encore fonctionnelle, et la gestion des erreurs n'était pas terminée. Il s'agit d'un formulaire fonctionnant "manuellement" avec Javascript.
+
+Je me suis tout d'abord occupée du champ permettant d'\textbf{ajouter des catégories}. Il avait dejà été intégré : il s'agit d'une pop-up avec une checkbox pour chaque catégorie.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{champ_categories.PNG}
+    \caption{Pop-up de choix des catégories}
+\end{figure}
+
+Pour conserver les choix de l'utilisateur, j'ai fait une requête ajax pour récupérer toutes les catégories de la base de données, parmi lesquelles j'ai bouclé afin de récupérer l'état de chaque checkbox.
+Si la checkbox est cochée, alors on ajoute le nom de la catégorie associée à un tableau.
+
+\begin{figure}[H]
+    \includegraphics[width=10cm]{code_recup_categories.PNG}
+    \caption{Code d'enregistrement des catégories}
+\end{figure}
+
+Ce tableau sera envoyé à la validation du formulaire avec toutes les autres données au contrôleur.
+Là, on récupère les catégories avec chaque nom récupéré, et on l'ajoute à la liste de catégories de l'entreprise, dans la base de données.\\
+
+J'ai ensuite fait fonctionner les boutons radio de demande d'évaluation.
+
+\begin{figure}[H]
+    \includegraphics[width=6cm]{checkbox_eval.PNG}
+    \caption{Champ de demande d'évaluation}
+\end{figure}
+
+Il suffisait d'associer un booléen (vrai/faux) à l'état des boutons radio, avant d'envoyer cette variable au contrôleur.\\
+
+Le menu déroulant de zone d'influence était à l'origine vide, j'ai donc communiqué avec le responsable du projet pour déterminer les options de ce champ.
+
+\begin{figure}[H]
+    \includegraphics[width=6cm]{zone_influence.PNG}
+    \caption{Champ de demande d'évaluation}
+\end{figure}
+
+Je me suis ensuite assurée que tous les champs marqués obligatoires le soient bien dans le code Javascript. 
+
+Ainsi, chaque champ marqué avec une * doit être rempli, sinon la requête exécutant l'inscription ne sera pas appelée.
+
+De même, l'adresse mail entrée dans le champ "Confirmation d'adresse mail" doit être identique à celle du précédent, donnée qui sera stockée dans un booléen.
+
+Pour le contrôle du format de l'adresse mail, j'ai revu l'expression regex existante, car toutes les adresses mail n'étaient pas acceptées :
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth, left]{Regex.png}
+\end{figure}
+
+\textbackslash S renvoie à tous les caractères autres que les espaces.\\
+
+A chaque validation, j'ai ajouté l'affichage d'un loader pour plus de visuel. J'ai aussi vérifié que l'affichage des différents messages d'erreurs était cohérent, et j'en ai ajouté certains, notamment si l'adresse entrée n'exsite pas, ou que les 2 adresses mail ne sont pas identiques.\\
+
+Une fois l'inscription validée, un mail doit être envoyé afin que l'utilisateur puisse confirmer son nouveau compte. Le code d'envoi de mail avait déjà été préparé.
+
+Dans le controleur gérant les Users (UserController), j'ai créé une fonction appelée au clic sur le lien du mail.
+Cette fonction fait une requête HTTPS vers la fonction de l'API GaeaUser permettant de confirmer un compte. Le lien contient un token unique permettant de confirmer le bon compte de manière sécurisée.
+Une fois le compte confirmé, l'utilisateur est redirigé sur une page de succès, que j'ai intégrée.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{compte_confirme.png}
+\end{figure}
+
+
+\paragraph{La connexion}
+
 Connexion empêchée tant que le compte Gaea21 n'a pas été activé.
+mise à jour Symfony 5.2 => 5.3, affichait une exception lors de la connexion, car la table User n'a pas d'attribut username. En effet, le username se trouve dans la table \textbf{gaea\_user}, qui est générale pour tous les comptes des sites de Gaea21.
+Or il est obligatoire à partir de la version 5.3.
 Page tarifs niveaux
 Page compte activé
 
@@ -468,7 +533,8 @@ Inscription
 \subsubsection{Plannings Poker}
 
 
-+ résolution bugs
++ résolution bugs, ex : mise à jour Symfony 5.2 => 5.3, affichait une exception lors de la connexion, car la table User n'a pas d'attribut username. En effet, le username se trouve dans la table \textbf{gaea\_user}, qui est générale pour tous les comptes des sites de Gaea21.
+Or il est obligatoire à partir de la version 5.3.
 
 Communication avec autres départements
 
