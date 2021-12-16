@@ -424,7 +424,7 @@ Les boutons "Y aller" et "Calculer votre empreinte carbone" du 3ème SideMenu on
 
 La principale fonctionnalité à terminer était l'inscription et la connexion d'une entreprise.
 
-\paragraph{Inscription}
+\paragraph{L'inscription}
 
 Bien que le principal ait déja été codé, l'inscription n'était pas encore fonctionnelle, et la gestion des erreurs n'était pas terminée. Il s'agit d'un formulaire fonctionnant "manuellement" avec Javascript.
 
@@ -462,6 +462,13 @@ Le menu déroulant de zone d'influence était à l'origine vide, j'ai donc commu
     \caption{Champ de demande d'évaluation}
 \end{figure}
 
+Le lien "En savoir plus" sur la figure 19 devait renvoyer à une page statique présentant les tarifs et niveaux de référencement auxquels une entreprise peut appartenir. J'ai entièrement intégré cette page avec Sass notamment.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth, left]{page_tarifs_niveaux.png}
+    \caption{Page Tarifs/Niveaux}
+\end{figure}
+
 Je me suis ensuite assurée que tous les champs marqués obligatoires le soient bien dans le code Javascript. 
 
 Ainsi, chaque champ marqué avec une * doit être rempli, sinon la requête exécutant l'inscription ne sera pas appelée.
@@ -486,18 +493,68 @@ Une fois le compte confirmé, l'utilisateur est redirigé sur une page de succè
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{compte_confirme.png}
+    \caption{Page de succès de confirmation de compte}
 \end{figure}
 
 
 \paragraph{La connexion}
 
-Connexion empêchée tant que le compte Gaea21 n'a pas été activé.
-mise à jour Symfony 5.2 => 5.3, affichait une exception lors de la connexion, car la table User n'a pas d'attribut username. En effet, le username se trouve dans la table \textbf{gaea\_user}, qui est générale pour tous les comptes des sites de Gaea21.
-Or il est obligatoire à partir de la version 5.3.
-Page tarifs niveaux
-Page compte activé
+La connexion, se faisant par un formulaire traité en javascript comme l'inscription, était dejà fonctionnel à mon arrivée.
+
+Seulement, elle se faisait par le biais du menu, qui a été refait en ReactJS par un membre. Mais le lien avec la fonction initiale n'avait pas été mis en place.
+Je me suis donc occupée de la faire fonctionner simplement en important la fonction et en l'appelant dans la navbar.\\
+
+J'ai aussi fait en sorte que la connexion ne soit possible que si l'utilisateur a confirmé son compte, afin d'éviter les robots.
+
+Ce contrôle devait se faire dans le projet GaeaUser, gérant la connexion à l'échelle de tous les utilisateurs Gaea21. 
+Une condition vérifiant l'attribut "enabled" permet donc de restreindre la connexion, et si elle n'est pas vérifiée, un message d'erreur est renvoyé et affiché sur la page. \\
+
+Lors d'une mise à jour faisant passer Symfony de 5.2 à 5.3, une exception s'affichait à la connexion, car la table User n'a pas d'attribut username. En effet, le username se trouve dans la table \textbf{gaea\_user}, qui est générale pour tous les comptes des sites de Gaea21.
+Or il est obligatoire à partir de la version 5.3. J'ai donc résolu ce bug simplement en ajoutant l'attribut, même s'il restait vide.
+
 
 \subsubsection{Uploader une image}
+% js/inscription.js
+% js/imageVerification.js
+% Service/FileUploader.php
+% Controller/CompanyController.php
+% Form/ServiceType.php
+% Form/ProductType.php
+% templates/product/form.html.twig
+% templates/services/form.html.twig
+
+Cette fonctionnalité était utilisée à la fois pour l'inscription, afin d'ajouter un logo pour son entreprise, et l'ajout ou la modification d'un produit/service, pour ajouter une photo du produit/service.
+La plupart des étapes étaient communes aux 2 situations.\\
+
+Dès qu'un nouveau fichier est chargé dans l'input, une vérification du fichier est effectuée : 
+\begin{itemize}
+    \item sur l'extension : seuls les fichiers image sont autorisés 
+    \item sur le poids : le fichier ne doit pas dépasser 8Mo\\
+\end{itemize}
+
+Si le fichier correspond aux critères, il est envoyé au contrôleur. Là, un \textbf{service} commun va être utilisé : FileUploader.
+Ce service comporte une fonction upload qui va renommer le fichier et l'enregistrer dans un dossier spécifique. 
+Mais surtout, l'image va être redimensionnée, pour que toutes les images respectent une taille maximale.
+Le plus grand côté (largeur ou hauteur) est redimensionné à 350px et l'autre est redimensionné proportionnellement.
+Une nouvelle image est ensuite recréée aux bonnes dimensions à partir du fichier original.
+
+Pour finir, le nom du fichier est sauvegardé dans la base de données pour pouvoir le retrouver plus tard.\\
+
+Au niveau des différences entre inscription et ajout/modification de produits, elles proviennent notamment du fait que l'inscription se fait entièrement en js, tandis que le second se fait via un formulaire Symfony.
+
+\paragraph*{A l'inscription}
+
+\begin{figure}[H]
+    \includegraphics[width=6cm]{upload_inscription.png}
+    \caption{Upload d'une image à l'inscription}
+\end{figure}
+
+\paragraph*{A l'ajout/modification d'un produit/service}
+
+\begin{figure}[H]
+    \includegraphics[width=6cm]{upload_produit.png}
+    \caption{Upload d'une image à l'ajout d'un produit}
+\end{figure}
 
 \subsubsection{Ajouter - supprimer - modifier un produit ou service}
 
@@ -533,8 +590,7 @@ Inscription
 \subsubsection{Plannings Poker}
 
 
-+ résolution bugs, ex : mise à jour Symfony 5.2 => 5.3, affichait une exception lors de la connexion, car la table User n'a pas d'attribut username. En effet, le username se trouve dans la table \textbf{gaea\_user}, qui est générale pour tous les comptes des sites de Gaea21.
-Or il est obligatoire à partir de la version 5.3.
++ résolution bugs
 
 Communication avec autres départements
 
