@@ -545,18 +545,42 @@ Au niveau des différences entre inscription et ajout/modification de produits, 
 \paragraph*{A l'inscription}
 
 \begin{figure}[H]
-    \includegraphics[width=6cm]{upload_inscription.png}
+    \includegraphics[width=7cm]{upload_inscription.png}
     \caption{Upload d'une image à l'inscription}
 \end{figure}
+
+Comme les données devaient être envoyées par l'intermédiaire de Javascript, il fallait trouver un moyen d'envoyer le fichier au serveur de manière à ce qu'il puisse toujours être lu en tant qu'image.
+A l'origine, toutes les données de ce formulaire étaient envoyées sous forme de tableau JSON "stringifié". Mais pour ajouter le fichier, il a fallu envelopper le tout d'un \textbf{FormData}, qui permet d'encoder un fichier.
 
 \paragraph*{A l'ajout/modification d'un produit/service}
 
 \begin{figure}[H]
-    \includegraphics[width=6cm]{upload_produit.png}
+    \includegraphics[width=7cm]{upload_produit.png}
     \caption{Upload d'une image à l'ajout d'un produit}
 \end{figure}
 
-\subsubsection{Ajouter - supprimer - modifier un produit ou service}
+Sur ces formulaires, le champ image comporte une preview.
+Pour cela, on crée de nouvelles instances des classes \textbf{FileReader} et \textbf{Image} et on les associe à notre fichier. 
+Une fois l'image lue, on l'affiche dans la preview.\\
+
+Il s'agit là de formulaires Symfony, générés automatiquement à partir de l'entité Produit et Service sous forme de fichiers php.
+Chaque champ, ou \textbf{form\_widget} est intégré dans la vue (fichier twig) comme une fonction appelant cette partie du formulaire PHP :
+
+\begin{figure}[H]
+    \includegraphics[width=7cm]{form_twig.png}
+\end{figure}
+
+On ne peut à priori donc pas personnaliser les champs. Sauf avec un template. C'est donc ce que j'ai utilisé pour que le bouton d'upload soit remplacé par une image.
+Il suffit de placer le contenu de notre nouveau template dans un bloc respectant une nomenclature spécifique pour que le widget original soit bien remplacé.\\
+
+Pour finir, j'ai ajouté des contraintes au champ pour que, malgré les avertissements, l'utilisateur ne puisse pas mettre de fichiers non autorisés.
+
+\subsubsection{Supprimer - Ajouter - modifier un produit ou service}
+
+\paragraph*{Supprimer}
+
+\paragraph*{Ajouter et modifier}
+
 
 \subsubsection{Page profil et produits}
 
