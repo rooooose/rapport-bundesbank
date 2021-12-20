@@ -63,29 +63,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {E.4}Uploader une image}{27}{subsubsection.2.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.5}Supprimer - Ajouter - modifier un produit ou service}{28}{subsubsection.2.5.5}%
+\contentsline {subsubsection}{\numberline {E.5}Page produits}{28}{subsubsection.2.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.6}Page profil et produits}{29}{subsubsection.2.5.6}%
+\contentsline {paragraph}{Supprimer - Ajouter - modifier un produit ou service}{29}{subsubsection.2.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.7}Modification du profil}{29}{subsubsection.2.5.7}%
+\contentsline {subparagraph}{Carousel filtrant les produits}{29}{subsubsection.2.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.8}Carousel filtrant les produits}{29}{subsubsection.2.5.8}%
+\contentsline {subsubsection}{\numberline {E.6}Profil et Modification du profil}{29}{subsubsection.2.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.9}Activation manuelle des comptes}{29}{subsubsection.2.5.9}%
+\contentsline {subsubsection}{\numberline {E.7}Activation manuelle des comptes}{29}{subsubsection.2.5.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.10}Page sous-catégories}{29}{subsubsection.2.5.10}%
+\contentsline {subsubsection}{\numberline {E.8}Page sous-catégories}{29}{subsubsection.2.5.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.11}Ajout des entreprises manquantes}{29}{subsubsection.2.5.11}%
+\contentsline {subsubsection}{\numberline {E.9}Ajout des entreprises manquantes}{29}{subsubsection.2.5.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.12}Réinitialisation de mot de passe}{29}{subsubsection.2.5.12}%
+\contentsline {subsubsection}{\numberline {E.10}Réinitialisation de mot de passe}{29}{subsubsection.2.5.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.13}Rendre les graphes de statistiques du Dashboard fonctionnels}{29}{subsubsection.2.5.13}%
+\contentsline {subsubsection}{\numberline {E.11}Rendre les graphes de statistiques du Dashboard fonctionnels}{29}{subsubsection.2.5.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.14}Désactivation du compte Répertoire Vert}{29}{subsubsection.2.5.14}%
+\contentsline {subsubsection}{\numberline {E.12}Désactivation du compte Répertoire Vert}{29}{subsubsection.2.5.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.15}Responsive}{29}{subsubsection.2.5.15}%
+\contentsline {subsubsection}{\numberline {E.13}Responsive}{29}{subsubsection.2.5.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.16}Plannings Poker}{29}{subsubsection.2.5.16}%
+\contentsline {subsubsection}{\numberline {E.14}Plannings Poker}{29}{subsubsection.2.5.14}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {F}Résultats par rapport à l'objectif et planning réel}{30}{subsection.2.6}%
 \defcounter {refsection}{0}\relax 
