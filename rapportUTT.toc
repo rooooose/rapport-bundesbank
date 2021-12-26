@@ -63,44 +63,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {E.4}Uploader une image}{27}{subsubsection.2.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.5}Page produits}{28}{subsubsection.2.5.5}%
+\contentsline {subsubsection}{\numberline {E.5}Page produits}{29}{subsubsection.2.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Supprimer - Ajouter - modifier un produit ou service}{29}{subsubsection.2.5.5}%
+\contentsline {paragraph}{Supprimer - Ajouter - modifier un produit ou service}{30}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Carousel filtrant les produits}{29}{subsubsection.2.5.5}%
+\contentsline {subparagraph}{Carousel filtrant les produits}{32}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.6}Profil et Modification du profil}{29}{subsubsection.2.5.6}%
+\contentsline {subsubsection}{\numberline {E.6}Profil et Modification du profil}{34}{subsubsection.2.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.7}Activation manuelle des comptes}{29}{subsubsection.2.5.7}%
+\contentsline {subsubsection}{\numberline {E.7}Activation manuelle des comptes}{34}{subsubsection.2.5.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.8}Page sous-catégories}{29}{subsubsection.2.5.8}%
+\contentsline {subsubsection}{\numberline {E.8}Page sous-catégories}{34}{subsubsection.2.5.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.9}Ajout des entreprises manquantes}{29}{subsubsection.2.5.9}%
+\contentsline {subsubsection}{\numberline {E.9}Ajout des entreprises manquantes}{34}{subsubsection.2.5.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.10}Réinitialisation de mot de passe}{29}{subsubsection.2.5.10}%
+\contentsline {subsubsection}{\numberline {E.10}Réinitialisation de mot de passe}{34}{subsubsection.2.5.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.11}Rendre les graphes de statistiques du Dashboard fonctionnels}{29}{subsubsection.2.5.11}%
+\contentsline {subsubsection}{\numberline {E.11}Rendre les graphes de statistiques du Dashboard fonctionnels}{34}{subsubsection.2.5.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.12}Désactivation du compte Répertoire Vert}{29}{subsubsection.2.5.12}%
+\contentsline {subsubsection}{\numberline {E.12}Désactivation du compte Répertoire Vert}{34}{subsubsection.2.5.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.13}Responsive}{29}{subsubsection.2.5.13}%
+\contentsline {subsubsection}{\numberline {E.13}Responsive}{34}{subsubsection.2.5.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.14}Plannings Poker}{29}{subsubsection.2.5.14}%
+\contentsline {subsubsection}{\numberline {E.14}Plannings Poker}{34}{subsubsection.2.5.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {F}Résultats par rapport à l'objectif et planning réel}{30}{subsection.2.6}%
+\contentsline {subsection}{\numberline {F}Résultats par rapport à l'objectif et planning réel}{35}{subsection.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Conclusion}{31}{section*.30}%
+\contentsline {section}{Conclusion}{36}{section*.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliographie}{}{section*.31}%
+\contentsline {section}{Bibliographie}{}{section*.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Table des figures}{}{section*.31}%
+\contentsline {section}{Table des figures}{}{section*.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Liste des tableaux}{}{section*.31}%
+\contentsline {section}{Liste des tableaux}{}{section*.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Annexes}{I}{section*.32}%
+\contentsline {section}{Annexes}{I}{section*.37}%
 \defcounter {refsection}{0}\relax 
 \etoc@startlocaltoc {1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A}Plannings Poker}{I}{subsection.Alph0.1}%
+\contentsline {subsection}{\numberline {A}Documents d'organisation et de planification}{I}{subsection.Alph0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B}Annexe B}{III}{subsection.Alph0.2}%
+\contentsline {subsection}{\numberline {B}Le site web}{I}{subsection.Alph0.2}%

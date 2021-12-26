@@ -575,23 +575,141 @@ Il suffit de placer le contenu de notre nouveau template dans un bloc respectant
 
 Pour finir, j'ai ajouté des contraintes au champ pour que, malgré les avertissements, l'utilisateur ne puisse pas mettre de fichiers non autorisés.
 
+\pagebreak
+
 \subsubsection{Page produits}
 Un autre groupe de fonctionnalités à développer était la visualisation et la gestion des ses produits et services.
 
 \paragraph*{Généralités}
 
+%templates/product/manage.html.twig
+%Controller/ProductController.php
+%Repository/SubcategoryRepository.php
+
+Cette page se décomposait en plusieurs parties, à commencer par le récapitulatif des informations de l'entreprise, et de ses catégories et sous-catégories.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{page_produits_generalites.png}
+    \caption{Design de la 1ère partie de la page Produits/Services}
+\end{figure}
+
+Ce design avait déjà été intégré, j'ai simplement affiché les données récupérées de la base de données dynamiquement, grâce au contrôleur de la page.
+J'ai aussi intégré la carte comme sur le profil.\\
+
+Pour le tableau des secteurs, j'ai d'abord récupéré les catégories de l'entreprise directement dans le fichier twig.
+
+Pour les sous-catégories de l'entreprise, je les récupère via le Repository de la classe Subcategory, grâce à une requête Doctrine, qui se transforme automatiquement en requête SQL à l'exécution.
+
+Concrètement, cette requête joint la table Subcategory à Product, Company et Category, en ne gardant que l'entreprise qui nous intéresse.
+
+Une fois la fonction appelée dans le Controleur et la liste envoyée à la vue, je n'avais plus qu'à vérifier dans une double boucle que chaque sous-catégorie appartenait à la catégorie courante, pour l'afficher dans la bonne ligne du tableau.
+
+
 
 \paragraph{Supprimer - Ajouter - modifier un produit ou service}
 
+La 2ème partie de la page concerne la visualisation et gestion des produits.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{card_produit.png}
+    \caption{Affichage d'un produit sur le site}
+\end{figure}
+
+Quelqu'un d'autre s'est chargé de cet affichage, mais j'ai tout de même reglé quelques bugs de css.
+
+J'ai aussi ajouté un lien sur le nom du produit vers la fiche détaillée du produit, su laquelle j'ai fait des modifications mineures également.
 
 \subparagraph*{Supprimer}
 
 % ProductController.php
+% ServiceController.php
 
+La suppression se fait tout simplement en passant l'id du produit à supprimer, et en appelant les fonctions remove(\$element) et flush() (enregistrement de la modification) du DoctrineManager.
 
 \subparagraph*{Ajouter et modifier}
 
+% Form/ServiceType.php
+% Form/ProductType.php
+% templates/product/form.html.twig
+% templates/services/form.html.twig
+% templates/product/edit.html.twig
+% templates/services/edit.html.twig
+% templates/product/add.html.twig
+% templates/services/add.html.twig
+% components/boutons_form_produits_services.html.twig
+
+Ces 2 fonctionnalités étaient très liées car elles reposaient sur le même modèle de formulaire, généré en php automatiquement.
+
+Lorsque j'ai repris cette mission, les vues étaient dejà créées avec leur formulaire et le controleur, mais il manquait la mise en forme et notamment le champ "Sous-catégorie(s)".
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{form_service.png}
+    \caption{Résultat du formulaire d'ajout d'un service mis en forme}
+\end{figure}
+
+Ces formulaires sont accessibles sur la page Produits par un bouton que j'ai ajouté.\\
+
+Les 3 boutons que l'on peut voir en haut sont encapsulés dans un composant pour plus de modulation.
+Ils permettent de naviguer plus facilement d'un formulaire à l'autre et de pouvoir retourner à la page Produits.
+
+Comme leur affichage change en fonction de la page sur laquelle on se trouve, je lui passe des variables lors de ses appels, que je définis à "selected" ou "unselected", grâce au mot-clé \textbf{with}.\\
+
+Le menu déroulant à choix multiples devait satisfaire un design assez spécifique, avec des icônes intégrées au menu.
+
+\begin{figure}[H]
+    \includegraphics[width=11cm]{menu_subcat.png}
+    \caption{Résultat du champ sous-catégories}
+\end{figure}
+
+Pour cela, j'ai donc dû utiliser la librairie jQuery Select2, permettant de personnaliser des champs de sélection.
+
+J'ai d'abord ajouté un champ à choix multiple de type Entité au formulaire php. 
+Pour que seules les sous-catégories appartenant aux catégories de l'entreprise soient disponibles, j'ai fait une requête doctrine intégrée au champ grâce à l'option 'query\_builder'. 
+On passe en option l'entreprise connectée lors de la création du formulaire, pour l'utiliser dans cette requête.\\
+
+% Attention, pour récuperer des paramètres dans un formulaire php il est nécessaire d'avoir la méthode configureOptions qui assigne les valeurs par défaut de ces paramètres.
+
+La librairie Select2 en js permet ensuite d'afficher un template spécifique pour chaque option du menu.
+Pour cela, une boucle invisible est exécutée et un état spécifique (state) est attribué au menu à chaque itération (donc à chaque option).
+A l'intérieur, on doit boucler à travers un tableau associatif des catégories/sous-catégories afin de pouvoir récupérer les bonnes icônes, et on affiche ce nouveau template composé d'une image et d'un titre.\\
+
+Pour que que la nouvelle combinaison de sous-catégories soit bien ajoutée au produit, il ne fallait pas oublier d'ajouter le produit à chaque sous-catégorie.
+En effet, Subcategory et Product sont 2 entités liées. A la validation du formulaire tous les champs remplis de l'entité Product sont automatiquement mis à jour dans la base de données.
+Or il faut mettre à jour les sous catégories à la main dans l'autre entité liée (Subcategory), sinon la modification n'aura pas lieu.
+
+Pour finir, j'ai ajouté le code permettant d'associer le bon niveau de produit selon la réponse au champ "Demande d'évaluation".
+
 \subparagraph{Carousel filtrant les produits}
+% assets/components/card_carrousel.jsx
+% assets/components/card_product.jsx
+
+La dernière fonctionnalité de cette page était un carousel des catégories de l'entreprise permettant de filtrer les produits selon leur(s) catégorie(s).
+Elle ne m'était pas assignée, mais j'ai beaucoup aidé mon collègue à l'implémenter. En effet, c'est moi qui ai réfléchi à la manière dont il fallait le faire.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{design_carousel.png}
+    \caption{Design du carousel avec l'affichage des produits}
+\end{figure}
+
+Pour faire le carousel, j'ai utilisé la librairie Flickity.js. 
+Je l'avais complètement intégrée en twig, mais je me suis rendu compte après que pour filtrer les éléments sans recharger la page, il serait plus judicieux de tout coder en React.
+Il fallait donc adapter le code du carousel pour qu'il soit fonctionnel avec React.
+
+Pour cela, nous avons utilisé le package react-flickity-component. Il suffit alors d'appeler le composant <Flickity/>, puis de boucler à l'intérieur parmi les catégories de l'entreprise récupérées par requête Ajax dans l'état du composant.\\
+
+La fonctionnalité est composée de 2 composants : l'un pour le carousel, et l'autre pour la liste de produits.
+
+Au clic sur une catégorie, on l'ajoute à l'état du composant dans la liste des catégories actives, mais si on reclique sur une catégorie deja active, on l'enlève du tableau, donc on la désactive. On envoie cet état dès qu'il y a un changement à l'autre composant, pour qu'un filtrage puisse être fait de son côté.
+
+Si aucune catégorie n'est sélectionnée, le filtre est inactif et on affiche donc tous les produits de toutes les catégories.
+
+Pour récupérer les produits selon leur catégorie, on a une triple boucle : Pour chaque produit, on parcourt chaque sous-catégorie, et pour chaque sous-catégorie, on parcourt chaque catégorie (car une sous-catégorie peut appartenir à plusieurs catégories).
+On doit alors remplir un tableau d'objets JSON contenant chacun une clé pour le nom de la catégorie, et ayant comme valeur le tableau de produits correspondants. Ce tableau d'objets se construisait à la volée.
+
+Si au moins une catégorie est activée, on filtre les produits. Dans ce cas, un fonction très similaire à la précédente est appelée. La seule différence est qu'elle n'ajoute le produit au tableau que si le produit possède l'une des catégories activées.
+
+Pour finir, on affiche les titres et leurs produits selon le tableau d'objets retourné.
+
 
 \subsubsection{Profil et Modification du profil}
 
@@ -614,7 +732,7 @@ envoi mail désactivation compte, pop up confirmation, faire en sorte que les en
 \subsubsection{Responsive}
 Pré-homepage\\
 Homepage entreprise\\
-Menu\\
+Menu\\ (refs React)
 Dashboard\\
 Inscription
 
