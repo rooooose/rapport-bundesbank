@@ -421,6 +421,7 @@ Les boutons "Y aller" et "Calculer votre empreinte carbone" du 3ème SideMenu on
 
 
 \subsubsection{Rendre inscription et connexion fonctionnelles}
+\label{inscripiton}
 
 La principale fonctionnalité à terminer était l'inscription et la connexion d'une entreprise.
 
@@ -453,7 +454,7 @@ J'ai ensuite fait fonctionner les boutons radio de demande d'évaluation.
     \caption{Champ de demande d'évaluation}
 \end{figure}
 
-Il suffisait d'associer un booléen (vrai/faux) à l'état des boutons radio, avant d'envoyer cette variable au contrôleur.\\
+Il suffisait d'associer un booléen (vrai/faux) à l'état des boutons radio, puis d'assigner un niveau à l'entreprise selon cette valeur, et d'envoyer ces 2 variables au contrôleur.\\
 
 Le menu déroulant de zone d'influence était à l'origine vide, j'ai donc communiqué avec le responsable du projet pour déterminer les options de ce champ.
 
@@ -523,6 +524,7 @@ Or il est obligatoire à partir de la version 5.3. J'ai donc résolu ce bug simp
 % templates/product/form.html.twig
 % templates/services/form.html.twig
 
+\label{upload}
 Cette fonctionnalité était utilisée à la fois pour l'inscription, afin d'ajouter un logo pour son entreprise, et l'ajout ou la modification d'un produit/service, pour ajouter une photo du produit/service.
 La plupart des étapes étaient communes aux 2 situations.\\
 
@@ -573,14 +575,20 @@ Chaque champ, ou \textbf{form\_widget} est intégré dans la vue (fichier twig) 
 On ne peut à priori donc pas personnaliser les champs. Sauf avec un template. C'est donc ce que j'ai utilisé pour que le bouton d'upload soit remplacé par une image.
 Il suffit de placer le contenu de notre nouveau template dans un bloc respectant une nomenclature spécifique pour que le widget original soit bien remplacé.\\
 
-Pour finir, j'ai ajouté des contraintes au champ pour que, malgré les avertissements, l'utilisateur ne puisse pas mettre de fichiers non autorisés.
+Pour finir, j'ai ajouté des contraintes au champ pour que, malgré les avertissements, l'utilisateur ne puisse pas mettre de fichiers non autorisés.\\
 
-\pagebreak
+Dans le cas d'une modification de produit ou service, même si l'attribut image contient seulement son nom, on doit envoyer au formulaire le fichier en tant que tel, comme le champ est de type Fichier. 
+On procède donc à la conversion avant le rendu du formulaire. 
+
+A la validation, même si l'utilisateur ne modifie pas l'image, on doit manuellement réassigner l'attribut à l'ancienne image, car le formulaire Symfony la met automatiquement à null si aucun fichier n'a été réuploadé.
+
+%\pagebreak
 
 \subsubsection{Page produits}
 Un autre groupe de fonctionnalités à développer était la visualisation et la gestion des ses produits et services.
 
 \paragraph*{Généralités}
+\label{generalites}
 
 %templates/product/manage.html.twig
 %Controller/ProductController.php
@@ -713,7 +721,48 @@ Pour finir, on affiche les titres et leurs produits selon le tableau d'objets re
 
 \subsubsection{Profil et Modification du profil}
 
+%templates/company/profile.html.twig
+%src/Controller/CompanyController.php
+%Repository/SubcategoryRepository.php
+
+Outre la carte de l'entreprise, le profil devait aussi présenter les catégories et sous-catégories correspondantes de l'entreprise.
+
+J'ai donc utilisé la même méthode que dans le tableau sur la page Produits : voir partie \ref{generalites}, paragraphe Généralités. En voici le résultat :
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{resultat_profil_categories.png}
+    \caption{Résultat du profil de l'entreprise}
+\end{figure}
+
+% Fonction modifcategories() dans CompanyController, et script js dans fichier twig.
+
+Le bouton en bas "\textbf{Modifier les catégories}", ouvre la pop-up des catégories à cocher, comme à l'inscription : Voir partie \ref{inscripiton}, figure 17.
+Une fois le formulaire validé, le même processus de récupération et d'enregistrement a lieu (Voir partie \ref{inscripiton}, figure 18), sauf que les catégories précédentes sont supprimées avant d'ajouter la nouvelle combinaison.
+Une fois la requête effectuée, la page est rechargée pour montrer un état du profil toujours à jour.\\
+
+% Fonction modifgaeauser() dans CompanyController
+% public/js/parametres_entreprise.js
+
+Pour finir, je devais rendre la modification de profil entièrement fonctionnelle. Le formulaire était déjà intégré et tous les champs basiques fonctionnaient.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{resultat_modif_profil.png}
+    \caption{Résultat du formulaire de modification du profil}
+\end{figure}
+
+J'ai donc, comme pour l'inscription, rendu fonctionnels la demande d'évaluation, l'upload d'image, et la vérification de l'adresse avec des messages d'erreur.
+
+J'ai repris exactement le même code qu'à l'inscription (\ref{inscripiton}), y compris pour l'upload d'image (\ref{upload}). 
+
 \subsubsection{Activation manuelle des comptes}
+
+% src/Controller/ApiUserController.php, fonction getInactifUsers()
+% src/Controller/UserController.php, fonction listAccount()
+% templates/company/listAccount.html.twig
+% public/js/admin/activationCompte.js
+
+En attendant que le mail d'activation de compte soit fonctionnel sur le serveur, il nous a été demandé créer une page permettant d'activer chaque compte manuellement.
+
 
 \subsubsection{Page sous-catégories}
 tri des entreprises
