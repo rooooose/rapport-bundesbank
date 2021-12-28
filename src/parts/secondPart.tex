@@ -835,7 +835,27 @@ Je n'ai pas eu le temps de m'occuper de l'affichage sous forme de liste, ni des 
 
 \subsubsection{Ajout des entreprises manquantes}
 
+% src/Controller/CompanyController.php getCompaniesFromExcel()
+% public/uploads/entreprises-a-upload.xlsx
+
+Comme expliqué dans les objectifs, 62 entreprises étaient déjà inscrites chez Gaea21, mais leurs comptes avaient été supprimés.
+
+Ma mission était d'écrire un script pour lire un fichier Excel contenant leurs informations et ajouter les entreprises à la base de données.
+J'utilise le bundle \textbf{phpspreadsheet} de phpoffice pour lire le fichier excel, et convertir toutes les informations en un tableau de tableaux.
+
+Après cela, on boucle dans ce tableau : chaque information de l'entreprise est assignée à une variable, et j'ai repris là le code utilisé à l'inscription : 
+J'ai une requête HTTPS POST qui ajoute un nouveau GaeaUser, avec un mot de passe généré aléatoirement, puis je crée une nouvelle instance de Company et j'assigne tous les attributs à des valeurs par défaut, sauf celles renseignées dans le fichier Excel.
+
+
 \subsubsection{Réinitialisation de mot de passe}
+
+% src/Controller/CompanyController.php getCompaniesFromExcel()
+% src/Controller/UserController.php resetGaeaPassword()
+% public/js/resetPassword.js
+
+Les entreprises ajoutées par l'Excel devaient recevoir un mail leur permettant de réinitialiser leur mot de passe.
+
+La fonctionnalité de Réinitialisation de mot de passe a donc été faite pour ce motif uniquement, il n'y a pas bouton "mot de passe oublié" à la connexion.
 
 \subsubsection{Rendre les graphes de statistiques du Dashboard fonctionnels}
 

@@ -77,13 +77,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {E.9}Ajout des entreprises manquantes}{38}{subsubsection.2.5.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.10}Réinitialisation de mot de passe}{38}{subsubsection.2.5.10}%
+\contentsline {subsubsection}{\numberline {E.10}Réinitialisation de mot de passe}{39}{subsubsection.2.5.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.11}Rendre les graphes de statistiques du Dashboard fonctionnels}{38}{subsubsection.2.5.11}%
+\contentsline {subsubsection}{\numberline {E.11}Rendre les graphes de statistiques du Dashboard fonctionnels}{39}{subsubsection.2.5.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.12}Désactivation du compte Répertoire Vert}{38}{subsubsection.2.5.12}%
+\contentsline {subsubsection}{\numberline {E.12}Désactivation du compte Répertoire Vert}{39}{subsubsection.2.5.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {E.13}Responsive}{38}{subsubsection.2.5.13}%
+\contentsline {subsubsection}{\numberline {E.13}Responsive}{39}{subsubsection.2.5.13}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {E.14}Plannings Poker}{39}{subsubsection.2.5.14}%
 \defcounter {refsection}{0}\relax 
