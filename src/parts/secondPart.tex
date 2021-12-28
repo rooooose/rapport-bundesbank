@@ -757,17 +757,81 @@ J'ai repris exactement le même code qu'à l'inscription (\ref{inscripiton}), y 
 \subsubsection{Activation manuelle des comptes}
 
 % src/Controller/ApiUserController.php, fonction getInactifUsers()
+% src/Repository/GaeaUserRepository.php, findGaeaInactifUser()
 % src/Controller/UserController.php, fonction listAccount()
+% src/Repository/UserRepository.php, findUserIds()
 % templates/company/listAccount.html.twig
 % public/js/admin/activationCompte.js
 
+
 En attendant que le mail d'activation de compte soit fonctionnel sur le serveur, il nous a été demandé créer une page permettant d'activer chaque compte manuellement.
+Comme pour le carousel filtrant, j'ai aidé un collègue à réaliser cette tâche.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{Liste_comptes_inactifs.png}
+    \caption{Résultat de la page d'activation manuelle des comptes}
+\end{figure}
+
+La page se présente sous forme de liste, avec un bouton \textbf{Activer}, confirmant le compte au niveau de Gaea21.\\
+
+Dans un premier temps, dans le projet \textbf{GaeaUser} nous avons récupéré tous les utilisateurs non activés dans le contrôleur, en appelant le Repository de la classe GaeaUser. 
+Dans ce dernier, on fait une requête Doctrine. Une fois les données récupérées dans le contrôleur, on les sérialise sous forme d'objet JSON, que l'on retourne.
+
+Du côté du Répertoire vert, on peut alors récupérer ces données via une \textbf{requête HTTPS}, que l'on va ensuite décoder. 
+On doit après filtrer les utilisateurs Gaea pour ne garder que ceux inscrits sur le Répertoire Vert. On récupère donc les \textbf{GaeaUserIds} de tous les utilisateurs Répertoire vert, on les compare 1 à 1 avec les utilisateurs Gaea dans une doule boucle, et on stocke dans un tableau les utilisateurs dont l'id est commun.\\
+
+Ensuite, on peut afficher la liste dans la vue, avec pour chaque ligne un bouton appelant une fonction \textbf{enableAccount}. 
+Grâce au token unique associé à chaque ligne que l'on envoie au javascript par un \textbf{dataset}, on peut faire une requête Ajax confirmant le compte associé à ce token.
 
 
-\subsubsection{Page sous-catégories}
-tri des entreprises
-front
-pagination
+\subsubsection{Page sous-catégorie}
+
+% src/Controller/SubcategoryController.php, showCompanies()
+% src/Repository/CompanyRepository.php, getCompaniesByCatAndSubcat()
+% templates/subcategory/show.html.twig
+% public/sass/page_subcategories.scss
+
+
+Les pages sous-catégories permettent de visualiser la liste des entreprises appartenant à une sous-catégorie. 
+On y accède par la page d'accueil, en choissisant une catégorie, et sur la page catégorie, on peut ensuite choisir une sous-catégorie.
+
+Cette vue était dejà intégrée et un système de filtre avait été implémenté par un collègue, mais je devais revoir la récupération des entreprises qui n'était pas fonctionnelle, corriger certains bugs de style, mais aussi implémenter un nouveau design (ci-dessous) :
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{design_page_subcat.png}
+    \caption{Design de la page sous-catégorie}
+\end{figure}
+
+Il doit présenter les entreprises sous forme de liste, alors que la version actuelle les présente de manière plus détaillée. 
+Il fallait aussi ajouter une fonctionnalité de tri, par ordre alphabétique ou par proximité.
+Et enfin, un système de pagination devait être mis en place, permettant de répartir l'affichage des entreprises sur plusieurs pages et de naviguer entre elles.\\
+
+Dans le Repository de l'entité Company, on joint la table Company à la table Category pour garder les entreprises de la catégorie choisie.
+Puis on joint le tout à la table Produit et à la table Subcategory, pour ne garder que les entreprises qui ont des produits appartenant à la sous-catégorie choisie.
+
+Comme on a besoin des ID catégorie et sous-catégorie, j'ai ajouté ces 2 paramètres à l'URL pour pouvoir les récupérer au fil de la navigation.
+
+Une fois cette requête (et non le résultat de la requête) récupérée dans le contrôleur, il faut l'ajouter à la pagination.\\
+
+La pagination fontionne grâce au bundle Symfony \textbf{KnpPaginatorBundle} de KnpLabs
+
+\begin{figure}[H]
+    \includegraphics[width=10cm]{code_pagination.png}
+    \caption{Code pour la pagination}
+\end{figure}
+
+Les 3 paramètres correspondent respectivement à la requête que l'on veut paginer (ici les entreprises), 
+le numero de la page à afficher (ici on récupère dans l'url la valeur de l'option "page", et par défaut on affiche la 1ère page),
+et le nombre d'éléments à afficher par page.
+
+Pour finir, j'ai refait le css de la rubrique "Consultez aussi", dont les titres ne s'affichaient pas conformément au design et dont les images étaient déformées.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{consultez_aussi.png}
+    \caption{Résultat de la rubrique Consultez aussi}
+\end{figure}
+
+Je n'ai pas eu le temps de m'occuper de l'affichage sous forme de liste, ni des différents tris, le nouveau design ayant été livré peu avant la fin de mon stage.
 
 \subsubsection{Ajout des entreprises manquantes}
 
@@ -799,6 +863,8 @@ Parler du retard V0
 \\De plus, ce projet était marqué par un fort turnover. Il fallait donc un temps d'adaptation et de familiarisation pour chaque nouvelle recrue, notamment pour l'installation du projet, savoir quel fichier correspondait à quoi, etc...
 assigner des tâches qui correspondent aux objectifs de formation de chacun
 Compétences acquises
+
+Page sous categorie (liste)?
 
 % Une version humainement lisible d'une fork bombe peut s'écrire ainsi:
 % % Il ny a pas de bashcode disponible
