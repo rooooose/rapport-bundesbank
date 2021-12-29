@@ -301,6 +301,8 @@ Une fois cet exercice validé, j'ai pu être intégrée au projet Répertoire Ve
 
 \subsubsection{Cartes des entreprises}
 
+\label{carte}
+
 \paragraph{Carte d'1 entreprise}
 Ma toute première tâche était donc l'intégration d'une carte permettant à l'entreprise de se localiser visuellement sur son profil.
 
@@ -319,6 +321,12 @@ Après m'être familiarisée avec le code de l'inscription, j'y ai ajouté une r
 En mettant l'adresse entrée par l'utilisateur en paramètre, on peut ainsi récupérer les latitude et longitude associées. Ces données sont ensuite envoyées au contrôleur pour être enregistrées en base de données.
 
 \paragraph{Carte de toutes les entreprises}
+
+% src/Repository/CompanyRepository.php, getCompaniesByCatAndSubcat()
+% src/Controller/Api/CompanyController.php
+% assets/components/companies_map/sideMenu.jsx
+% assets/components/companies_map/companies_map.jsx
+% assets/styles/company_map.scss
 
 La prochaine tâche concernait la page affichant toutes les entreprises sur une carte, avec la possibilité de les filtrer, et d'obtenir plus d'informations sur chaque entreprise :
 
@@ -346,7 +354,7 @@ Il appelle lui-même le sous-sous-composant \textbf{SubCategoryDetail}, qui appe
 Bien sûr, toutes les informations du menu sont affichées dynamiquement et donc récupérées par requête Ajax, et stockées dans les \textbf{états} des différents composants.\\
 On commence par l'ensemble des catégories dès le "montage" du composant (méthode componentDidMount).
 Au clic de l'une des catégories, on récupère toutes ses sous-catégories, et au clic d'une sous-catégorie, les entreprises associées.
-Mais la relation Sous-catégories/Entreprises ne fait pas directement. 
+Mais la relation Sous-catégories/Entreprises ne se fait pas directement. 
 Il faut passer ici par les produits. 
 \begin{myboxedtext}
 En effet lorsqu'une entreprise s'inscrit, elle choisit ses catégories, mais pas ses sous-catégories. Elles s'ajoutent progressivement au fur et à mesure que l'entreprise ajoutera des produits et services.
@@ -365,6 +373,10 @@ C'est ici que je me suis heurtée à un problème : Lorsque l'on veut faire migr
 Ce fichier contient les règles SQL à exécuter lors de la nouvelle migration. Mais dans ce projet et pour une raison inconnue, de nombreuses autres règles dejà exécutées dans la base de données sont écrites.
 Cela empêche donc l'exécution du fichier, car certaines règles ne peuvent être exécutées 2 fois. Il fallait donc supprimer manuellement toutes les règles inutiles du fichier généré.\\
 
+Je récupère les entreprises d'une sous-catégorie via le Repository de l'entité Company.
+Ici, on joint la table Company à la table Category pour garder les entreprises de la catégorie choisie.
+Puis on joint le tout à la table Produit et à la table Subcategory, pour ne garder que les entreprises qui ont des produits appartenant à la sous-catégorie choisie.\\
+
 En plus des données des bonnes entreprises affichées, il fallait noter la distance entre la position de l'utilisateur et celle de l'entreprise. 
 Dans le composant CompanyDetail, une fonction se charge donc de calculer la distance à vol d'oiseau à partir des latitudes et longitudes.
 
@@ -381,7 +393,7 @@ En cliquant sur une catégorie dans le Side-Menu, les entreprises sur la carte d
 J'ai commencé par créer une \textbf{fonction de filtrage} assez générale dans le composant MapPage. 
 
 Il s'agit d'un filtrage exclusif, c'est-à-dire que l'élément doit respecter \textbf{tous} les critères et non au moins 1.
-Elle tient compte des \textbf{critères} et des \textbf{paramètres}. Le critère utilisé ici est "categories", car on filtre selon les categories.
+Il tient compte des \textbf{critères} et des \textbf{paramètres}. Le critère utilisé ici est "categories", car on filtre selon les categories.
 Le paramètre est quant à lui la valeur de la catégorie choisie.
 
 On passe par plusieurs étapes imbriquées :
@@ -806,8 +818,9 @@ Il doit présenter les entreprises sous forme de liste, alors que la version act
 Il fallait aussi ajouter une fonctionnalité de tri, par ordre alphabétique ou par proximité.
 Et enfin, un système de pagination devait être mis en place, permettant de répartir l'affichage des entreprises sur plusieurs pages et de naviguer entre elles.\\
 
-Dans le Repository de l'entité Company, on joint la table Company à la table Category pour garder les entreprises de la catégorie choisie.
-Puis on joint le tout à la table Produit et à la table Subcategory, pour ne garder que les entreprises qui ont des produits appartenant à la sous-catégorie choisie.
+J'ai récupéré les bonnes entreprises via le CompanyRepository selon la catégorie et la sous-catégorie, en réutilisant la fonction utilisée pour le SideMenu de la carte de toutes les entreprises (voir partie \ref{carte}).
+%Dans le Repository de l'entité Company, on joint la table Company à la table Category pour garder les entreprises de la catégorie choisie.
+% Puis on joint le tout à la table Produit et à la table Subcategory, pour ne garder que les entreprises qui ont des produits appartenant à la sous-catégorie choisie.
 
 Comme on a besoin des ID catégorie et sous-catégorie, j'ai ajouté ces 2 paramètres à l'URL pour pouvoir les récupérer au fil de la navigation.
 
@@ -908,7 +921,39 @@ Il fallait donc soustraire 3 jours à la date courante si le jour où on se trou
 Ainsi, on pouvait ensuite soustraire le nombre de mois que nous souhaitions à la date courante, sans qu'il en manque.
 
 \subsubsection{Désactivation du compte Répertoire Vert}
-envoi mail désactivation compte, pop up confirmation, faire en sorte que les entreprises n'apparaissent pas dans resultats de recherche (carte, sous categories)
+
+% src/Controller/CompanyController.php showSettings()
+% src/Controller/UserController.php confirmGaeaAccount()
+% templates/company/settings.html.twig
+
+
+Cette fonctinnalité se trouve dans les paramètres du profil et a pour but de désactiver le compte du côté du Répertoire Vert (et non de GaeaUser), et était développée par un collègue. 
+Mais je suis intervenue pour ajouter et terminer certains détails oubliés.
+
+J'ai tout d'abord fait le CSS du formulaire, qui rend comme ceci sur le site : 
+
+\begin{figure}[H]
+    \includegraphics[width=12cm]{desactivation_profil.PNG}
+    \caption{Rendu du formulaire de désactivation de compte}
+\end{figure}
+
+Ensuite, j'ai ajouté une Pop-up de demande de confirmation lors de la validation : 
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{Popup_confirm.PNG}
+    \caption{Code pour la boite de dialogue de confirmation}
+\end{figure}
+
+Comme il s'agit d'un formulaire Symfony, on appelle chaque composant/widget du formulaire comme ci-dessus, avec la possibilité d'ajouter des attributs html, comme une fonction \textbf{onClick}.
+
+Ensuite, je me suis occupée du mail de réactivation du compte. Le code d'envoi du mail à la désactivation du compte, ainsi que la réactivation du compte, avaient déjà été préparés.
+J'ai juste modifié l'url d'activation dans l'email, et décommenté l'envoi.
+
+Une fois le compte réactivé, l'utilisateur est redirigé vers la page de succès d'activation du compte, comme sur la figure 22.
+
+Enfin, je me suis assurée que les entreprises désactivées n'apparaissaient plus sur le site, notamment lorsqu'on affiche la liste des entreprises d'une sous-catégorie spécifique. 
+J'ai fait cela en ajoutant une clause \textbf{where} dans la requête Doctrine.
+
 
 \subsubsection{Responsive}
 Pré-homepage\\
