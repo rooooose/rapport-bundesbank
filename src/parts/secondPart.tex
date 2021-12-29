@@ -852,12 +852,60 @@ J'ai une requête HTTPS POST qui ajoute un nouveau GaeaUser, avec un mot de pass
 % src/Controller/CompanyController.php getCompaniesFromExcel()
 % src/Controller/UserController.php resetGaeaPassword()
 % public/js/resetPassword.js
+% templates/user/resetGaeaPassword.html.twig
 
 Les entreprises ajoutées par l'Excel devaient recevoir un mail leur permettant de réinitialiser leur mot de passe.
 
-La fonctionnalité de Réinitialisation de mot de passe a donc été faite pour ce motif uniquement, il n'y a pas bouton "mot de passe oublié" à la connexion.
+La fonctionnalité de Réinitialisation de mot de passe a donc été faite pour ce motif uniquement, il n'y a pas bouton "mot de passe oublié" disponible à la connexion.\\
+
+Etape 1 - Préparer le code d'envoi du mail de réinitialisation : 
+
+Dans la même fonction que celle qui ajoute chaque utilisateur, on fait une requête vers la fonction \textbf{requestPassword} de l'Api GaeaUser, et on lui passe l'email de la ligne courante et l'url du site vers lequel le lien du mail doit renvoyer.
+
+Cette fonction va récupérer le bon utilisateur, avec son token unique, qu'elle pourra introduire dans le lien du mail.\\
+
+Etape 2 - Créer la page de réinitialisation et son contrôleur : 
+
+Dans le contrôleur gérant les Users, j'ai créé une fonction affichant une vue, en lui passant le token via l'url de la page.
+Puis j'ai créé la la vue :
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{reinitialisation_mdp.PNG}
+    \caption{Page de réinitialisation de Mot de passe}
+\end{figure}
+
+Etape 3 - Faire fonctionner la réinitialisation en JavaScript :
+
+Dans un fichier js, j'ai tout d'abord mis en place la vérification du format du nouveau mot de passe avec les messages d'erreurs (nombre de caractères, chiffres, etc...), que j'ai reprise du code de l'inscripiton.
+
+Lorsqu'on clique sur valider, le contenu des 2 champs de mot de passe sont \textbf{encodés en md5}, puis ils sont envoyés à la fonction qui réinitialise le mot de passe dans l'API, toujours par requête Ajax.
+
+Les messages d'erreurs sont gérés également dans l'API, et sont affichés sur la page si la réponse renvoie un code d'erreur. Sinon, un message de succès apparait.
 
 \subsubsection{Rendre les graphes de statistiques du Dashboard fonctionnels}
+% src/Controller/DashboardController.php
+
+Sur le Dahboard de l'utilisateur, celui-ci peut voir ses statistiques sur des graphiques. 
+Ils avaient déjà été implémentés à mon arrivée.
+
+\begin{figure}[H]
+    \includegraphics[width=12cm]{Dashboard_stats.PNG}
+    \caption{Graphe du nombre de visites sur la page entreprise pour les 3 derniers mois}
+\end{figure}
+
+Mais je me suis rendu compte de certains bugs, que j'ai corrigés.\\
+
+1er bug :
+
+Il concernait l'affichage du nombre de visites au mauvais jour. En effet, le graphe présentant les statistiques sur les 7 derniers jours ne comptait pas le jour courant.
+Donc si une visite avait eu lieu le jour courant, elle serait affichée au 1er jour du graphique. 
+J'ai donc simplement fait en sorte que le jour courant fasse partie des dates affichées sur le graphique.\\
+
+2nd bug :
+
+Lorsqu'on affichait les statistiques pour les 3, 6 ou 12 derniers mois et que l'on se trouvait un 29, 30 ou 31, certains mois ne s'affichaient pas, car ces jours n'existent pas, notamment pour le mois de février.
+Il fallait donc soustraire 3 jours à la date courante si le jour où on se trouvait excédait le 29 du mois.
+Ainsi, on pouvait ensuite soustraire le nombre de mois que nous souhaitions à la date courante, sans qu'il en manque.
 
 \subsubsection{Désactivation du compte Répertoire Vert}
 envoi mail désactivation compte, pop up confirmation, faire en sorte que les entreprises n'apparaissent pas dans resultats de recherche (carte, sous categories)
