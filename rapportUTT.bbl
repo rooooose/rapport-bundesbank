@@ -19,27 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{ynt/global//global/global}
-    \entry{aristote}{book}{}
-      \name{author}{1}{}{%
-        {{hash=e5b4c03713aa9c1417fce7ac33208057}{%
-           family={Aristote},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{e5b4c03713aa9c1417fce7ac33208057}
-      \strng{fullhash}{e5b4c03713aa9c1417fce7ac33208057}
-      \strng{bibnamehash}{e5b4c03713aa9c1417fce7ac33208057}
-      \strng{authorbibnamehash}{e5b4c03713aa9c1417fce7ac33208057}
-      \strng{authornamehash}{e5b4c03713aa9c1417fce7ac33208057}
-      \strng{authorfullhash}{e5b4c03713aa9c1417fce7ac33208057}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{La Politique}
-      \field{year}{299}
-      \field{dateera}{bce}
-      \true{nocite}
-    \endentry
     \entry{dirac}{book}{}
       \name{author}{1}{}{%
         {{hash=59342ede3a101402b34939644b51ad06}{%
@@ -189,6 +168,227 @@
       \field{title}{Computer Networking: A Top-Down Approach}
       \field{year}{2021}
       \true{nocite}
+    \endentry
+    \entry{leaflet}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5394be402511a06b16521a9b58b8acbf}{%
+           family={Agafonkin},
+           familyi={A\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{5394be402511a06b16521a9b58b8acbf}
+      \strng{fullhash}{5394be402511a06b16521a9b58b8acbf}
+      \strng{bibnamehash}{5394be402511a06b16521a9b58b8acbf}
+      \strng{authorbibnamehash}{5394be402511a06b16521a9b58b8acbf}
+      \strng{authornamehash}{5394be402511a06b16521a9b58b8acbf}
+      \strng{authorfullhash}{5394be402511a06b16521a9b58b8acbf}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[en ligne]. Mis à jour le 4 septembre 2020 [Consulté le 14 décembre 2021].}
+      \field{title}{Leaflet - a JavaScript library for interactive maps}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://leafletjs.com/
+      \endverb
+      \verb{url}
+      \verb https://leafletjs.com/
+      \endverb
+    \endentry
+    \entry{stackoverflow}{online}{}
+      \name{author}{2}{}{%
+        {{hash=672cf6561f27247e38f56754f51c7e31}{%
+           family={Atwood},
+           familyi={A\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1d4e31b9672548711d49c159dbc8c60f}{%
+           family={Spolsky},
+           familyi={S\bibinitperiod},
+           given={Joël},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b397ba8e688529e8a5f88dff2286abf}
+      \strng{fullhash}{0b397ba8e688529e8a5f88dff2286abf}
+      \strng{bibnamehash}{0b397ba8e688529e8a5f88dff2286abf}
+      \strng{authorbibnamehash}{0b397ba8e688529e8a5f88dff2286abf}
+      \strng{authornamehash}{0b397ba8e688529e8a5f88dff2286abf}
+      \strng{authorfullhash}{0b397ba8e688529e8a5f88dff2286abf}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[en ligne]. Mis à jour le 30 décembre 2021 [Consulté le 17 décembre 2021].}
+      \field{title}{Stack Overflow - Where Developers Learn, Share, and Build Careers}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://stackoverflow.com/
+      \endverb
+      \verb{url}
+      \verb https://stackoverflow.com/
+      \endverb
+    \endentry
+    \entry{doctrine}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9fca7fa5e9732b0fea5844126f015c14}{%
+           family={Doctrine},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9fca7fa5e9732b0fea5844126f015c14}
+      \strng{fullhash}{9fca7fa5e9732b0fea5844126f015c14}
+      \strng{bibnamehash}{9fca7fa5e9732b0fea5844126f015c14}
+      \strng{authorbibnamehash}{9fca7fa5e9732b0fea5844126f015c14}
+      \strng{authornamehash}{9fca7fa5e9732b0fea5844126f015c14}
+      \strng{authorfullhash}{9fca7fa5e9732b0fea5844126f015c14}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[en ligne]. Mis à jour le 21 décembre 2021 [Consulté le 17 décembre 2021].}
+      \field{title}{Welcome to Doctrine 2 ORM's documentation! - Doctrine Object Relational Mapper (ORM)}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.doctrine-project.org/projects/doctrine-orm/en/2.10/index.html
+      \endverb
+      \verb{url}
+      \verb https://www.doctrine-project.org/projects/doctrine-orm/en/2.10/index.html
+      \endverb
+    \endentry
+    \entry{react}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d85544fce402c7a2a96a48078edaf203}{%
+           family={Facebook},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{fullhash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{bibnamehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{authorbibnamehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{authornamehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{authorfullhash}{d85544fce402c7a2a96a48078edaf203}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[en ligne]. Mis à jour le 22 mars 2021 [Consulté le 8 novembre 2021].}
+      \field{title}{React – Une bibliothèque JavaScript pour créer des interfaces utilisateurs}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://fr.reactjs.org/
+      \endverb
+      \verb{url}
+      \verb https://fr.reactjs.org/
+      \endverb
+    \endentry
+    \entry{grafikart}{online}{}
+      \name{author}{1}{}{%
+        {{hash=31063f36a45fb4d0cc0ce44d93ddfb76}{%
+           family={Grafikart},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{31063f36a45fb4d0cc0ce44d93ddfb76}
+      \strng{fullhash}{31063f36a45fb4d0cc0ce44d93ddfb76}
+      \strng{bibnamehash}{31063f36a45fb4d0cc0ce44d93ddfb76}
+      \strng{authorbibnamehash}{31063f36a45fb4d0cc0ce44d93ddfb76}
+      \strng{authornamehash}{31063f36a45fb4d0cc0ce44d93ddfb76}
+      \strng{authorfullhash}{31063f36a45fb4d0cc0ce44d93ddfb76}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[en ligne]. Mis à jour le 28 décembre 2021 [Consulté le 18 août 2021]. Disponible sur :}
+      \field{title}{Tutoriels et Formations vidéos sur le développement web}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://grafikart.fr/
+      \endverb
+      \verb{url}
+      \verb https://grafikart.fr/
+      \endverb
+    \endentry
+    \entry{symfonyDocs}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6c9efec942e768caf97cf349deb118aa}{%
+           family={SAS},
+           familyi={S\bibinitperiod},
+           given={Symfony},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c9efec942e768caf97cf349deb118aa}
+      \strng{fullhash}{6c9efec942e768caf97cf349deb118aa}
+      \strng{bibnamehash}{6c9efec942e768caf97cf349deb118aa}
+      \strng{authorbibnamehash}{6c9efec942e768caf97cf349deb118aa}
+      \strng{authornamehash}{6c9efec942e768caf97cf349deb118aa}
+      \strng{authorfullhash}{6c9efec942e768caf97cf349deb118aa}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[en ligne]. Mis à jour le 29 décembre 2021 [Consulté le 17 décembre 2021].}
+      \field{title}{Symfony, High Performance PHP Framework for Web Development}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://symfony.com/doc/current/index.html
+      \endverb
+      \verb{url}
+      \verb https://symfony.com/doc/current/index.html
+      \endverb
+    \endentry
+    \entry{symfonycasts}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e23328508b8c1b39a3e00a80756115a0}{%
+           family={SymfonyCasts},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e23328508b8c1b39a3e00a80756115a0}
+      \strng{fullhash}{e23328508b8c1b39a3e00a80756115a0}
+      \strng{bibnamehash}{e23328508b8c1b39a3e00a80756115a0}
+      \strng{authorbibnamehash}{e23328508b8c1b39a3e00a80756115a0}
+      \strng{authornamehash}{e23328508b8c1b39a3e00a80756115a0}
+      \strng{authorfullhash}{e23328508b8c1b39a3e00a80756115a0}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[en ligne]. Mis à jour le 23 décembre 2021 [Consulté le 23 août 2021].}
+      \field{title}{SymfonyCasts - PHP and Symfony Video Tutorial Screencasts}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://symfonycasts.com/
+      \endverb
+      \verb{url}
+      \verb https://symfonycasts.com/
+      \endverb
+    \endentry
+    \entry{select2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d50932bb5529193d86e355aefb32d1b0}{%
+           family={Weissman},
+           familyi={W\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d50932bb5529193d86e355aefb32d1b0}
+      \strng{fullhash}{d50932bb5529193d86e355aefb32d1b0}
+      \strng{bibnamehash}{d50932bb5529193d86e355aefb32d1b0}
+      \strng{authorbibnamehash}{d50932bb5529193d86e355aefb32d1b0}
+      \strng{authornamehash}{d50932bb5529193d86e355aefb32d1b0}
+      \strng{authorfullhash}{d50932bb5529193d86e355aefb32d1b0}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[en ligne]. Mis à jour le 3 mai 2020 [Consulté le 28 septembre 2021].}
+      \field{title}{Getting Started | Select2 - The jQuery replacement for select boxes}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://select2.org/
+      \endverb
+      \verb{url}
+      \verb https://select2.org/
+      \endverb
     \endentry
     \entry{crypto}{online}{}
       \name{author}{1}{}{%
