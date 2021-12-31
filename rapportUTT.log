@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.8.6)  31 DEC 2021 00:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.8.6)  31 DEC 2021 15:22
 entering extended mode
 **./rapportUTT.tex
 (rapportUTT.tex
@@ -3811,13 +3811,13 @@ l.136     \clearpage
 
 
 (src/parts/Annexes/Annexe1.tex
-<src/contents/pics//poker planning concret.png, id=561, 802.197pt x 380.622pt>
+<src/contents/pics//poker planning concret.png, id=560, 802.197pt x 380.622pt>
 File: src/contents/pics//poker planning concret.png Graphic file (type png)
 <use src/contents/pics//poker planning concret.png>
 Package pdftex.def Info: src/contents/pics//poker planning concret.png  used on
  input line 12.
 (pdftex.def)             Requested size: 455.24408pt x 215.99849pt.
-<src/contents/pics//majoration pp.png, id=562, 285.4665pt x 98.16675pt>
+<src/contents/pics//majoration pp.png, id=561, 285.4665pt x 98.16675pt>
 File: src/contents/pics//majoration pp.png Graphic file (type png)
 <use src/contents/pics//majoration pp.png>
 Package pdftex.def Info: src/contents/pics//majoration pp.png  used on input li
@@ -3849,12 +3849,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-<src/contents/pics//jdb.png, id=572, 1064.778pt x 298.11375pt>
+<src/contents/pics//jdb.png, id=571, 1064.778pt x 298.11375pt>
 File: src/contents/pics//jdb.png Graphic file (type png)
 <use src/contents/pics//jdb.png>
 Package pdftex.def Info: src/contents/pics//jdb.png  used on input line 40.
 (pdftex.def)             Requested size: 455.24408pt x 127.45859pt.
-<src/contents/pics//gatime.png, id=573, 754.61925pt x 391.4625pt>
+<src/contents/pics//gatime.png, id=572, 754.61925pt x 391.4625pt>
 File: src/contents/pics//gatime.png Graphic file (type png)
 <use src/contents/pics//gatime.png>
 Package pdftex.def Info: src/contents/pics//gatime.png  used on input line 48.
@@ -3878,7 +3878,7 @@ Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf
 used on input line 52.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
 [2 <./src/contents/pics//jdb.png> <./src/contents/pics//gatime.png>]
-<src/contents/pics//tableau_taches.png, id=582, 1068.99374pt x 377.61075pt>
+<src/contents/pics//tableau_taches.png, id=581, 1068.99374pt x 377.61075pt>
 File: src/contents/pics//tableau_taches.png Graphic file (type png)
 <use src/contents/pics//tableau_taches.png>
 Package pdftex.def Info: src/contents/pics//tableau_taches.png  used on input l
@@ -3918,17 +3918,20 @@ l.155     \myemptypage
                        [3
 
 
-] (rapportUTT.aux)
+] [4] (rapportUTT.aux)
+
+LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
+
 Package logreq Info: Writing requests to 'rapportUTT.run.xml'.
 \openout1 = `rapportUTT.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53909 strings out of 478870
- 1104780 string characters out of 2849311
- 1948438 words of memory out of 3000000
- 70456 multiletter control sequences out of 15000+600000
- 481494 words of font info for 172 fonts, out of 8000000 for 9000
+ 53913 strings out of 478870
+ 1104921 string characters out of 2849311
+ 1949629 words of memory out of 3000000
+ 70455 multiletter control sequences out of 15000+600000
+ 482251 words of font info for 176 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  114i,15n,131p,1286b,1968s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:
@@ -3944,9 +3947,9 @@ se/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Rose
 pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Rose/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Rose/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on rapportUTT.pdf (54 pages, 17641852 bytes).
+Output written on rapportUTT.pdf (55 pages, 17643338 bytes).
 PDF statistics:
- 801 PDF objects out of 1000 (max. 8388607)
- 152 named destinations out of 1000 (max. 500000)
- 46171 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 806 PDF objects out of 1000 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
+ 48219 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -19,156 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{ynt/global//global/global}
-    \entry{dirac}{book}{}
-      \name{author}{1}{}{%
-        {{hash=59342ede3a101402b34939644b51ad06}{%
-           family={Dirac},
-           familyi={D\bibinitperiod},
-           given={Paul\bibnamedelimb Adrien\bibnamedelima Maurice},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Clarendon Press}%
-      }
-      \strng{namehash}{59342ede3a101402b34939644b51ad06}
-      \strng{fullhash}{59342ede3a101402b34939644b51ad06}
-      \strng{bibnamehash}{59342ede3a101402b34939644b51ad06}
-      \strng{authorbibnamehash}{59342ede3a101402b34939644b51ad06}
-      \strng{authornamehash}{59342ede3a101402b34939644b51ad06}
-      \strng{authorfullhash}{59342ede3a101402b34939644b51ad06}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9780198520115}
-      \field{series}{International series of monographs on physics}
-      \field{title}{The Principles of Quantum Mechanics}
-      \field{year}{1981}
-      \true{nocite}
-      \keyw{physics}
-    \endentry
-    \entry{guiragossian:hal-02115427}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{hash=147176ad6799dac4bd78ac47cdb0ffb6}{%
-           family={Guiragossian},
-           familyi={G\bibinitperiod},
-           given={Pauline},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Aix-en-Provence, France}%
-      }
-      \strng{namehash}{147176ad6799dac4bd78ac47cdb0ffb6}
-      \strng{fullhash}{147176ad6799dac4bd78ac47cdb0ffb6}
-      \strng{bibnamehash}{147176ad6799dac4bd78ac47cdb0ffb6}
-      \strng{authorbibnamehash}{147176ad6799dac4bd78ac47cdb0ffb6}
-      \strng{authornamehash}{147176ad6799dac4bd78ac47cdb0ffb6}
-      \strng{authorfullhash}{147176ad6799dac4bd78ac47cdb0ffb6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{L'éducation des citoyens, l'éducation des gouvernants}
-      \field{month}{9}
-      \field{title}{{Former le citoyen-soldat sous la République jacobine}}
-      \field{year}{2019}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://hal-amu.archives-ouvertes.fr/hal-02115427
-      \endverb
-      \verb{url}
-      \verb https://hal-amu.archives-ouvertes.fr/hal-02115427
-      \endverb
-    \endentry
-    \entry{arteAnar}{online}{}
-      \name{author}{1}{}{%
-        {{hash=b28d4e67f9d0b2a4df3a70cc4ffc5710}{%
-           family={Ramonet},
-           familyi={R\bibinitperiod},
-           given={Tancrède},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {ARTE}%
-      }
-      \strng{namehash}{b28d4e67f9d0b2a4df3a70cc4ffc5710}
-      \strng{fullhash}{b28d4e67f9d0b2a4df3a70cc4ffc5710}
-      \strng{bibnamehash}{b28d4e67f9d0b2a4df3a70cc4ffc5710}
-      \strng{authorbibnamehash}{b28d4e67f9d0b2a4df3a70cc4ffc5710}
-      \strng{authornamehash}{b28d4e67f9d0b2a4df3a70cc4ffc5710}
-      \strng{authorfullhash}{b28d4e67f9d0b2a4df3a70cc4ffc5710}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{1:20:48 \shortUrl{https://www.youtube.com/watch?v=yxre_Cd5TAI} - Editorial Moscou}
-      \field{title}{Ni Dieu ni maître, une histoire de l'anarchisme}
-      \field{year}{2019}
-      \true{nocite}
-    \endentry
-    \entry{entraide}{book}{}
-      \name{author}{2}{}{%
-        {{hash=7e728bea96b7cf7f5ab1916a17c85b60}{%
-           family={Servigne},
-           familyi={S\bibinitperiod},
-           given={Pablo},
-           giveni={P\bibinitperiod}}}%
-        {{hash=e92a2fda48fa5d031b86ecdb81d5e806}{%
-           family={Chapelle},
-           familyi={C\bibinitperiod},
-           given={Gauthier},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Les Liens qui Libèrent}%
-      }
-      \strng{namehash}{84fe829724b1542315e7423f8394d2e2}
-      \strng{fullhash}{84fe829724b1542315e7423f8394d2e2}
-      \strng{bibnamehash}{84fe829724b1542315e7423f8394d2e2}
-      \strng{authorbibnamehash}{84fe829724b1542315e7423f8394d2e2}
-      \strng{authornamehash}{84fe829724b1542315e7423f8394d2e2}
-      \strng{authorfullhash}{84fe829724b1542315e7423f8394d2e2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{bookpagination}{page}
-      \field{title}{L'entraide, l'autre loi de la jungle}
-      \field{year}{2019}
-      \true{nocite}
-    \endentry
-    \entry{topdown}{book}{}
-      \name{author}{2}{}{%
-        {{hash=b905b78c01f208bba85ce9931e369116}{%
-           family={Kurose},
-           familyi={K\bibinitperiod},
-           given={James\bibnamedelima W.},
-           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=c2e119f22d4ef9df7cfb63c82975b459}{%
-           family={Ross},
-           familyi={R\bibinitperiod},
-           given={Keith\bibnamedelima W.},
-           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Pearson}%
-      }
-      \strng{namehash}{4d5f22bbedd82579ef1668596dc19587}
-      \strng{fullhash}{4d5f22bbedd82579ef1668596dc19587}
-      \strng{bibnamehash}{4d5f22bbedd82579ef1668596dc19587}
-      \strng{authorbibnamehash}{4d5f22bbedd82579ef1668596dc19587}
-      \strng{authornamehash}{4d5f22bbedd82579ef1668596dc19587}
-      \strng{authorfullhash}{4d5f22bbedd82579ef1668596dc19587}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{8}
-      \field{note}{url : \shortUrl{http://gen.lib.rus.ec/book/index.php?md5=8B547BCDF967B08655D6360F6FE9D809}}
-      \field{title}{Computer Networking: A Top-Down Approach}
-      \field{year}{2021}
-      \true{nocite}
-    \endentry
     \entry{leaflet}{online}{}
       \name{author}{1}{}{%
         {{hash=5394be402511a06b16521a9b58b8acbf}{%
@@ -195,6 +45,35 @@
       \endverb
       \verb{url}
       \verb https://leafletjs.com/
+      \endverb
+    \endentry
+    \entry{knp-paginator-bundle}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=6516bbce6b6259142600f0aa14a7c91a}{%
+           family={Arione},
+           familyi={A\bibinitperiod},
+           given={Massimiliano},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6516bbce6b6259142600f0aa14a7c91a}
+      \strng{fullhash}{6516bbce6b6259142600f0aa14a7c91a}
+      \strng{bibnamehash}{6516bbce6b6259142600f0aa14a7c91a}
+      \strng{authorbibnamehash}{6516bbce6b6259142600f0aa14a7c91a}
+      \strng{authornamehash}{6516bbce6b6259142600f0aa14a7c91a}
+      \strng{authorfullhash}{6516bbce6b6259142600f0aa14a7c91a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Github}
+      \field{note}{[en ligne]. Mis à jour le 2 décembre 2021 [Consulté le 17 décembre 2021].}
+      \field{title}{KnpLabs/KnpPaginatorBundle: SEO friendly Symfony paginator to sort and paginate}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/KnpLabs/KnpPaginatorBundle
+      \endverb
+      \verb{url}
+      \verb https://github.com/KnpLabs/KnpPaginatorBundle
       \endverb
     \endentry
     \entry{stackoverflow}{online}{}
@@ -228,6 +107,35 @@
       \endverb
       \verb{url}
       \verb https://stackoverflow.com/
+      \endverb
+    \endentry
+    \entry{excel}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=f8fc7bdb571b3cbc2c69c1b3c368c43f}{%
+           family={Bouchâala},
+           familyi={B\bibinitperiod},
+           given={Ghaida},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8fc7bdb571b3cbc2c69c1b3c368c43f}
+      \strng{fullhash}{f8fc7bdb571b3cbc2c69c1b3c368c43f}
+      \strng{bibnamehash}{f8fc7bdb571b3cbc2c69c1b3c368c43f}
+      \strng{authorbibnamehash}{f8fc7bdb571b3cbc2c69c1b3c368c43f}
+      \strng{authornamehash}{f8fc7bdb571b3cbc2c69c1b3c368c43f}
+      \strng{authorfullhash}{f8fc7bdb571b3cbc2c69c1b3c368c43f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Ghaida Bouchâala – Medium}
+      \field{note}{[en ligne]. Mis à jour le 5 juillet 2020 [Consulté le 22 novembre 2021].}
+      \field{title}{Transform your excel data into a relational database: Symfony | Medium}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://ghaidabouchala.medium.com/import-excel-data-in-the-database-symfony-back-end-e14efea51cd2
+      \endverb
+      \verb{url}
+      \verb https://ghaidabouchala.medium.com/import-excel-data-in-the-database-symfony-back-end-e14efea51cd2
       \endverb
     \endentry
     \entry{doctrine}{online}{}
@@ -282,6 +190,32 @@
       \verb https://fr.reactjs.org/
       \endverb
     \endentry
+    \entry{flickity}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e562d70023fb231afeee412720415f8a}{%
+           family={Flickity},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{e562d70023fb231afeee412720415f8a}
+      \strng{fullhash}{e562d70023fb231afeee412720415f8a}
+      \strng{bibnamehash}{e562d70023fb231afeee412720415f8a}
+      \strng{authorbibnamehash}{e562d70023fb231afeee412720415f8a}
+      \strng{authornamehash}{e562d70023fb231afeee412720415f8a}
+      \strng{authorfullhash}{e562d70023fb231afeee412720415f8a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[en ligne]. Mis à jour le 19 décembre 2021 [Consulté le 2 décembre 2021].}
+      \field{title}{Flickity · Touch, responsive, flickable carousels}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://flickity.metafizzy.co/
+      \endverb
+      \verb{url}
+      \verb https://flickity.metafizzy.co/
+      \endverb
+    \endentry
     \entry{grafikart}{online}{}
       \name{author}{1}{}{%
         {{hash=31063f36a45fb4d0cc0ce44d93ddfb76}{%
@@ -306,6 +240,35 @@
       \endverb
       \verb{url}
       \verb https://grafikart.fr/
+      \endverb
+    \endentry
+    \entry{react-flickity-component}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=a57672a44c649e1b951244a9307542a1}{%
+           family={Lampert},
+           familyi={L\bibinitperiod},
+           given={Theo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a57672a44c649e1b951244a9307542a1}
+      \strng{fullhash}{a57672a44c649e1b951244a9307542a1}
+      \strng{bibnamehash}{a57672a44c649e1b951244a9307542a1}
+      \strng{authorbibnamehash}{a57672a44c649e1b951244a9307542a1}
+      \strng{authornamehash}{a57672a44c649e1b951244a9307542a1}
+      \strng{authorfullhash}{a57672a44c649e1b951244a9307542a1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{npm}
+      \field{note}{[en ligne]. Mis à jour le 30 août 2021 [Consulté le 8 novembre 2021].}
+      \field{title}{react-flickity-component - npm}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.npmjs.com/package/react-flickity-component
+      \endverb
+      \verb{url}
+      \verb https://www.npmjs.com/package/react-flickity-component
       \endverb
     \endentry
     \entry{symfonyDocs}{online}{}
@@ -388,32 +351,6 @@
       \endverb
       \verb{url}
       \verb https://select2.org/
-      \endverb
-    \endentry
-    \entry{crypto}{online}{}
-      \name{author}{1}{}{%
-        {{hash=030bd0fa2faebea3a5543e5242f1569f}{%
-           family={Wikipédia},
-           familyi={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{030bd0fa2faebea3a5543e5242f1569f}
-      \strng{fullhash}{030bd0fa2faebea3a5543e5242f1569f}
-      \strng{bibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
-      \strng{authorbibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
-      \strng{authornamehash}{030bd0fa2faebea3a5543e5242f1569f}
-      \strng{authorfullhash}{030bd0fa2faebea3a5543e5242f1569f}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{[En ligne; page disponible]}
-      \field{title}{Portail de Cryptologie}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://fr.wikipedia.org/wiki/Portail:Cryptologie
-      \endverb
-      \verb{url}
-      \verb https://fr.wikipedia.org/wiki/Portail:Cryptologie
       \endverb
     \endentry
   \enddatalist
