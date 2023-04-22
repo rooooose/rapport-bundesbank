@@ -1,85 +1,108 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.8.6)  3 JAN 2022 19:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  22 APR 2023 18:58
 entering extended mode
-**"c:/Users/Rose/Documents/UTT ISI/ISI3 Stage/Gaea21/Rapport de stage/Latex-rapport-UTT/rapportUTT.tex"
-(c:/Users/Rose/Documents/UTT ISI/ISI3 Stage/Gaea21/Rapport de stage/Latex-rapport-UTT/rapportUTT.tex
-LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-07-12> (rUTT.cls
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/Rose/Documents/UTT ISI/ISI6 ST10/Deutsche Bundesbank Data Science/rapport-bundesbank/rapportUTT.tex"
+(c:/Users/Rose/Documents/UTT ISI/ISI6 ST10/Deutsche Bundesbank Data Science/rapport-bundesbank/rapportUTT.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (rUTT.cls
 Document Class: rUTT 
 (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count182
-\c@section=\count183
-\c@subsection=\count184
-\c@subsubsection=\count185
-\c@paragraph=\count186
-\c@subparagraph=\count187
-\c@figure=\count188
-\c@table=\count189
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/emptypage\emptypage.sty
 Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty pages
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
+Package: setspace 2022/12/04 v6.7b set line spacing
 ) (src/packages/couleurs_UTT.sty
 Package: src/packages/couleurs_UTT 
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
-Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+Package: soul 2023-02-18 v3.0 Permit use of UTF-8 characters in soul (HO)
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul-ori.sty
+Package: soul-ori 2023-02-18 v3.0 letterspacing/underlining (mf)
 \SOUL@word=\toks16
 \SOUL@lasttoken=\toks17
-\SOUL@cmds=\toks18
-\SOUL@buffer=\toks19
-\SOUL@token=\toks20
-\SOUL@spaceskip=\skip49
-\SOUL@ttwidth=\dimen139
-\SOUL@uldp=\dimen140
-\SOUL@ulht=\dimen141
-)) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+\SOUL@syllable=\toks18
+\SOUL@cmds=\toks19
+\SOUL@buffer=\toks20
+\SOUL@token=\toks21
+\SOUL@syllgoal=\dimen141
+\SOUL@syllwidth=\dimen142
+\SOUL@charkern=\dimen143
+\SOUL@hyphkern=\dimen144
+\SOUL@dimen=\dimen145
+\SOUL@dimeni=\dimen146
+\SOUL@minus=\count193
+\SOUL@comma=\count194
+\SOUL@apo=\count195
+\SOUL@grave=\count196
+\SOUL@spaceskip=\skip50
+\SOUL@ttwidth=\dimen147
+\SOUL@uldp=\dimen148
+\SOUL@ulht=\dimen149
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)))) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks21
-\inpenc@posthook=\toks22
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/07/22 3.63 The Babel package
- (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2021/07/22 3.63 Babel common definitions
-\babel@savecnt=\count190
-\U@D=\dimen142
+Package: babel 2023/02/13 3.86 The Babel package
+\babel@savecnt=\count197
+\U@D=\dimen150
 \l@unhyphenated=\language79
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-)
-\bbl@dirlevel=\count191
+\bbl@dirlevel=\count198
 
 *************************************
 * Local config file bblopts.cfg used
 *
 (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+)
+Package babel Info: Main language set with 'main='. Except if you have
+(babel)             problems, prefer the default mechanism for setting
+(babel)             the main language. Reported on input line 4332.
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -88,56 +111,61 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.ldf
-Language: french 2021/07/20 v3.5m French support from the babel system
+Language: french 2023/03/08 v3.5q French support from the babel system
 Package babel Info: Hyphen rules for 'acadian' set to \l@french
 (babel)             (\language22). Reported on input line 91.
 Package babel Info: Hyphen rules for 'canadien' set to \l@french
 (babel)             (\language22). Reported on input line 92.
-\FB@nonchar=\count192
-Package babel Info: Making : an active character on input line 430.
-Package babel Info: Making ; an active character on input line 431.
-Package babel Info: Making ! an active character on input line 432.
-Package babel Info: Making ? an active character on input line 433.
-\FBguill@level=\count193
-\FBold@everypar=\toks23
-\FB@Mht=\dimen143
-\mc@charclass=\count194
-\mc@charfam=\count195
-\mc@charslot=\count196
-\std@mcc=\count197
-\dec@mcc=\count198
-\listindentFB=\dimen144
-\descindentFB=\dimen145
-\labelindentFB=\dimen146
-\labelwidthFB=\dimen147
-\leftmarginFB=\dimen148
-\parindentFFN=\dimen149
-\FBfnindent=\dimen150
-)) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks24
+\FB@nonchar=\count199
+Package babel Info: Making : an active character on input line 395.
+Package babel Info: Making ; an active character on input line 396.
+Package babel Info: Making ! an active character on input line 397.
+Package babel Info: Making ? an active character on input line 398.
+\FBguill@level=\count266
+\FBold@everypar=\toks24
+\FB@Mht=\dimen151
+\mc@charclass=\count267
+\mc@charfam=\count268
+\mc@charslot=\count269
+\std@mcc=\count270
+\dec@mcc=\count271
+\FB@parskip=\dimen152
+\listindentFB=\dimen153
+\descindentFB=\dimen154
+\labelindentFB=\dimen155
+\labelwidthFB=\dimen156
+\leftmarginFB=\dimen157
+\parindentFFN=\dimen158
+\FBfnindent=\dimen159
+)) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel-french.tex
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/datetime2\datetime2.sty
 Package: datetime2 2021/03/21 v1.5.7 (NLCT) date and time formats
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
-Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
+Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.tex)) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count199
+\etb@tempcnta=\count272
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks25
-\XKV@tempa@toks=\toks26
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
 )
-\XKV@depth=\count266
+\XKV@depth=\count273
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-french\datetime2-french.ldf
 File: datetime2-french.ldf 2020/09/21 v1.03
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
- (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-)) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-french\datetime2-french-ascii.ldf
 File: datetime2-french-ascii.ldf 2020/09/21 v1.03
@@ -146,89 +174,92 @@ File: datetime2-english.ldf 2019/10/21 v1.05 (NLCT)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-english\datetime2-english-base.ldf
 File: datetime2-english-base.ldf 2019/10/21 v1.05 (NLCT)
 ))) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
-Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
-\MT@toks=\toks27
-\MT@count=\count267
-LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen151
-LaTeX Info: Redefining \textmicrotypecontext on input line 1374.
-\MT@listname@count=\count268
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+\MT@toks=\toks28
+\MT@tempbox=\box51
+\MT@count=\count274
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks29
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen160
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count275
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
-File: microtype-pdftex.def 2021/03/14 v2.8c Definitions specific to pdftex (RS)
-LaTeX Info: Redefining \lsstyle on input line 915.
-LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip50
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip51
 )
 Package microtype Info: Loading configuration file microtype.cfg.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
-File: microtype.cfg 2021/03/14 v2.8c microtype main configuration file (RS)
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/floatrow\floatrow.sty
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen152
-\captionmargin@=\dimen153
-\captionwidth=\dimen154
-\caption@tempdima=\dimen155
-\caption@indent=\dimen156
-\caption@parindent=\dimen157
-\caption@hangindent=\dimen158
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen161
+\captionmargin=\dimen162
+\caption@leftmargin=\dimen163
+\caption@rightmargin=\dimen164
+\caption@width=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
 Package caption Info: Standard document class detected.
 Package caption Info: french babel package is loaded.
 )
-\c@float@type=\count269
-\float@exts=\toks28
-\float@box=\box50
-\@floatcapt=\box51
+\c@float@type=\count276
+\float@exts=\toks30
+\float@box=\box52
+\@floatcapt=\box53
 Package floatrow Info: Modified float package code loaded on input line 455.
 Package floatrow Info: Modified rotfloat package code loaded on input line 473.
-\FR@everyfloat=\toks29
+\FR@everyfloat=\toks31
 \flrow@foot=\insert252
-\FB@wd=\dimen159
-\FBo@wd=\dimen160
-\FBc@wd=\dimen161
-\FBo@ht=\skip51
-\FBc@ht=\skip52
-\FBf@ht=\skip53
-\FBo@max=\skip54
-\FBc@max=\skip55
-\FBf@max=\skip56
-\c@FBl@b=\count270
-\floatbox@depth=\count271
-\c@FRobj=\count272
-\c@FRsobj=\count273
-\Xhsize=\skip57
-\sXhsize=\skip58
-\Zhsize=\skip59
-\sZhsize=\skip60
-\flrow@rowbox=\box52
-\FR@Zunitlength=\dimen162
-\c@FBcnt=\count274
-\FPOScnt=\count275
-\LTleft=\skip61
-\LTright=\skip62
-\LTleft=\skip63
-\LTright=\skip64
-\flrow@types=\toks30
+\FB@wd=\dimen169
+\FBo@wd=\dimen170
+\FBc@wd=\dimen171
+\FBo@ht=\skip52
+\FBc@ht=\skip53
+\FBf@ht=\skip54
+\FBo@max=\skip55
+\FBc@max=\skip56
+\FBf@max=\skip57
+\c@FBl@b=\count277
+\floatbox@depth=\count278
+\c@FRobj=\count279
+\c@FRsobj=\count280
+\Xhsize=\skip58
+\sXhsize=\skip59
+\Zhsize=\skip60
+\sZhsize=\skip61
+\flrow@rowbox=\box54
+\FR@Zunitlength=\dimen172
+\c@FBcnt=\count281
+\FPOScnt=\count282
+\LTleft=\skip62
+\LTright=\skip63
+\LTleft=\skip64
+\LTright=\skip65
+\flrow@types=\toks32
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
@@ -239,169 +270,171 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count283
 )
-\@linkdim=\dimen163
-\Hy@linkcounter=\count276
-\Hy@pagecounter=\count277
+\@linkdim=\dimen173
+\Hy@linkcounter=\count284
+\Hy@pagecounter=\count285
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel languages
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count278
+\Hy@SavedSpaceFactor=\count286
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count279
-LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen164
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count287
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen174
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count280
-\Field@Width=\dimen165
-\Fld@charsize=\dimen166
-Package hyperref Info: Hyper figures OFF on input line 6076.
-Package hyperref Info: Link nesting OFF on input line 6081.
-Package hyperref Info: Hyper index ON on input line 6084.
-Package hyperref Info: backreferencing OFF on input line 6091.
-Package hyperref Info: Link coloring OFF on input line 6096.
-Package hyperref Info: Link coloring with OCG OFF on input line 6101.
-Package hyperref Info: PDF/A mode OFF on input line 6106.
-LaTeX Info: Redefining \ref on input line 6146.
-LaTeX Info: Redefining \pageref on input line 6150.
+\Fld@menulength=\count288
+\Field@Width=\dimen175
+\Fld@charsize=\dimen176
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count281
-\c@Item=\count282
-\c@Hfootnote=\count283
+\Hy@abspage=\count289
+\c@Item=\count290
+\c@Hfootnote=\count291
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count284
-\c@bookmark@seq@number=\count285
+\Fld@listcount=\count292
+\c@bookmark@seq@number=\count293
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip65
+\Hy@SectionHShift=\skip66
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count286
+\BKM@id=\count294
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 47.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip66
-\thanksmargin=\skip67
-\droptitle=\skip68
+\thanksmarkwidth=\skip67
+\thanksmargin=\skip68
+\droptitle=\skip69
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks31
-\AP@partial=\box53
-\AP@footins=\box54
+\AP@output=\toks33
+\AP@partial=\box55
+\AP@footins=\box56
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count287
-\c@Blindtext=\count288
-\c@blind@countparstart=\count289
-\blind@countxx=\count290
-\blindtext@numBlindtext=\count291
-\blind@countyy=\count292
-\c@blindlist=\count293
-\c@blindlistlevel=\count294
-\c@blindlist@level=\count295
-\blind@listitem=\count296
-\c@blind@listcount=\count297
-\c@blind@levelcount=\count298
-\blind@mathformula=\count299
-\blind@Mathformula=\count300
-\c@blind@randomcount=\count301
-\c@blind@randommax=\count302
-\c@blind@pangramcount=\count303
-\c@blind@pangrammax=\count304
+\c@blindtext=\count295
+\c@Blindtext=\count296
+\c@blind@countparstart=\count297
+\blind@countxx=\count298
+\blindtext@numBlindtext=\count299
+\blind@countyy=\count300
+\c@blindlist=\count301
+\c@blindlistlevel=\count302
+\c@blindlist@level=\count303
+\blind@listitem=\count304
+\c@blind@listcount=\count305
+\c@blind@levelcount=\count306
+\blind@mathformula=\count307
+\blind@Mathformula=\count308
+\c@blind@randomcount=\count309
+\c@blind@randommax=\count310
+\c@blind@pangramcount=\count311
+\c@blind@pangrammax=\count312
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen167
-\Gin@req@width=\dimen168
+\Gin@req@height=\dimen177
+\Gin@req@width=\dimen178
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
-Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
-Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box55
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box57
 )
-\tc@llx=\dimen169
-\tc@lly=\dimen170
-\tc@urx=\dimen171
-\tc@ury=\dimen172
+\tc@llx=\dimen179
+\tc@lly=\dimen180
+\tc@urx=\dimen181
+\tc@ury=\dimen182
 Package trimclip Info: Using driver 'tc-pdftex.def'.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen173
-\adjbox@Height=\dimen174
-\adjbox@Depth=\dimen175
-\adjbox@Totalheight=\dimen176
-\adjbox@pwidth=\dimen177
-\adjbox@pheight=\dimen178
-\adjbox@pdepth=\dimen179
-\adjbox@ptotalheight=\dimen180
+\adjbox@Width=\dimen183
+\adjbox@Height=\dimen184
+\adjbox@Depth=\dimen185
+\adjbox@Totalheight=\dimen186
+\adjbox@pwidth=\dimen187
+\adjbox@pheight=\dimen188
+\adjbox@pdepth=\dimen189
+\adjbox@ptotalheight=\dimen190
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
-Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count305
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count313
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box56
-\sift@deathcycles=\count306
-\@vwid@loff=\dimen181
-\@vwid@roff=\dimen182
+\@vwid@box=\box58
+\sift@deathcycles=\count314
+\@vwid@loff=\dimen191
+\@vwid@roff=\dimen192
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
@@ -409,7 +442,7 @@ Package: import 2020/04/01  v 6.2
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
@@ -443,156 +476,161 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/animate\animate.sty
-Package: animate 2021/06/11 PDF & SVG animations from files and inline graphics
+Package: animate 2022/09/15 PDF & SVG animations from files and inline graphics
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\ifdraft.sty
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count307
-\calc@Bcount=\count308
-\calc@Adimen=\dimen183
-\calc@Bdimen=\dimen184
-\calc@Askip=\skip69
-\calc@Bskip=\skip70
+\calc@Acount=\count315
+\calc@Bcount=\count316
+\calc@Adimen=\dimen193
+\calc@Bdimen=\dimen194
+\calc@Askip=\skip70
+\calc@Bskip=\skip71
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count309
-\calc@Cskip=\skip71
-) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
-Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
- (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
-Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
-Package zref Info: New property list: main on input line 764.
-Package zref Info: New property: default on input line 765.
-Package zref Info: New property: page on input line 766.
-)
-\c@abspage=\count310
-Package zref Info: New property: abspage on input line 66.
-) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/media9\pdfbase.sty (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-07-12 L3 programming layer (loader) 
+\calc@Ccount=\count317
+\calc@Cskip=\skip72
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/media9\pdfbase.sty
+Package: pdfbase 2022/08/04 v0.55 driver independent access to low-level PDF features
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count311
-\l__pdf_internal_box=\box57
-))
-Package: l3keys2e 2021-08-04 LaTeX2e option processing using LaTeX3 keys
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count318
+\l__pdf_internal_box=\box59
 )
-Package: pdfbase 2021/07/29 v0.50 driver independent access to low-level PDF features
-\g_pbs_page_int=\count312
-\g_pbs_oc_int=\count313
+\g_pbs_page_int=\count319
+\g_pbs_oc_int=\count320
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count321
+Package zref Info: New property: abspage on input line 65.
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/ocgx2\ocgbase.sty
-Package: ocgbase 2021/06/11 v0.20 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count314
+Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count322
 )
-\@anim@box=\box58
-\@anim@measbox=\box59
-\@anim@tmpdima=\dimen185
-\@anim@tmpdimb=\dimen186
-\@anim@num=\count315
-\@anim@curframe=\count316
-\@anim@curframe@zb=\count317
-\@anim@resizeflags=\count318
-\@anim@skipfram=\count319
-\@anim@mulframecnt=\count320
+\@anim@box=\box60
+\@anim@measbox=\box61
+\@anim@tmpdima=\dimen195
+\@anim@tmpdimb=\dimen196
+\@anim@num=\count323
+\@anim@curframe=\count324
+\@anim@curframe@zb=\count325
+\@anim@resizeflags=\count326
+\@anim@skipfram=\count327
+\@anim@mulframecnt=\count328
 \@anim@@tmlnfile=\read3
-\@anim@tmpcnt=\count321
-\c@@anim@ltxcnt=\count322
-\@anim@curlayer=\count323
-\@anim@lineno=\count324
-\@anim@curfield=\count325
-\@anim@@resizeflags=\count326
+\@anim@tmpcnt=\count329
+\c@@anim@ltxcnt=\count330
+\@anim@curlayer=\count331
+\@anim@lineno=\count332
+\@anim@curfield=\count333
+\@anim@@resizeflags=\count334
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/04/20 v2.17j AMS math features
-\@mathmargin=\skip72
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip73
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+Package: amstext 2021/08/26 v2.01 AMS text
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks32
-\ex@=\dimen187
+\@emptytoks=\toks34
+\ex@=\dimen197
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen188
+\pmbraise@=\dimen198
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count327
+\inf@bad=\count335
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count328
-\leftroot@=\count329
+\uproot@=\count336
+\leftroot@=\count337
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count330
-\DOTSCASE@=\count331
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count338
+\DOTSCASE@=\count339
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box60
-\strutbox@=\box61
-\big@size=\dimen189
+\Mathstrutbox@=\box62
+\strutbox@=\box63
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen199
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count332
-\c@MaxMatrixCols=\count333
+\macc@depth=\count340
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count341
 \dotsspace@=\muskip17
-\c@parentequation=\count334
-\dspbrk@lvl=\count335
-\tag@help=\toks33
-\row@=\count336
-\column@=\count337
-\maxfields@=\count338
-\andhelp@=\toks34
-\eqnshift@=\dimen190
-\alignsep@=\dimen191
-\tagshift@=\dimen192
-\tagwidth@=\dimen193
-\totwidth@=\dimen194
-\lineht@=\dimen195
-\@envbody=\toks35
-\multlinegap=\skip73
-\multlinetaggap=\skip74
-\mathdisplay@stack=\toks36
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
+\c@parentequation=\count342
+\dspbrk@lvl=\count343
+\tag@help=\toks35
+\row@=\count344
+\column@=\count345
+\maxfields@=\count346
+\andhelp@=\toks36
+\eqnshift@=\dimen256
+\alignsep@=\dimen257
+\tagshift@=\dimen258
+\tagwidth@=\dimen259
+\totwidth@=\dimen260
+\lineht@=\dimen261
+\@envbody=\toks37
+\multlinegap=\skip74
+\multlinetaggap=\skip75
+\mathdisplay@stack=\toks38
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
-\UL@box=\box62
-\UL@hyphenbox=\box63
-\UL@skip=\skip75
-\UL@hook=\toks37
-\UL@height=\dimen196
-\UL@pe=\count339
-\UL@pixel=\dimen197
-\ULC@box=\box64
+\UL@box=\box64
+\UL@hyphenbox=\box65
+\UL@skip=\skip76
+\UL@hook=\toks39
+\UL@height=\dimen262
+\UL@pe=\count347
+\UL@pixel=\dimen263
+\ULC@box=\box66
 Package: ulem 2019/11/18
-\ULdepth=\dimen198
+\ULdepth=\dimen264
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
-Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count340
-\mult@box=\box65
-\multicol@leftmargin=\dimen199
-\c@unbalance=\count341
-\c@collectmore=\count342
-\doublecol@number=\count343
-\multicoltolerance=\count344
-\multicolpretolerance=\count345
-\full@width=\dimen256
-\page@free=\dimen257
-\premulticols=\dimen258
-\postmulticols=\dimen259
-\multicolsep=\skip76
-\multicolbaselineskip=\skip77
-\partial@page=\box66
-\last@line=\box67
-\maxbalancingoverflow=\dimen260
-\mult@rightbox=\box68
-\mult@grightbox=\box69
-\mult@gfirstbox=\box70
-\mult@firstbox=\box71
-\@tempa=\box72
-\@tempa=\box73
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count348
+\mult@box=\box67
+\multicol@leftmargin=\dimen265
+\c@unbalance=\count349
+\c@collectmore=\count350
+\doublecol@number=\count351
+\multicoltolerance=\count352
+\multicolpretolerance=\count353
+\full@width=\dimen266
+\page@free=\dimen267
+\premulticols=\dimen268
+\postmulticols=\dimen269
+\multicolsep=\skip77
+\multicolbaselineskip=\skip78
+\partial@page=\box68
+\last@line=\box69
+\maxbalancingoverflow=\dimen270
+\mult@rightbox=\box70
+\mult@grightbox=\box71
+\mult@firstbox=\box72
+\mult@gfirstbox=\box73
 \@tempa=\box74
 \@tempa=\box75
 \@tempa=\box76
@@ -628,113 +666,115 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box106
 \@tempa=\box107
 \@tempa=\box108
-\c@minrows=\count346
-\c@columnbadness=\count347
-\c@finalcolumnbadness=\count348
-\last@try=\dimen261
-\multicolovershoot=\dimen262
-\multicolundershoot=\dimen263
-\mult@nat@firstbox=\box109
-\colbreak@box=\box110
-\mc@col@check@num=\count349
+\@tempa=\box109
+\c@minrows=\count354
+\c@columnbadness=\count355
+\c@finalcolumnbadness=\count356
+\last@try=\dimen271
+\multicolovershoot=\dimen272
+\multicolundershoot=\dimen273
+\mult@nat@firstbox=\box110
+\colbreak@box=\box111
+\mc@col@check@num=\count357
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip78
-\multirow@cntb=\count350
-\multirow@dima=\skip79
-\bigstrutjot=\dimen264
+\multirow@colwidth=\skip79
+\multirow@cntb=\count358
+\multirow@dima=\skip80
+\bigstrutjot=\dimen274
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
-Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
-\LTleft=\skip80
-\LTright=\skip81
-\LTpre=\skip82
-\LTpost=\skip83
-\LTchunksize=\count351
-\LTcapwidth=\dimen265
-\LT@head=\box111
-\LT@firsthead=\box112
-\LT@foot=\box113
-\LT@lastfoot=\box114
-\LT@gbox=\box115
-\LT@cols=\count352
-\LT@rows=\count353
-\c@LT@tables=\count354
-\c@LT@chunks=\count355
-\LT@p@ftn=\toks38
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip81
+\LTright=\skip82
+\LTpre=\skip83
+\LTpost=\skip84
+\LTchunksize=\count359
+\LTcapwidth=\dimen275
+\LT@head=\box112
+\LT@firsthead=\box113
+\LT@foot=\box114
+\LT@lastfoot=\box115
+\LT@gbox=\box116
+\LT@cols=\count360
+\LT@rows=\count361
+\c@LT@tables=\count362
+\c@LT@chunks=\count363
+\LT@p@ftn=\toks40
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen266
-\lightrulewidth=\dimen267
-\cmidrulewidth=\dimen268
-\belowrulesep=\dimen269
-\belowbottomsep=\dimen270
-\aboverulesep=\dimen271
-\abovetopsep=\dimen272
-\cmidrulesep=\dimen273
-\cmidrulekern=\dimen274
-\defaultaddspace=\dimen275
-\@cmidla=\count356
-\@cmidlb=\count357
-\@aboverulesep=\dimen276
-\@belowrulesep=\dimen277
-\@thisruleclass=\count358
-\@lastruleclass=\count359
-\@thisrulewidth=\dimen278
+\heavyrulewidth=\dimen276
+\lightrulewidth=\dimen277
+\cmidrulewidth=\dimen278
+\belowrulesep=\dimen279
+\belowbottomsep=\dimen280
+\aboverulesep=\dimen281
+\abovetopsep=\dimen282
+\cmidrulesep=\dimen283
+\cmidrulekern=\dimen284
+\defaultaddspace=\dimen285
+\@cmidla=\count364
+\@cmidlb=\count365
+\@aboverulesep=\dimen286
+\@belowrulesep=\dimen287
+\@thisruleclass=\count366
+\@lastruleclass=\count367
+\@thisrulewidth=\dimen288
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
-Package: siunitx 2021-08-04 v3.0.24 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen279
-\l__siunitx_angle_marker_box=\box116
-\l__siunitx_angle_unit_box=\box117
-\l__siunitx_compound_count_int=\count360
+Package: siunitx 2023-03-14 v3.2.3 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen289
+\l__siunitx_angle_marker_box=\box117
+\l__siunitx_angle_unit_box=\box118
+\l__siunitx_compound_count_int=\count368
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
-Package: translations 2021/01/17 v1.10a internationalization of LaTeX2e packages (CN)
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )
-\l__siunitx_number_exponent_fixed_int=\count361
-\l__siunitx_number_min_decimal_int=\count362
-\l__siunitx_number_min_integer_int=\count363
-\l__siunitx_number_round_precision_int=\count364
-\l__siunitx_number_group_minimum_int=\count365
-\l__siunitx_table_tmp_box=\box118
-\l__siunitx_table_tmp_dim=\dimen280
-\l__siunitx_table_column_width_dim=\dimen281
-\l__siunitx_table_integer_box=\box119
-\l__siunitx_table_decimal_box=\box120
-\l__siunitx_table_before_box=\box121
-\l__siunitx_table_after_box=\box122
-\l__siunitx_table_before_dim=\dimen282
-\l__siunitx_table_carry_dim=\dimen283
-\l__siunitx_unit_tmp_int=\count366
-\l__siunitx_unit_position_int=\count367
-\l__siunitx_unit_total_int=\count368
+\l__siunitx_number_exponent_fixed_int=\count369
+\l__siunitx_number_min_decimal_int=\count370
+\l__siunitx_number_min_integer_int=\count371
+\l__siunitx_number_round_precision_int=\count372
+\l__siunitx_number_lower_threshold_int=\count373
+\l__siunitx_number_upper_threshold_int=\count374
+\l__siunitx_number_group_first_int=\count375
+\l__siunitx_number_group_size_int=\count376
+\l__siunitx_number_group_minimum_int=\count377
+\l__siunitx_table_tmp_box=\box119
+\l__siunitx_table_tmp_dim=\dimen290
+\l__siunitx_table_column_width_dim=\dimen291
+\l__siunitx_table_integer_box=\box120
+\l__siunitx_table_decimal_box=\box121
+\l__siunitx_table_uncert_box=\box122
+\l__siunitx_table_before_box=\box123
+\l__siunitx_table_after_box=\box124
+\l__siunitx_table_before_dim=\dimen292
+\l__siunitx_table_carry_dim=\dimen293
+\l__siunitx_unit_tmp_int=\count378
+\l__siunitx_unit_position_int=\count379
+\l__siunitx_unit_total_int=\count380
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen284
-\ar@mcellbox=\box123
-\extrarowheight=\dimen285
-\NC@list=\toks39
-\extratabsurround=\skip84
-\backup@length=\skip85
-\ar@cellbox=\box124
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen294
+\ar@mcellbox=\box125
+\extrarowheight=\dimen295
+\NC@list=\toks41
+\extratabsurround=\skip85
+\backup@length=\skip86
+\ar@cellbox=\box126
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
-Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count369
-\l_MT_multwidth_dim=\dimen286
-\origjot=\skip86
-\l_MT_shortvdotswithinadjustabove_dim=\dimen287
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen288
-\l_MT_above_intertext_sep=\dimen289
-\l_MT_below_intertext_sep=\dimen290
-\l_MT_above_shortintertext_sep=\dimen291
-\l_MT_below_shortintertext_sep=\dimen292
-\xmathstrut@box=\box125
-\xmathstrut@dim=\dimen293
+\g_MT_multlinerow_int=\count381
+\l_MT_multwidth_dim=\dimen296
+\origjot=\skip87
+\l_MT_shortvdotswithinadjustabove_dim=\dimen297
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen298
+\l_MT_above_intertext_sep=\dimen299
+\l_MT_below_intertext_sep=\dimen300
+\l_MT_above_shortintertext_sep=\dimen301
+\l_MT_below_shortintertext_sep=\dimen302
+\xmathstrut@box=\box127
+\xmathstrut@dim=\dimen303
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
@@ -745,198 +785,197 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
-Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
-Package: todonotes 2021/06/04
+Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
+Package: todonotes 2023/01/31
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks40
-\pgfutil@tempdima=\dimen294
-\pgfutil@tempdimb=\dimen295
- (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box126
+\pgfutil@everybye=\toks42
+\pgfutil@tempdima=\dimen304
+\pgfutil@tempdimb=\dimen305
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box128
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
-Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
-Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks41
-\pgfkeys@temptoks=\toks42
- (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks43
+\pgfkeys@pathtoks=\toks43
+\pgfkeys@temptoks=\toks44
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks45
 ))
-\pgf@x=\dimen296
-\pgf@y=\dimen297
-\pgf@xa=\dimen298
-\pgf@ya=\dimen299
-\pgf@xb=\dimen300
-\pgf@yb=\dimen301
-\pgf@xc=\dimen302
-\pgf@yc=\dimen303
-\pgf@xd=\dimen304
-\pgf@yd=\dimen305
+\pgf@x=\dimen306
+\pgf@y=\dimen307
+\pgf@xa=\dimen308
+\pgf@ya=\dimen309
+\pgf@xb=\dimen310
+\pgf@yb=\dimen311
+\pgf@xc=\dimen312
+\pgf@yc=\dimen313
+\pgf@xd=\dimen314
+\pgf@yd=\dimen315
 \w@pgf@writea=\write3
 \r@pgf@reada=\read4
-\c@pgf@counta=\count370
-\c@pgf@countb=\count371
-\c@pgf@countc=\count372
-\c@pgf@countd=\count373
-\t@pgf@toka=\toks44
-\t@pgf@tokb=\toks45
-\t@pgf@tokc=\toks46
-\pgf@sys@id@count=\count374
+\c@pgf@counta=\count382
+\c@pgf@countb=\count383
+\c@pgf@countc=\count384
+\c@pgf@countd=\count385
+\t@pgf@toka=\toks46
+\t@pgf@tokb=\toks47
+\t@pgf@tokc=\toks48
+\pgf@sys@id@count=\count386
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
-File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count375
-\pgfsyssoftpath@bigbuffer@items=\count376
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count387
+\pgfsyssoftpath@bigbuffer@items=\count388
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
-Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen306
-\pgfmath@count=\count377
-\pgfmath@box=\box127
-\pgfmath@toks=\toks47
-\pgfmath@stack@operand=\toks48
-\pgfmath@stack@operation=\toks49
-) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count378
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen316
+\pgfmath@count=\count389
+\pgfmath@box=\box129
+\pgfmath@toks=\toks49
+\pgfmath@stack@operand=\toks50
+\pgfmath@stack@operation=\toks51
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count390
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen307
-\pgf@picmaxx=\dimen308
-\pgf@picminy=\dimen309
-\pgf@picmaxy=\dimen310
-\pgf@pathminx=\dimen311
-\pgf@pathmaxx=\dimen312
-\pgf@pathminy=\dimen313
-\pgf@pathmaxy=\dimen314
-\pgf@xx=\dimen315
-\pgf@xy=\dimen316
-\pgf@yx=\dimen317
-\pgf@yy=\dimen318
-\pgf@zx=\dimen319
-\pgf@zy=\dimen320
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen317
+\pgf@picmaxx=\dimen318
+\pgf@picminy=\dimen319
+\pgf@picmaxy=\dimen320
+\pgf@pathminx=\dimen321
+\pgf@pathmaxx=\dimen322
+\pgf@pathminy=\dimen323
+\pgf@pathmaxy=\dimen324
+\pgf@xx=\dimen325
+\pgf@xy=\dimen326
+\pgf@yx=\dimen327
+\pgf@yy=\dimen328
+\pgf@zx=\dimen329
+\pgf@zy=\dimen330
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen321
-\pgf@path@lasty=\dimen322
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen331
+\pgf@path@lasty=\dimen332
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen323
-\pgf@shorten@start@additional=\dimen324
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen333
+\pgf@shorten@start@additional=\dimen334
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box128
-\pgf@hbox=\box129
-\pgf@layerbox@main=\box130
-\pgf@picture@serial@count=\count379
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box130
+\pgf@hbox=\box131
+\pgf@layerbox@main=\box132
+\pgf@picture@serial@count=\count391
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen325
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen335
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen326
-\pgf@pt@y=\dimen327
-\pgf@pt@temp=\dimen328
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen336
+\pgf@pt@y=\dimen337
+\pgf@pt@temp=\dimen338
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen329
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen339
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen330
-\pgf@sys@shading@range@num=\count380
-\pgf@shadingcount=\count381
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen340
+\pgf@sys@shading@range@num=\count392
+\pgf@shadingcount=\count393
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box131
-)) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box133
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box132
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box134
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen331
-\pgf@nodesepend=\dimen332
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen341
+\pgf@nodesepend=\dimen342
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
-Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
-\pgffor@iter=\dimen333
-\pgffor@skip=\dimen334
-\pgffor@stack=\toks50
-\pgffor@toks=\toks51
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen343
+\pgffor@skip=\dimen344
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
-Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count382
-\pgfplotmarksize=\dimen335
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count394
+\pgfplotmarksize=\dimen345
 )
-\tikz@lastx=\dimen336
-\tikz@lasty=\dimen337
-\tikz@lastxsaved=\dimen338
-\tikz@lastysaved=\dimen339
-\tikz@lastmovetox=\dimen340
-\tikz@lastmovetoy=\dimen341
-\tikzleveldistance=\dimen342
-\tikzsiblingdistance=\dimen343
-\tikz@figbox=\box133
-\tikz@figbox@bg=\box134
-\tikz@tempbox=\box135
-\tikz@tempbox@bg=\box136
-\tikztreelevel=\count383
-\tikznumberofchildren=\count384
-\tikznumberofcurrentchild=\count385
-\tikz@fig@count=\count386
+\tikz@lastx=\dimen346
+\tikz@lasty=\dimen347
+\tikz@lastxsaved=\dimen348
+\tikz@lastysaved=\dimen349
+\tikz@lastmovetox=\dimen350
+\tikz@lastmovetoy=\dimen351
+\tikzleveldistance=\dimen352
+\tikzsiblingdistance=\dimen353
+\tikz@figbox=\box135
+\tikz@figbox@bg=\box136
+\tikz@tempbox=\box137
+\tikz@tempbox@bg=\box138
+\tikztreelevel=\count395
+\tikznumberofchildren=\count396
+\tikznumberofcurrentchild=\count397
+\tikz@fig@count=\count398
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count387
-\pgfmatrixcurrentcolumn=\count388
-\pgf@matrix@numberofcolumns=\count389
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count399
+\pgfmatrixcurrentcolumn=\count400
+\pgf@matrix@numberofcolumns=\count401
 )
-\tikz@expandcount=\count390
+\tikz@expandcount=\count402
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\c@@todonotes@numberoftodonotes=\count391
+\c@@todonotes@numberoftodonotes=\count403
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip87
-\enit@outerparindent=\dimen344
-\enit@toks=\toks52
-\enit@inbox=\box137
-\enit@count@id=\count392
-\enitdp@description=\count393
+\labelindent=\skip88
+\enit@outerparindent=\dimen354
+\enit@toks=\toks54
+\enit@inbox=\box139
+\enit@count@id=\count404
+\enitdp@description=\count405
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
@@ -947,198 +986,199 @@ LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count394
+\lrq@indent=\count406
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count395
-\c@listtotal=\count396
-\c@listcount=\count397
-\c@liststart=\count398
-\c@liststop=\count399
-\c@citecount=\count400
-\c@citetotal=\count401
-\c@multicitecount=\count402
-\c@multicitetotal=\count403
-\c@instcount=\count404
-\c@maxnames=\count405
-\c@minnames=\count406
-\c@maxitems=\count407
-\c@minitems=\count408
-\c@citecounter=\count409
-\c@maxcitecounter=\count410
-\c@savedcitecounter=\count411
-\c@uniquelist=\count412
-\c@uniquename=\count413
-\c@refsection=\count414
-\c@refsegment=\count415
-\c@maxextratitle=\count416
-\c@maxextratitleyear=\count417
-\c@maxextraname=\count418
-\c@maxextradate=\count419
-\c@maxextraalpha=\count420
-\c@abbrvpenalty=\count421
-\c@highnamepenalty=\count422
-\c@lownamepenalty=\count423
-\c@maxparens=\count424
-\c@parenlevel=\count425
-\blx@tempcnta=\count426
-\blx@tempcntb=\count427
-\blx@tempcntc=\count428
-\blx@maxsection=\count429
-\blx@maxsegment@0=\count430
-\blx@notetype=\count431
-\blx@parenlevel@text=\count432
-\blx@parenlevel@foot=\count433
-\blx@sectionciteorder@0=\count434
-\blx@entrysetcounter=\count435
-\blx@biblioinstance=\count436
-\labelnumberwidth=\skip88
-\labelalphawidth=\skip89
-\biblabelsep=\skip90
-\bibitemsep=\skip91
-\bibnamesep=\skip92
-\bibinitsep=\skip93
-\bibparsep=\skip94
-\bibhang=\skip95
+\c@tabx@nest=\count407
+\c@listtotal=\count408
+\c@listcount=\count409
+\c@liststart=\count410
+\c@liststop=\count411
+\c@citecount=\count412
+\c@citetotal=\count413
+\c@multicitecount=\count414
+\c@multicitetotal=\count415
+\c@instcount=\count416
+\c@maxnames=\count417
+\c@minnames=\count418
+\c@maxitems=\count419
+\c@minitems=\count420
+\c@citecounter=\count421
+\c@maxcitecounter=\count422
+\c@savedcitecounter=\count423
+\c@uniquelist=\count424
+\c@uniquename=\count425
+\c@refsection=\count426
+\c@refsegment=\count427
+\c@maxextratitle=\count428
+\c@maxextratitleyear=\count429
+\c@maxextraname=\count430
+\c@maxextradate=\count431
+\c@maxextraalpha=\count432
+\c@abbrvpenalty=\count433
+\c@highnamepenalty=\count434
+\c@lownamepenalty=\count435
+\c@maxparens=\count436
+\c@parenlevel=\count437
+\blx@tempcnta=\count438
+\blx@tempcntb=\count439
+\blx@tempcntc=\count440
+\c@blx@maxsection=\count441
+\blx@maxsegment@0=\count442
+\blx@notetype=\count443
+\blx@parenlevel@text=\count444
+\blx@parenlevel@foot=\count445
+\blx@sectionciteorder@0=\count446
+\blx@sectionciteorderinternal@0=\count447
+\blx@entrysetcounter=\count448
+\blx@biblioinstance=\count449
+\labelnumberwidth=\skip89
+\labelalphawidth=\skip90
+\biblabelsep=\skip91
+\bibitemsep=\skip92
+\bibnamesep=\skip93
+\bibinitsep=\skip94
+\bibparsep=\skip95
+\bibhang=\skip96
 \blx@bcfin=\read5
 \blx@bcfout=\write4
 \blx@langwohyphens=\language80
-\c@mincomprange=\count437
-\c@maxcomprange=\count438
-\c@mincompwidth=\count439
+\c@mincomprange=\count450
+\c@maxcomprange=\count451
+\c@mincompwidth=\count452
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count440
-\c@savedafterword=\count441
-\c@annotator=\count442
-\c@savedannotator=\count443
-\c@author=\count444
-\c@savedauthor=\count445
-\c@bookauthor=\count446
-\c@savedbookauthor=\count447
-\c@commentator=\count448
-\c@savedcommentator=\count449
-\c@editor=\count450
-\c@savededitor=\count451
-\c@editora=\count452
-\c@savededitora=\count453
-\c@editorb=\count454
-\c@savededitorb=\count455
-\c@editorc=\count456
-\c@savededitorc=\count457
-\c@foreword=\count458
-\c@savedforeword=\count459
-\c@holder=\count460
-\c@savedholder=\count461
-\c@introduction=\count462
-\c@savedintroduction=\count463
-\c@namea=\count464
-\c@savednamea=\count465
-\c@nameb=\count466
-\c@savednameb=\count467
-\c@namec=\count468
-\c@savednamec=\count469
-\c@translator=\count470
-\c@savedtranslator=\count471
-\c@shortauthor=\count472
-\c@savedshortauthor=\count473
-\c@shorteditor=\count474
-\c@savedshorteditor=\count475
-\c@labelname=\count476
-\c@savedlabelname=\count477
-\c@institution=\count478
-\c@savedinstitution=\count479
-\c@lista=\count480
-\c@savedlista=\count481
-\c@listb=\count482
-\c@savedlistb=\count483
-\c@listc=\count484
-\c@savedlistc=\count485
-\c@listd=\count486
-\c@savedlistd=\count487
-\c@liste=\count488
-\c@savedliste=\count489
-\c@listf=\count490
-\c@savedlistf=\count491
-\c@location=\count492
-\c@savedlocation=\count493
-\c@organization=\count494
-\c@savedorganization=\count495
-\c@origlocation=\count496
-\c@savedoriglocation=\count497
-\c@origpublisher=\count498
-\c@savedorigpublisher=\count499
-\c@publisher=\count500
-\c@savedpublisher=\count501
-\c@language=\count502
-\c@savedlanguage=\count503
-\c@origlanguage=\count504
-\c@savedoriglanguage=\count505
-\c@pageref=\count506
-\c@savedpageref=\count507
-\shorthandwidth=\skip96
-\shortjournalwidth=\skip97
-\shortserieswidth=\skip98
-\shorttitlewidth=\skip99
-\shortauthorwidth=\skip100
-\shorteditorwidth=\skip101
-\locallabelnumberwidth=\skip102
-\locallabelalphawidth=\skip103
-\localshorthandwidth=\skip104
-\localshortjournalwidth=\skip105
-\localshortserieswidth=\skip106
-\localshorttitlewidth=\skip107
-\localshortauthorwidth=\skip108
-\localshorteditorwidth=\skip109
+\c@afterword=\count453
+\c@savedafterword=\count454
+\c@annotator=\count455
+\c@savedannotator=\count456
+\c@author=\count457
+\c@savedauthor=\count458
+\c@bookauthor=\count459
+\c@savedbookauthor=\count460
+\c@commentator=\count461
+\c@savedcommentator=\count462
+\c@editor=\count463
+\c@savededitor=\count464
+\c@editora=\count465
+\c@savededitora=\count466
+\c@editorb=\count467
+\c@savededitorb=\count468
+\c@editorc=\count469
+\c@savededitorc=\count470
+\c@foreword=\count471
+\c@savedforeword=\count472
+\c@holder=\count473
+\c@savedholder=\count474
+\c@introduction=\count475
+\c@savedintroduction=\count476
+\c@namea=\count477
+\c@savednamea=\count478
+\c@nameb=\count479
+\c@savednameb=\count480
+\c@namec=\count481
+\c@savednamec=\count482
+\c@translator=\count483
+\c@savedtranslator=\count484
+\c@shortauthor=\count485
+\c@savedshortauthor=\count486
+\c@shorteditor=\count487
+\c@savedshorteditor=\count488
+\c@labelname=\count489
+\c@savedlabelname=\count490
+\c@institution=\count491
+\c@savedinstitution=\count492
+\c@lista=\count493
+\c@savedlista=\count494
+\c@listb=\count495
+\c@savedlistb=\count496
+\c@listc=\count497
+\c@savedlistc=\count498
+\c@listd=\count499
+\c@savedlistd=\count500
+\c@liste=\count501
+\c@savedliste=\count502
+\c@listf=\count503
+\c@savedlistf=\count504
+\c@location=\count505
+\c@savedlocation=\count506
+\c@organization=\count507
+\c@savedorganization=\count508
+\c@origlocation=\count509
+\c@savedoriglocation=\count510
+\c@origpublisher=\count511
+\c@savedorigpublisher=\count512
+\c@publisher=\count513
+\c@savedpublisher=\count514
+\c@language=\count515
+\c@savedlanguage=\count516
+\c@origlanguage=\count517
+\c@savedoriglanguage=\count518
+\c@pageref=\count519
+\c@savedpageref=\count520
+\shorthandwidth=\skip97
+\shortjournalwidth=\skip98
+\shortserieswidth=\skip99
+\shorttitlewidth=\skip100
+\shortauthorwidth=\skip101
+\shorteditorwidth=\skip102
+\locallabelnumberwidth=\skip103
+\locallabelalphawidth=\skip104
+\localshorthandwidth=\skip105
+\localshortjournalwidth=\skip106
+\localshortserieswidth=\skip107
+\localshorttitlewidth=\skip108
+\localshortauthorwidth=\skip109
+\localshorteditorwidth=\skip110
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count508
-\c@textcitetotal=\count509
-\c@textcitemaxnames=\count510
-\c@biburlbigbreakpenalty=\count511
-\c@biburlbreakpenalty=\count512
-\c@biburlnumpenalty=\count513
-\c@biburlucpenalty=\count514
-\c@biburllcpenalty=\count515
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count521
+\c@textcitetotal=\count522
+\c@textcitemaxnames=\count523
+\c@biburlbigbreakpenalty=\count524
+\c@biburlbreakpenalty=\count525
+\c@biburlnumpenalty=\count526
+\c@biburlucpenalty=\count527
+\c@biburllcpenalty=\count528
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count516
+\c@smartand=\count529
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
-File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
-File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count517
-\c@bbx:relatedtotal=\count518
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count530
+\c@bbx:relatedtotal=\count531
 ))
 Package biblatex Info: Trying to load citation style 'verbose'...
 Package biblatex Info: ... file 'verbose.cbx' found.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\verbose.cbx
-File: verbose.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+File: verbose.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1151,141 +1191,159 @@ Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-02-22 L3 programming layer (loader) 
+)
+Package biblatex Info: ... and expl3
+(biblatex)             2023-02-22 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2023-01-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count519
-\rotFPtop=\skip110
-\rotFPbot=\skip111
-\rot@float@box=\box138
-\rot@mess@toks=\toks53
+\c@r@tfl@t=\count532
+\rotFPtop=\skip111
+\rotFPbot=\skip112
+\rot@float@box=\box140
+\rot@mess@toks=\toks55
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
-Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
-\c@caption@flags=\count520
-\c@continuedfloat=\count521
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+\c@caption@flags=\count533
+\c@continuedfloat=\count534
 Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
-Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 )
-\c@subfigure=\count522
-\c@subtable=\count523
+Package caption Info: New subtype `subfigure' on input line 239.
+\c@subfigure=\count535
+Package caption Info: New subtype `subtable' on input line 239.
+\c@subtable=\count536
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/textpos\textpos.sty
-Package: textpos 2020/09/26 v1.10
+Package: textpos 2022/07/23 v1.10.1
+Package textpos Info: choosing support for LaTeX3 on input line 60.
+\TP@textbox=\box141
+\TP@holdbox=\box142
+\TPHorizModule=\dimen355
+\TPVertModule=\dimen356
+\TP@margin=\dimen357
+\TP@absmargin=\dimen358
 
-Package: textpos 2020/09/26 1.10, absolute positioning of text on the page
-Package textpos Info: choosing support for LaTeX3 on input line 61.
-\TP@textbox=\box139
-\TP@holdbox=\box140
-\TPHorizModule=\dimen345
-\TPVertModule=\dimen346
-\TP@margin=\dimen347
-\TP@absmargin=\dimen348
 Grid set 16 x 16 = 37.34424pt x 52.81541pt
-\TPboxrulesize=\dimen349
-\TP@ox=\dimen350
-\TP@oy=\dimen351
-\TP@tbargs=\toks54
+\TPboxrulesize=\dimen359
+\TP@ox=\dimen360
+\TP@oy=\dimen361
+\TP@tbargs=\toks56
 TextBlockOrigin set to 0pt x 0pt
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
-Package: ragged2e 2021/02/05 v3.0 ragged2e Package
-\CenteringLeftskip=\skip112
-\RaggedLeftLeftskip=\skip113
-\RaggedRightLeftskip=\skip114
-\CenteringRightskip=\skip115
-\RaggedLeftRightskip=\skip116
-\RaggedRightRightskip=\skip117
-\CenteringParfillskip=\skip118
-\RaggedLeftParfillskip=\skip119
-\RaggedRightParfillskip=\skip120
-\JustifyingParfillskip=\skip121
-\CenteringParindent=\skip122
-\RaggedLeftParindent=\skip123
-\RaggedRightParindent=\skip124
-\JustifyingParindent=\skip125
+Package: ragged2e 2023/02/25 v3.4 ragged2e Package
+\CenteringLeftskip=\skip113
+\RaggedLeftLeftskip=\skip114
+\RaggedRightLeftskip=\skip115
+\CenteringRightskip=\skip116
+\RaggedLeftRightskip=\skip117
+\RaggedRightRightskip=\skip118
+\CenteringParfillskip=\skip119
+\RaggedLeftParfillskip=\skip120
+\RaggedRightParfillskip=\skip121
+\JustifyingParfillskip=\skip122
+\CenteringParindent=\skip123
+\RaggedLeftParindent=\skip124
+\RaggedRightParindent=\skip125
+\JustifyingParindent=\skip126
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/frankenstein\dialogue.sty
 Package: dialogue 1999/03/01 v1.1 dialogue environment (Frankenstein's mouth)
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/frankenstein\blkcntrl.sty
 Package: blkcntrl 2001/08/31 v1.2 block control
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/frankenstein\moredefs.sty
 Package: moredefs 2001/08/31 v1.8 more defining commands (Frankenstein's brain)
-\sc@toks@a=\toks55
-\sc@toks@b=\toks56
+\sc@toks@a=\toks57
+\sc@toks@b=\toks58
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 ))) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/quoting\quoting.sty
 Package: quoting 2014/01/28 v0.1c Consolidated environment for displayed text
-\quo@toppartop=\skip126
+\quo@toppartop=\skip127
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/epigraph\epigraph.sty
 Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/nextpage\nextpage.sty
 Package: nextpage 2009/09/03 v1.1a additional page commands
 )
-\beforeepigraphskip=\skip127
-\afterepigraphskip=\skip128
-\epigraphwidth=\skip129
-\epigraphrule=\skip130
+\beforeepigraphskip=\skip128
+\afterepigraphskip=\skip129
+\epigraphwidth=\skip130
+\epigraphrule=\skip131
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/minted\minted.sty
-Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+Package: minted 2022/12/12 v2.7 Yet another Pygments shim for LaTeX
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/fvextra\fvextra.sty
-Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+Package: fvextra 2022/11/30 v1.5 fvextra - extensions and patches for fancyvrb
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
-Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count524
+Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
+\FV@CodeLineNo=\count537
 \FV@InFile=\read6
-\FV@TabBox=\box141
-\c@FancyVerbLine=\count525
-\FV@StepNumber=\count526
+\FV@TabBox=\box143
+\c@FancyVerbLine=\count538
+\FV@StepNumber=\count539
 \FV@OutFile=\write5
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
-Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count527
-\output=\toks57
-\linenoprevgraf=\count528
-\linenumbersep=\dimen352
-\linenumberwidth=\dimen353
-\c@linenumber=\count529
-\c@pagewiselinenumber=\count530
-\c@LN@truepage=\count531
-\c@internallinenumber=\count532
-\c@internallinenumbers=\count533
-\quotelinenumbersep=\dimen354
-\bframerule=\dimen355
-\bframesep=\dimen356
-\bframebox=\box142
-LaTeX Info: Redefining \\ on input line 3056.
+Package: lineno 2023/01/19 line numbers on paragraphs v5.1
+\linenopenalty=\count540
+\output=\toks59
+\linenoprevgraf=\count541
+\linenumbersep=\dimen362
+\linenumberwidth=\dimen363
+\c@linenumber=\count542
+\c@pagewiselinenumber=\count543
+\c@LN@truepage=\count544
+\c@internallinenumber=\count545
+\c@internallinenumbers=\count546
+\quotelinenumbersep=\dimen364
+\bframerule=\dimen365
+\bframesep=\dimen366
+\bframebox=\box144
+\linenoamsmath@ams@eqpen=\count547
+LaTeX Info: Redefining \\ on input line 3131.
 )
-\c@FV@TrueTabGroupLevel=\count534
-\c@FV@TrueTabCounter=\count535
-\FV@TabBox@Group=\box143
-\FV@TmpLength=\skip131
-\c@FV@HighlightLinesStart=\count536
-\c@FV@HighlightLinesStop=\count537
-\FV@LoopCount=\count538
-\FV@NCharsBox=\box144
-\FV@BreakIndent=\dimen357
-\FV@BreakIndentNChars=\count539
-\FV@BreakSymbolSepLeft=\dimen358
-\FV@BreakSymbolSepLeftNChars=\count540
-\FV@BreakSymbolSepRight=\dimen359
-\FV@BreakSymbolSepRightNChars=\count541
-\FV@BreakSymbolIndentLeft=\dimen360
-\FV@BreakSymbolIndentLeftNChars=\count542
-\FV@BreakSymbolIndentRight=\dimen361
-\FV@BreakSymbolIndentRightNChars=\count543
-\c@FancyVerbLineBreakLast=\count544
-\FV@LineBox=\box145
-\FV@LineIndentBox=\box146
-\FV@LineWidth=\dimen362
+\c@FV@TrueTabGroupLevel=\count548
+\c@FV@TrueTabCounter=\count549
+\FV@TabBox@Group=\box145
+\FV@TmpLength=\skip132
+\c@FV@HighlightLinesStart=\count550
+\c@FV@HighlightLinesStop=\count551
+\FV@LoopCount=\count552
+\FV@NCharsBox=\box146
+\FV@BreakIndent=\dimen367
+\FV@BreakIndentNChars=\count553
+\FV@BreakSymbolSepLeft=\dimen368
+\FV@BreakSymbolSepLeftNChars=\count554
+\FV@BreakSymbolSepRight=\dimen369
+\FV@BreakSymbolSepRightNChars=\count555
+\FV@BreakSymbolIndentLeft=\dimen370
+\FV@BreakSymbolIndentLeftNChars=\count556
+\FV@BreakSymbolIndentRight=\dimen371
+\FV@BreakSymbolIndentRightNChars=\count557
+\c@FancyVerbLineBreakLast=\count558
+\FV@LineBox=\box147
+\FV@LineIndentBox=\box148
+\c@FV@BreakBufferDepth=\count559
+\FV@LineWidth=\dimen372
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 75.
@@ -1294,80 +1352,86 @@ Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.sty
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\integerpart=\count545
-\decimalpart=\count546
+\integerpart=\count560
+\decimalpart=\count561
 )
-Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+Package: xstring 2023/01/14 v1.85 String manipulations (CT)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip132
-\fb@frw=\dimen363
-\fb@frh=\dimen364
-\FrameRule=\dimen365
-\FrameSep=\dimen366
+\OuterFrameSep=\skip133
+\fb@frw=\dimen373
+\fb@frh=\dimen374
+\FrameRule=\dimen375
+\FrameSep=\dimen376
 )
 \minted@appexistsfile=\read7
-\minted@bgbox=\box147
+\minted@bgbox=\box149
 \minted@code=\write6
-\c@minted@FancyVerbLineTemp=\count547
-\c@minted@pygmentizecounter=\count548
-\c@listing=\count549
+\c@minted@FancyVerbLineTemp=\count562
+\c@minted@pygmentizecounter=\count563
+\c@listing=\count564
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
-Package: tcolorbox 2021/06/14 version 4.51 text color boxes
+Package: tcolorbox 2023/03/17 version 6.0.3 text color boxes
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
-Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks58
-\verbatim@line=\toks59
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks60
+\verbatim@line=\toks61
 \verbatim@in@stream=\read8
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box148
-\tcb@upperbox=\box149
-\tcb@lowerbox=\box150
-\tcb@phantombox=\box151
-\c@tcbbreakpart=\count550
-\c@tcblayer=\count551
-\c@tcolorbox@number=\count552
-\tcb@temp=\box152
-\tcb@temp=\box153
+\tcb@titlebox=\box150
+\tcb@upperbox=\box151
+\tcb@lowerbox=\box152
+\tcb@phantombox=\box153
+\c@tcbbreakpart=\count565
+\c@tcblayer=\count566
+\c@tcolorbox@number=\count567
 \tcb@temp=\box154
 \tcb@temp=\box155
+\tcb@temp=\box156
+\tcb@temp=\box157
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '4.51'
-\tcb@waterbox=\box156
-(C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.51'
+Library (tcolorbox): 'tcbskins.code.tex' version '6.0.3'
+(C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image.sty
+Package: tikzfill.image 2022/07/20 v1.0.0 Image filling library for TikZ
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill-common.sty
+Package: tikzfill-common 2022/07/20 v1.0.0 Auxiliary code for tikzfill
+) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2022/07/20 v1.0.0 Image filling library
+\l__tikzfill_img_box=\box158
+)) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.0.3'
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbminted.code.tex
-Library (tcolorbox): 'tcbminted.code.tex' version '4.51'
+Library (tcolorbox): 'tcbminted.code.tex' version '6.0.3'
 (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingscore.code.tex
-Library (tcolorbox): 'tcblistingscore.code.tex' version '4.51'
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.0.3'
 (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing.code.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '4.51'
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.0.3'
 )
-\c@tcblisting=\count553
+\c@tcblisting=\count568
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.code.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '4.51'
-(C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/oberdiek\pdfcol.sty
-Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.0.3'
+(C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/pdfcol\pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box157
-\tcb@totalupperbox=\box158
-\tcb@totallowerbox=\box159
+\tcb@testbox=\box159
+\tcb@totalupperbox=\box160
+\tcb@totallowerbox=\box161
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
-Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count554
-\csq@gtype=\count555
-\csq@glevel=\count556
-\csq@qlevel=\count557
-\csq@maxlvl=\count558
-\csq@tshold=\count559
-\csq@ltx@everypar=\toks60
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count569
+\csq@gtype=\count570
+\csq@glevel=\count571
+\csq@qlevel=\count572
+\csq@maxlvl=\count573
+\csq@tshold=\count574
+\csq@ltx@everypar=\toks62
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
-File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
@@ -1375,164 +1439,161 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 )) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
- (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2021-08-04 L3 Experimental document command parser
-) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
+ (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip133
-\c@mdf@globalstyle@cnt=\count560
-\mdf@skipabove@length=\skip134
-\mdf@skipbelow@length=\skip135
-\mdf@leftmargin@length=\skip136
-\mdf@rightmargin@length=\skip137
-\mdf@innerleftmargin@length=\skip138
-\mdf@innerrightmargin@length=\skip139
-\mdf@innertopmargin@length=\skip140
-\mdf@innerbottommargin@length=\skip141
-\mdf@splittopskip@length=\skip142
-\mdf@splitbottomskip@length=\skip143
-\mdf@outermargin@length=\skip144
-\mdf@innermargin@length=\skip145
-\mdf@linewidth@length=\skip146
-\mdf@innerlinewidth@length=\skip147
-\mdf@middlelinewidth@length=\skip148
-\mdf@outerlinewidth@length=\skip149
-\mdf@roundcorner@length=\skip150
-\mdf@footenotedistance@length=\skip151
-\mdf@userdefinedwidth@length=\skip152
-\mdf@needspace@length=\skip153
-\mdf@frametitleaboveskip@length=\skip154
-\mdf@frametitlebelowskip@length=\skip155
-\mdf@frametitlerulewidth@length=\skip156
-\mdf@frametitleleftmargin@length=\skip157
-\mdf@frametitlerightmargin@length=\skip158
-\mdf@shadowsize@length=\skip159
-\mdf@extratopheight@length=\skip160
-\mdf@subtitleabovelinewidth@length=\skip161
-\mdf@subtitlebelowlinewidth@length=\skip162
-\mdf@subtitleaboveskip@length=\skip163
-\mdf@subtitlebelowskip@length=\skip164
-\mdf@subtitleinneraboveskip@length=\skip165
-\mdf@subtitleinnerbelowskip@length=\skip166
-\mdf@subsubtitleabovelinewidth@length=\skip167
-\mdf@subsubtitlebelowlinewidth@length=\skip168
-\mdf@subsubtitleaboveskip@length=\skip169
-\mdf@subsubtitlebelowskip@length=\skip170
-\mdf@subsubtitleinneraboveskip@length=\skip171
-\mdf@subsubtitleinnerbelowskip@length=\skip172
+\mdf@templength=\skip134
+\c@mdf@globalstyle@cnt=\count575
+\mdf@skipabove@length=\skip135
+\mdf@skipbelow@length=\skip136
+\mdf@leftmargin@length=\skip137
+\mdf@rightmargin@length=\skip138
+\mdf@innerleftmargin@length=\skip139
+\mdf@innerrightmargin@length=\skip140
+\mdf@innertopmargin@length=\skip141
+\mdf@innerbottommargin@length=\skip142
+\mdf@splittopskip@length=\skip143
+\mdf@splitbottomskip@length=\skip144
+\mdf@outermargin@length=\skip145
+\mdf@innermargin@length=\skip146
+\mdf@linewidth@length=\skip147
+\mdf@innerlinewidth@length=\skip148
+\mdf@middlelinewidth@length=\skip149
+\mdf@outerlinewidth@length=\skip150
+\mdf@roundcorner@length=\skip151
+\mdf@footenotedistance@length=\skip152
+\mdf@userdefinedwidth@length=\skip153
+\mdf@needspace@length=\skip154
+\mdf@frametitleaboveskip@length=\skip155
+\mdf@frametitlebelowskip@length=\skip156
+\mdf@frametitlerulewidth@length=\skip157
+\mdf@frametitleleftmargin@length=\skip158
+\mdf@frametitlerightmargin@length=\skip159
+\mdf@shadowsize@length=\skip160
+\mdf@extratopheight@length=\skip161
+\mdf@subtitleabovelinewidth@length=\skip162
+\mdf@subtitlebelowlinewidth@length=\skip163
+\mdf@subtitleaboveskip@length=\skip164
+\mdf@subtitlebelowskip@length=\skip165
+\mdf@subtitleinneraboveskip@length=\skip166
+\mdf@subtitleinnerbelowskip@length=\skip167
+\mdf@subsubtitleabovelinewidth@length=\skip168
+\mdf@subsubtitlebelowlinewidth@length=\skip169
+\mdf@subsubtitleaboveskip@length=\skip170
+\mdf@subsubtitlebelowskip@length=\skip171
+\mdf@subsubtitleinneraboveskip@length=\skip172
+\mdf@subsubtitleinnerbelowskip@length=\skip173
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-1.mdf
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
-\mdf@frametitlebox=\box160
-\mdf@footnotebox=\box161
-\mdf@splitbox@one=\box162
-\mdf@splitbox@two=\box163
-\mdf@splitbox@save=\box164
-\mdfsplitboxwidth=\skip173
-\mdfsplitboxtotalwidth=\skip174
-\mdfsplitboxheight=\skip175
-\mdfsplitboxdepth=\skip176
-\mdfsplitboxtotalheight=\skip177
-\mdfframetitleboxwidth=\skip178
-\mdfframetitleboxtotalwidth=\skip179
-\mdfframetitleboxheight=\skip180
-\mdfframetitleboxdepth=\skip181
-\mdfframetitleboxtotalheight=\skip182
-\mdffootnoteboxwidth=\skip183
-\mdffootnoteboxtotalwidth=\skip184
-\mdffootnoteboxheight=\skip185
-\mdffootnoteboxdepth=\skip186
-\mdffootnoteboxtotalheight=\skip187
-\mdftotallinewidth=\skip188
-\mdfboundingboxwidth=\skip189
-\mdfboundingboxtotalwidth=\skip190
-\mdfboundingboxheight=\skip191
-\mdfboundingboxdepth=\skip192
-\mdfboundingboxtotalheight=\skip193
-\mdf@freevspace@length=\skip194
-\mdf@horizontalwidthofbox@length=\skip195
-\mdf@verticalmarginwhole@length=\skip196
-\mdf@horizontalspaceofbox=\skip197
-\mdfsubtitleheight=\skip198
-\mdfsubsubtitleheight=\skip199
-\c@mdfcountframes=\count561
+\mdf@frametitlebox=\box162
+\mdf@footnotebox=\box163
+\mdf@splitbox@one=\box164
+\mdf@splitbox@two=\box165
+\mdf@splitbox@save=\box166
+\mdfsplitboxwidth=\skip174
+\mdfsplitboxtotalwidth=\skip175
+\mdfsplitboxheight=\skip176
+\mdfsplitboxdepth=\skip177
+\mdfsplitboxtotalheight=\skip178
+\mdfframetitleboxwidth=\skip179
+\mdfframetitleboxtotalwidth=\skip180
+\mdfframetitleboxheight=\skip181
+\mdfframetitleboxdepth=\skip182
+\mdfframetitleboxtotalheight=\skip183
+\mdffootnoteboxwidth=\skip184
+\mdffootnoteboxtotalwidth=\skip185
+\mdffootnoteboxheight=\skip186
+\mdffootnoteboxdepth=\skip187
+\mdffootnoteboxtotalheight=\skip188
+\mdftotallinewidth=\skip189
+\mdfboundingboxwidth=\skip190
+\mdfboundingboxtotalwidth=\skip191
+\mdfboundingboxheight=\skip192
+\mdfboundingboxdepth=\skip193
+\mdfboundingboxtotalheight=\skip194
+\mdf@freevspace@length=\skip195
+\mdf@horizontalwidthofbox@length=\skip196
+\mdf@verticalmarginwhole@length=\skip197
+\mdf@horizontalspaceofbox=\skip198
+\mdfsubtitleheight=\skip199
+\mdfsubsubtitleheight=\skip256
+\c@mdfcountframes=\count576
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count562
-\c@mdf@env@i=\count563
-\c@mdf@env@ii=\count564
-\c@mdf@zref@counter=\count565
+\mdf@envdepth=\count577
+\c@mdf@env@i=\count578
+\c@mdf@env@ii=\count579
+\c@mdf@zref@counter=\count580
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (src/packages/commands.sty
 Package: src/packages/commands 
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/braket\braket.sty)
-\c@theo=\count566
+\c@theo=\count581
    defining Unicode char U+2212 (decimal 8722)
    defining Unicode char U+2261 (decimal 8801)
    defining Unicode char U+03C6 (decimal 966)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box165
-\beforetitleunit=\skip256
-\aftertitleunit=\skip257
-\ttl@plus=\dimen367
-\ttl@minus=\dimen368
-\ttl@toksa=\toks61
-\titlewidth=\dimen369
-\titlewidthlast=\dimen370
-\titlewidthfirst=\dimen371
+\ttl@box=\box167
+\beforetitleunit=\skip257
+\aftertitleunit=\skip258
+\ttl@plus=\dimen377
+\ttl@minus=\dimen378
+\ttl@toksa=\toks63
+\titlewidth=\dimen379
+\titlewidthlast=\dimen380
+\titlewidthfirst=\dimen381
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count567
-\c@@ppsavesec=\count568
-\c@@ppsaveapp=\count569
+\c@@pps=\count582
+\c@@ppsavesec=\count583
+\c@@ppsaveapp=\count584
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip258
-\cftbeforetoctitleskip=\skip259
-\cftaftertoctitleskip=\skip260
-\cftbeforepartskip=\skip261
-\cftpartnumwidth=\skip262
-\cftpartindent=\skip263
-\cftbeforesecskip=\skip264
-\cftsecindent=\skip265
-\cftsecnumwidth=\skip266
-\cftbeforesubsecskip=\skip267
-\cftsubsecindent=\skip268
-\cftsubsecnumwidth=\skip269
-\cftbeforesubsubsecskip=\skip270
-\cftsubsubsecindent=\skip271
-\cftsubsubsecnumwidth=\skip272
-\cftbeforeparaskip=\skip273
-\cftparaindent=\skip274
-\cftparanumwidth=\skip275
-\cftbeforesubparaskip=\skip276
-\cftsubparaindent=\skip277
-\cftsubparanumwidth=\skip278
-\cftbeforeloftitleskip=\skip279
-\cftafterloftitleskip=\skip280
-\cftbeforefigskip=\skip281
-\cftfigindent=\skip282
-\cftfignumwidth=\skip283
-\c@lofdepth=\count570
-\c@lotdepth=\count571
-\cftbeforelottitleskip=\skip284
-\cftafterlottitleskip=\skip285
-\cftbeforetabskip=\skip286
-\cfttabindent=\skip287
-\cfttabnumwidth=\skip288
+\cftparskip=\skip259
+\cftbeforetoctitleskip=\skip260
+\cftaftertoctitleskip=\skip261
+\cftbeforepartskip=\skip262
+\cftpartnumwidth=\skip263
+\cftpartindent=\skip264
+\cftbeforesecskip=\skip265
+\cftsecindent=\skip266
+\cftsecnumwidth=\skip267
+\cftbeforesubsecskip=\skip268
+\cftsubsecindent=\skip269
+\cftsubsecnumwidth=\skip270
+\cftbeforesubsubsecskip=\skip271
+\cftsubsubsecindent=\skip272
+\cftsubsubsecnumwidth=\skip273
+\cftbeforeparaskip=\skip274
+\cftparaindent=\skip275
+\cftparanumwidth=\skip276
+\cftbeforesubparaskip=\skip277
+\cftsubparaindent=\skip278
+\cftsubparanumwidth=\skip279
+\cftbeforeloftitleskip=\skip280
+\cftafterloftitleskip=\skip281
+\cftbeforefigskip=\skip282
+\cftfigindent=\skip283
+\cftfignumwidth=\skip284
+\c@lofdepth=\count585
+\c@lotdepth=\count586
+\cftbeforelottitleskip=\skip285
+\cftafterlottitleskip=\skip286
+\cftbeforetabskip=\skip287
+\cfttabindent=\skip288
+\cfttabnumwidth=\skip289
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/etoc\etoc.sty
-Package: etoc 2021/07/13 v1.09d Completely customisable TOCs (JFB)
-\Etoc@toctoks=\toks62
-\c@etoc@tocid=\count572
-\c@etoc@tocdepth=\count573
-\etoc@framed@titlebox=\box166
-\etoc@framed@contentsbox=\box167
+Package: etoc 2023/03/01 v1.2 Completely customisable TOCs (JFB)
+\Etoc@toctoks=\toks64
+\c@etoc@tocid=\count587
+\etoc@framed@titlebox=\box168
+\etoc@framed@contentsbox=\box169
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/shorttoc\shorttoc.sty
 Package: shorttoc 2002/08/20 v1.3 Short table of contents (JPFD)
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
@@ -1540,44 +1601,44 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count574
-\Gm@cntv=\count575
-\c@Gm@tempcnt=\count576
-\Gm@bindingoffset=\dimen372
-\Gm@wd@mp=\dimen373
-\Gm@odd@mp=\dimen374
-\Gm@even@mp=\dimen375
-\Gm@layoutwidth=\dimen376
-\Gm@layoutheight=\dimen377
-\Gm@layouthoffset=\dimen378
-\Gm@layoutvoffset=\dimen379
-\Gm@dimlist=\toks63
+\Gm@cnth=\count588
+\Gm@cntv=\count589
+\c@Gm@tempcnt=\count590
+\Gm@bindingoffset=\dimen382
+\Gm@wd@mp=\dimen383
+\Gm@odd@mp=\dimen384
+\Gm@even@mp=\dimen385
+\Gm@layoutwidth=\dimen386
+\Gm@layoutheight=\dimen387
+\Gm@layouthoffset=\dimen388
+\Gm@layoutvoffset=\dimen389
+\Gm@dimlist=\toks65
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip289
-\f@nch@O@elh=\skip290
-\f@nch@O@erh=\skip291
-\f@nch@O@olh=\skip292
-\f@nch@O@orh=\skip293
-\f@nch@O@elf=\skip294
-\f@nch@O@erf=\skip295
-\f@nch@O@olf=\skip296
-\f@nch@O@orf=\skip297
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip290
+\f@nch@O@elh=\skip291
+\f@nch@O@erh=\skip292
+\f@nch@O@olh=\skip293
+\f@nch@O@orh=\skip294
+\f@nch@O@elf=\skip295
+\f@nch@O@erf=\skip296
+\f@nch@O@olf=\skip297
+\f@nch@O@orf=\skip298
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
-Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks64
-\footnotemargin=\dimen380
-\c@pp@next@reset=\count577
-Package footmisc Info: Declaring symbol style bringhurst on input line 855.
-Package footmisc Info: Declaring symbol style chicago on input line 863.
-Package footmisc Info: Declaring symbol style wiley on input line 872.
-Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
-Package footmisc Info: Declaring symbol style lamport* on input line 903.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
+Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
+\FN@temptoken=\toks66
+\footnotemargin=\dimen390
+\@outputbox@depth=\dimen391
+Package footmisc Info: Declaring symbol style bringhurst on input line 695.
+Package footmisc Info: Declaring symbol style chicago on input line 703.
+Package footmisc Info: Declaring symbol style wiley on input line 712.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 723.
+Package footmisc Info: Declaring symbol style lamport* on input line 743.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 764.
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\perpage.sty
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
 )
-\c@pp@a@footnote=\count578
+\c@pp@a@footnote=\count591
 )
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > rapportUTT.aex <nul: /p x=^%~$PATH:i>> rapportUTT.aex)...executed.
 
@@ -1589,7 +1650,7 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 69.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (rapportUTT.aux)
 \openout1 = `rapportUTT.aux'.
 
@@ -1613,17 +1674,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count579
-\scratchdimen=\dimen381
-\scratchbox=\box168
-\nofMPsegments=\count580
-\nofMParguments=\count581
-\everyMPshowfont=\toks65
-\MPscratchCnt=\count582
-\MPscratchDim=\dimen382
-\MPnumerator=\count583
-\makeMPintoPDFobject=\count584
-\everyMPtoPDFconversion=\toks66
+\scratchcounter=\count592
+\scratchdimen=\dimen392
+\scratchbox=\box170
+\nofMPsegments=\count593
+\nofMParguments=\count594
+\everyMPshowfont=\toks67
+\MPscratchCnt=\count595
+\MPscratchDim=\dimen393
+\MPnumerator=\count596
+\makeMPintoPDFobject=\count597
+\everyMPtoPDFconversion=\toks68
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1639,6 +1700,11 @@ Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             reported on input line 69.
 LaTeX Info: Redefining \up on input line 69.
 LaTeX Info: Redefining \microtypecontext on input line 69.
+Package microtype Info: Applying patch `item' on input line 69.
+Package microtype Info: Applying patch `toc' on input line 69.
+Package microtype Info: Applying patch `eqnum' on input line 69.
+Package microtype Info: Applying patch `footnote' on input line 69.
+Package microtype Info: Applying patch `verbatim' on input line 69.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1657,23 +1723,11 @@ Package caption Info: Fixing longtable code of `floatrow' package.
 Package caption Info: End \AtBeginDocument code.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/floatrow\fr-longtable.sty
 Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
-\flrow@LT@lasthead=\box169
-\flrow@LT@prelastfoot=\box170
-\c@FBLTpage=\count585
+\flrow@LT@lasthead=\box171
+\flrow@LT@prelastfoot=\box172
+\c@FBLTpage=\count598
 )
 Package hyperref Info: Link coloring ON on input line 69.
- (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
- (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count586
-)
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-french.trsl
 File: translations-basic-dictionary-french.trsl (french translation file `translations-basic-dictionary')
 )
@@ -1685,24 +1739,16 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\french.lbx
-File: french.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+File: french.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
-File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2021-07-12 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
- (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
-Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
-)
 \openout4 = `rapportUTT.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
@@ -1782,10 +1828,10 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 95.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
 
-{C:/Users/Rose/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./Ressources-graphiques/Pdg_corner.png> <./Ressources-graphiques/logos/UTT-eps-converted-to.pdf> <./Ressources-graphiques/logos/entreprise.png> <./Ressources-graphiques/keywords-panel.png>]) [0
+{C:/Users/Rose/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Ressources-graphiques/Pdg_corner.png> <./Ressources-graphiques/logos/UTT-eps-converted-to.pdf> <./Ressources-graphiques/logos/entreprise.png> <./Ressources-graphiques/keywords-panel.png>]) [0
 
 ] (src/parts/Remerciements.tex)
 Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
@@ -1805,35 +1851,35 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
  [1] (rapportUTT.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 6.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 4.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 6.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 4.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 6.
+(Font)              <12> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 6.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 6.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+(Font)              <6> on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
@@ -1858,6 +1904,7 @@ File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pd
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
 Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 89.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1865,17 +1912,12 @@ l.89     \clearpage
                     [2
 
 ] (src/parts/Introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 5--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
 
  []
 
@@ -1893,6 +1935,7 @@ File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pd
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
 Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 95.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3077,7 +3120,7 @@ Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  u
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 128.
  (C:\Users\Rose\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
@@ -3096,6 +3139,7 @@ File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pd
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
 Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 130.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3119,6 +3163,7 @@ File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pd
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
 Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 136.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3147,11 +3192,11 @@ Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 15452 bytes
 (epstopdf)             Command: <miktex-epstopdf-unrestricted --outfile=Ressources-graphiques/logos/UTT-eps-converted-to.pdf Ressources-graphiques/logos/UTT.eps>
-(epstopdf)             \includegraphics on input line 27.
+(epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pdf)
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
-Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 27.
+Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 29.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
  [1
 
@@ -3170,6 +3215,11 @@ File: src/contents/pics//gatime.png Graphic file (type png)
 <use src/contents/pics//gatime.png>
 Package pdftex.def Info: src/contents/pics//gatime.png  used on input line 48.
 (pdftex.def)             Requested size: 455.24408pt x 236.16354pt.
+<src/contents/pics//tableau_taches.png, id=573, 1068.99374pt x 377.61075pt>
+File: src/contents/pics//tableau_taches.png Graphic file (type png)
+<use src/contents/pics//tableau_taches.png>
+Package pdftex.def Info: src/contents/pics//tableau_taches.png  used on input line 55.
+(pdftex.def)             Requested size: 455.24408pt x 160.80798pt.
 Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 2851486 bytes
@@ -3177,19 +3227,13 @@ Package epstopdf Info: Source file: <Ressources-graphiques/logos/UTT.eps>
 (epstopdf)                    date: 2021-09-19 14:55:45
 (epstopdf)                    size: 15452 bytes
 (epstopdf)             Command: <miktex-epstopdf-unrestricted --outfile=Ressources-graphiques/logos/UTT-eps-converted-to.pdf Ressources-graphiques/logos/UTT.eps>
-(epstopdf)             \includegraphics on input line 52.
+(epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pdf)
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
-Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 52.
+Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 56.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
-[2 <./src/contents/pics//jdb.png> <./src/contents/pics//gatime.png>]
-<src/contents/pics//tableau_taches.png, id=581, 1068.99374pt x 377.61075pt>
-File: src/contents/pics//tableau_taches.png Graphic file (type png)
-<use src/contents/pics//tableau_taches.png>
-Package pdftex.def Info: src/contents/pics//tableau_taches.png  used on input line 55.
-(pdftex.def)             Requested size: 455.24408pt x 160.80798pt.
-) (src/parts/Annexes/Annexe2.tex
+[2 <./src/contents/pics//jdb.png> <./src/contents/pics//gatime.png>]) (src/parts/Annexes/Annexe2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -3208,7 +3252,8 @@ File: Ressources-graphiques/logos/UTT-eps-converted-to.pdf Graphic file (type pd
 <use Ressources-graphiques/logos/UTT-eps-converted-to.pdf>
 Package pdftex.def Info: Ressources-graphiques/logos/UTT-eps-converted-to.pdf  used on input line 143.
 (pdftex.def)             Requested size: 113.81102pt x 41.1655pt.
- [3 <./src/contents/pics//tableau_taches.png>]pdfTeX warning (ext4): destination with the same identifier (name{page.III}) has been already used, duplicate ignored
+ [3 <./src/contents/pics//tableau_taches.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{page.III}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.155     \myemptypage
@@ -3221,15 +3266,15 @@ Package logreq Info: Writing requests to 'rapportUTT.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53902 strings out of 478870
- 1104873 string characters out of 2849311
- 1949498 words of memory out of 3000000
- 70447 multiletter control sequences out of 15000+600000
- 479091 words of font info for 173 fonts, out of 8000000 for 9000
+ 57202 strings out of 476334
+ 1206278 string characters out of 5788443
+ 2050506 words of memory out of 5000000
+ 76244 multiletter control sequences out of 15000+600000
+ 588190 words of font info for 180 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,15n,131p,1371b,1968s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,15n,131p,1379b,1979s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on rapportUTT.pdf (54 pages, 17628067 bytes).
+Output written on rapportUTT.pdf (54 pages, 17631751 bytes).
 PDF statistics:
  797 PDF objects out of 1000 (max. 8388607)
  150 named destinations out of 1000 (max. 500000)
