@@ -17,36 +17,33 @@
 \contentsline {subsection}{\numberline {C}Objectifs visés et méthode choisie}{10}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {C.1}Les objectifs}{10}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {C.2}La méthodologie}{11}{subsubsection.2.3.2}%
-\contentsline {subsection}{\numberline {D}Planning prévisionnel du travail}{12}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {D.1}1er planning prévisionnel}{12}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {D.2}2nd planning prévisionnel}{13}{subsubsection.2.4.2}%
-\contentsline {subsection}{\numberline {E}Application de la méthode}{14}{subsection.2.5}%
-\contentsline {subsubsection}{\numberline {E.1}Formation React et Symfony}{14}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {E.2}Cartes des entreprises}{16}{subsubsection.2.5.2}%
-\contentsline {paragraph}{Carte d'1 entreprise}{16}{subsubsection.2.5.2}%
-\contentsline {paragraph}{Carte de toutes les entreprises}{17}{figure.caption.14}%
-\contentsline {subparagraph}{Le filtre}{20}{figure.caption.17}%
-\contentsline {subparagraph}{L'affichage des marqueurs filtrés}{21}{figure.caption.17}%
-\contentsline {subsubsection}{\numberline {E.3}Rendre inscription et connexion fonctionnelles}{21}{subsubsection.2.5.3}%
-\contentsline {paragraph}{L'inscription}{21}{subsubsection.2.5.3}%
-\contentsline {paragraph}{La connexion}{25}{figure.caption.25}%
-\contentsline {subsubsection}{\numberline {E.4}Uploader une image}{26}{subsubsection.2.5.4}%
-\contentsline {subsubsection}{\numberline {E.5}Page produits}{28}{subsubsection.2.5.5}%
-\contentsline {paragraph}{Supprimer - Ajouter - modifier un produit ou service}{29}{figure.caption.29}%
-\contentsline {subparagraph}{Carousel filtrant les produits}{31}{figure.caption.32}%
-\contentsline {subsubsection}{\numberline {E.6}Profil et Modification du profil}{33}{subsubsection.2.5.6}%
-\contentsline {subsubsection}{\numberline {E.7}Activation manuelle des comptes}{35}{subsubsection.2.5.7}%
-\contentsline {subsubsection}{\numberline {E.8}Page sous-catégorie}{35}{subsubsection.2.5.8}%
-\contentsline {subsubsection}{\numberline {E.9}Ajout des entreprises manquantes}{37}{subsubsection.2.5.9}%
-\contentsline {subsubsection}{\numberline {E.10}Réinitialisation de mot de passe}{37}{subsubsection.2.5.10}%
-\contentsline {subsubsection}{\numberline {E.11}Rendre les graphes de statistiques du Dashboard fonctionnels}{39}{subsubsection.2.5.11}%
-\contentsline {subsubsection}{\numberline {E.12}Désactivation du compte Répertoire Vert}{40}{subsubsection.2.5.12}%
-\contentsline {subsubsection}{\numberline {E.13}Responsive}{41}{subsubsection.2.5.13}%
-\contentsline {subsection}{\numberline {F}Résultats par rapport à l'objectif et planning réel}{42}{subsection.2.6}%
-\contentsline {section}{Conclusion}{44}{section*.46}%
-\contentsline {section}{Bibliographie}{}{section*.47}%
-\contentsline {section}{Table des figures}{}{section*.47}%
-\contentsline {section}{Annexes}{I}{section*.48}%
+\contentsline {subsection}{\numberline {D}Application de la méthode}{12}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {D.1}Formation React et Symfony}{12}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {D.2}Cartes des entreprises}{14}{subsubsection.2.4.2}%
+\contentsline {paragraph}{Carte d'1 entreprise}{14}{subsubsection.2.4.2}%
+\contentsline {paragraph}{Carte de toutes les entreprises}{15}{figure.caption.12}%
+\contentsline {subparagraph}{Le filtre}{18}{figure.caption.15}%
+\contentsline {subparagraph}{L'affichage des marqueurs filtrés}{19}{figure.caption.15}%
+\contentsline {subsubsection}{\numberline {D.3}Rendre inscription et connexion fonctionnelles}{19}{subsubsection.2.4.3}%
+\contentsline {paragraph}{L'inscription}{19}{subsubsection.2.4.3}%
+\contentsline {paragraph}{La connexion}{23}{figure.caption.23}%
+\contentsline {subsubsection}{\numberline {D.4}Uploader une image}{24}{subsubsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {D.5}Page produits}{26}{subsubsection.2.4.5}%
+\contentsline {paragraph}{Supprimer - Ajouter - modifier un produit ou service}{27}{figure.caption.27}%
+\contentsline {subparagraph}{Carousel filtrant les produits}{29}{figure.caption.30}%
+\contentsline {subsubsection}{\numberline {D.6}Profil et Modification du profil}{31}{subsubsection.2.4.6}%
+\contentsline {subsubsection}{\numberline {D.7}Activation manuelle des comptes}{33}{subsubsection.2.4.7}%
+\contentsline {subsubsection}{\numberline {D.8}Page sous-catégorie}{33}{subsubsection.2.4.8}%
+\contentsline {subsubsection}{\numberline {D.9}Ajout des entreprises manquantes}{35}{subsubsection.2.4.9}%
+\contentsline {subsubsection}{\numberline {D.10}Réinitialisation de mot de passe}{35}{subsubsection.2.4.10}%
+\contentsline {subsubsection}{\numberline {D.11}Rendre les graphes de statistiques du Dashboard fonctionnels}{37}{subsubsection.2.4.11}%
+\contentsline {subsubsection}{\numberline {D.12}Désactivation du compte Répertoire Vert}{38}{subsubsection.2.4.12}%
+\contentsline {subsubsection}{\numberline {D.13}Responsive}{39}{subsubsection.2.4.13}%
+\contentsline {subsection}{\numberline {E}Résultats par rapport à l'objectif et planning réel}{40}{subsection.2.5}%
+\contentsline {section}{Conclusion}{42}{section*.44}%
+\contentsline {section}{Bibliographie}{}{section*.45}%
+\contentsline {section}{Table des figures}{}{section*.45}%
+\contentsline {section}{Annexes}{I}{section*.46}%
 \etoc@startlocaltoc {1}
 \contentsline {subsection}{\numberline {A}Documents d'organisation et de planification}{I}{subsection.Alph0.1}%
 \contentsline {subsection}{\numberline {B}Le site web et l'API}{III}{subsection.Alph0.2}%
