@@ -9,10 +9,14 @@
 \contentsline {subsubsection}{\numberline {A.2}Sujet réel}{2}{subsubsection.1.1.2}%
 \contentsline {subsection}{\numberline {B}Fonction occupée dans le service}{3}{subsection.1.2}%
 \contentsline {section}{\numberline {II}Déroulement du travail}{4}{section.2}%
-\contentsline {subsection}{\numberline {A}Description de la mission}{4}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {A.1}Le site web Répertoire Vert}{4}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {A.2}Fonctionnalités à réaliser}{5}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {A.3}Gestion de projet}{6}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {A}Description des missions}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {A.1}Projet GAIA}{4}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {A.2}Projet ESCB Exchange}{4}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {A.3}Projet CSDB}{4}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {A.4}Projet NFIG}{4}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {A.5}Projet de recherche NLP}{4}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {A.6}Fonctionnalités à réaliser}{6}{subsubsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {A.7}Gestion de projet}{7}{subsubsection.2.1.7}%
 \contentsline {subsection}{\numberline {B}Antécédents}{8}{subsection.2.2}%
 \contentsline {subsection}{\numberline {C}Objectifs visés et méthode choisie}{10}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {C.1}Les objectifs}{10}{subsubsection.2.3.1}%
