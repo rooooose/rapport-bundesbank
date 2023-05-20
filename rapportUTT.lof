@@ -1,42 +1,40 @@
 \babel@toc {french}{}\relax 
 \babel@toc {french}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Logo du Répertoire Vert\relax }}{5}{figure.caption.3}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Page d'accueil entreprise\relax }}{5}{figure.caption.4}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Design de la page carte à implémenter\relax }}{6}{figure.caption.5}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Extrait de la base de données du site Répertoire Vert\relax }}{8}{figure.caption.6}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Exemple d'entête de page intégrée\relax }}{9}{figure.caption.7}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Accueil de l'appli\relax }}{13}{figure.caption.9}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Modification d'un utilisateur\relax }}{13}{figure.caption.10}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Page de l'utilisateur avec ses possessions\relax }}{14}{figure.caption.11}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Résultat de la page profil avec la carte\relax }}{15}{figure.caption.12}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Design page carte\relax }}{16}{figure.caption.13}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Affichages successifs du side menu\relax }}{17}{figure.caption.14}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Code de récupération de la localisation de l'utilisateur\relax }}{18}{figure.caption.15}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Code d'envoi des propriétés nécessaires au filtrage au SideMenu\relax }}{19}{figure.caption.16}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Pop-up de choix des catégories\relax }}{20}{figure.caption.17}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Code d'enregistrement des catégories\relax }}{20}{figure.caption.18}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Champ de demande d'évaluation\relax }}{20}{figure.caption.19}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Champ de demande d'évaluation\relax }}{21}{figure.caption.20}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Page Tarifs/Niveaux\relax }}{22}{figure.caption.21}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Page de succès de confirmation de compte\relax }}{23}{figure.caption.23}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Upload d'une image à l'inscription\relax }}{24}{figure.caption.24}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Upload d'une image à l'ajout d'un produit\relax }}{25}{figure.caption.25}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Design de la 1ère partie de la page Produits/Services\relax }}{26}{figure.caption.27}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Affichage d'un produit sur le site\relax }}{27}{figure.caption.28}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Résultat du formulaire d'ajout d'un service mis en forme\relax }}{28}{figure.caption.29}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Résultat du champ sous-catégories\relax }}{28}{figure.caption.30}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Design du carousel avec l'affichage des produits\relax }}{30}{figure.caption.31}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Résultat du profil de l'entreprise\relax }}{31}{figure.caption.32}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Résultat du formulaire de modification du profil\relax }}{32}{figure.caption.33}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Résultat de la page d'activation manuelle des comptes\relax }}{33}{figure.caption.34}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Design de la page sous-catégorie\relax }}{34}{figure.caption.35}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Code pour la pagination\relax }}{34}{figure.caption.36}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Résultat de la rubrique Consultez aussi\relax }}{35}{figure.caption.37}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Page de réinitialisation de Mot de passe\relax }}{36}{figure.caption.38}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Graphe du nombre de visites sur la page entreprise pour les 3 derniers mois\relax }}{37}{figure.caption.39}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Rendu du formulaire de désactivation de compte\relax }}{38}{figure.caption.40}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Code pour la boite de dialogue de confirmation\relax }}{38}{figure.caption.41}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Résultat du menu responsive\relax }}{39}{figure.caption.42}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Planning Réel\relax }}{40}{figure.caption.43}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Planning Poker de fin Novembre\relax }}{I}{figure.caption.47}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Extrait du journal de bord journalier\relax }}{II}{figure.caption.49}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Mock-up de la plateforme Gaia\relax }}{5}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Extrait de la base de données du site Répertoire Vert\relax }}{7}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Exemple d'entête de page intégrée\relax }}{8}{figure.caption.5}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Accueil de l'appli\relax }}{12}{figure.caption.7}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Modification d'un utilisateur\relax }}{12}{figure.caption.8}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Page de l'utilisateur avec ses possessions\relax }}{13}{figure.caption.9}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Résultat de la page profil avec la carte\relax }}{14}{figure.caption.10}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Design page carte\relax }}{15}{figure.caption.11}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Affichages successifs du side menu\relax }}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Code de récupération de la localisation de l'utilisateur\relax }}{17}{figure.caption.13}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Code d'envoi des propriétés nécessaires au filtrage au SideMenu\relax }}{18}{figure.caption.14}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Pop-up de choix des catégories\relax }}{19}{figure.caption.15}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Code d'enregistrement des catégories\relax }}{19}{figure.caption.16}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Champ de demande d'évaluation\relax }}{19}{figure.caption.17}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Champ de demande d'évaluation\relax }}{20}{figure.caption.18}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Page Tarifs/Niveaux\relax }}{21}{figure.caption.19}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Page de succès de confirmation de compte\relax }}{22}{figure.caption.21}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Upload d'une image à l'inscription\relax }}{23}{figure.caption.22}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Upload d'une image à l'ajout d'un produit\relax }}{24}{figure.caption.23}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Design de la 1ère partie de la page Produits/Services\relax }}{25}{figure.caption.25}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Affichage d'un produit sur le site\relax }}{26}{figure.caption.26}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Résultat du formulaire d'ajout d'un service mis en forme\relax }}{27}{figure.caption.27}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Résultat du champ sous-catégories\relax }}{27}{figure.caption.28}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Design du carousel avec l'affichage des produits\relax }}{29}{figure.caption.29}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Résultat du profil de l'entreprise\relax }}{30}{figure.caption.30}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Résultat du formulaire de modification du profil\relax }}{31}{figure.caption.31}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Résultat de la page d'activation manuelle des comptes\relax }}{32}{figure.caption.32}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Design de la page sous-catégorie\relax }}{33}{figure.caption.33}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Code pour la pagination\relax }}{33}{figure.caption.34}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Résultat de la rubrique Consultez aussi\relax }}{34}{figure.caption.35}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Page de réinitialisation de Mot de passe\relax }}{35}{figure.caption.36}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Graphe du nombre de visites sur la page entreprise pour les 3 derniers mois\relax }}{36}{figure.caption.37}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Rendu du formulaire de désactivation de compte\relax }}{37}{figure.caption.38}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Code pour la boite de dialogue de confirmation\relax }}{37}{figure.caption.39}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Résultat du menu responsive\relax }}{38}{figure.caption.40}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Planning Réel\relax }}{39}{figure.caption.41}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Planning Poker de fin Novembre\relax }}{I}{figure.caption.45}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Extrait du journal de bord journalier\relax }}{II}{figure.caption.47}%

@@ -11,43 +11,41 @@
 \contentsline {section}{\numberline {II}Déroulement du travail}{4}{section.2}%
 \contentsline {subsection}{\numberline {A}Description des missions}{4}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {A.1}Projet GAIA}{4}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {A.2}Projet ESCB Exchange}{4}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {A.3}Projet CSDB}{4}{subsubsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {A.4}Projet NFIG}{4}{subsubsection.2.1.4}%
-\contentsline {subsubsection}{\numberline {A.5}Projet de recherche NLP}{4}{subsubsection.2.1.5}%
-\contentsline {subsubsection}{\numberline {A.6}Fonctionnalités à réaliser}{6}{subsubsection.2.1.6}%
-\contentsline {subsubsection}{\numberline {A.7}Gestion de projet}{7}{subsubsection.2.1.7}%
-\contentsline {subsection}{\numberline {B}Antécédents}{8}{subsection.2.2}%
-\contentsline {subsection}{\numberline {C}Objectifs visés et méthode choisie}{10}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {C.1}Les objectifs}{10}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {C.2}La méthodologie}{11}{subsubsection.2.3.2}%
-\contentsline {subsection}{\numberline {D}Application de la méthode}{12}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {D.1}Formation React et Symfony}{12}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {D.2}Cartes des entreprises}{14}{subsubsection.2.4.2}%
-\contentsline {paragraph}{Carte d'1 entreprise}{14}{subsubsection.2.4.2}%
-\contentsline {paragraph}{Carte de toutes les entreprises}{15}{figure.caption.12}%
-\contentsline {subparagraph}{Le filtre}{18}{figure.caption.15}%
-\contentsline {subparagraph}{L'affichage des marqueurs filtrés}{19}{figure.caption.15}%
-\contentsline {subsubsection}{\numberline {D.3}Rendre inscription et connexion fonctionnelles}{19}{subsubsection.2.4.3}%
-\contentsline {paragraph}{L'inscription}{19}{subsubsection.2.4.3}%
-\contentsline {paragraph}{La connexion}{23}{figure.caption.23}%
-\contentsline {subsubsection}{\numberline {D.4}Uploader une image}{24}{subsubsection.2.4.4}%
-\contentsline {subsubsection}{\numberline {D.5}Page produits}{26}{subsubsection.2.4.5}%
-\contentsline {paragraph}{Supprimer - Ajouter - modifier un produit ou service}{27}{figure.caption.27}%
-\contentsline {subparagraph}{Carousel filtrant les produits}{29}{figure.caption.30}%
-\contentsline {subsubsection}{\numberline {D.6}Profil et Modification du profil}{31}{subsubsection.2.4.6}%
-\contentsline {subsubsection}{\numberline {D.7}Activation manuelle des comptes}{33}{subsubsection.2.4.7}%
-\contentsline {subsubsection}{\numberline {D.8}Page sous-catégorie}{33}{subsubsection.2.4.8}%
-\contentsline {subsubsection}{\numberline {D.9}Ajout des entreprises manquantes}{35}{subsubsection.2.4.9}%
-\contentsline {subsubsection}{\numberline {D.10}Réinitialisation de mot de passe}{35}{subsubsection.2.4.10}%
-\contentsline {subsubsection}{\numberline {D.11}Rendre les graphes de statistiques du Dashboard fonctionnels}{37}{subsubsection.2.4.11}%
-\contentsline {subsubsection}{\numberline {D.12}Désactivation du compte Répertoire Vert}{38}{subsubsection.2.4.12}%
-\contentsline {subsubsection}{\numberline {D.13}Responsive}{39}{subsubsection.2.4.13}%
-\contentsline {subsection}{\numberline {E}Résultats par rapport à l'objectif et planning réel}{40}{subsection.2.5}%
-\contentsline {section}{Conclusion}{42}{section*.44}%
-\contentsline {section}{Bibliographie}{}{section*.45}%
-\contentsline {section}{Table des figures}{}{section*.45}%
-\contentsline {section}{Annexes}{I}{section*.46}%
+\contentsline {subsubsection}{\numberline {A.2}Projet ESCB Exchange}{5}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {A.3}Projet CSDB}{6}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {A.4}Projet NFIG}{6}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {A.5}Projet de recherche NLP}{6}{subsubsection.2.1.5}%
+\contentsline {subsection}{\numberline {B}Antécédents}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {C}Objectifs visés et méthode choisie}{9}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {C.1}Les objectifs}{9}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {C.2}La méthodologie}{10}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {D}Application de la méthode}{11}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {D.1}Formation React et Symfony}{11}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {D.2}Cartes des entreprises}{13}{subsubsection.2.4.2}%
+\contentsline {paragraph}{Carte d'1 entreprise}{13}{subsubsection.2.4.2}%
+\contentsline {paragraph}{Carte de toutes les entreprises}{14}{figure.caption.10}%
+\contentsline {subparagraph}{Le filtre}{17}{figure.caption.13}%
+\contentsline {subparagraph}{L'affichage des marqueurs filtrés}{18}{figure.caption.13}%
+\contentsline {subsubsection}{\numberline {D.3}Rendre inscription et connexion fonctionnelles}{18}{subsubsection.2.4.3}%
+\contentsline {paragraph}{L'inscription}{18}{subsubsection.2.4.3}%
+\contentsline {paragraph}{La connexion}{22}{figure.caption.21}%
+\contentsline {subsubsection}{\numberline {D.4}Uploader une image}{23}{subsubsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {D.5}Page produits}{25}{subsubsection.2.4.5}%
+\contentsline {paragraph}{Supprimer - Ajouter - modifier un produit ou service}{26}{figure.caption.25}%
+\contentsline {subparagraph}{Carousel filtrant les produits}{28}{figure.caption.28}%
+\contentsline {subsubsection}{\numberline {D.6}Profil et Modification du profil}{30}{subsubsection.2.4.6}%
+\contentsline {subsubsection}{\numberline {D.7}Activation manuelle des comptes}{32}{subsubsection.2.4.7}%
+\contentsline {subsubsection}{\numberline {D.8}Page sous-catégorie}{32}{subsubsection.2.4.8}%
+\contentsline {subsubsection}{\numberline {D.9}Ajout des entreprises manquantes}{34}{subsubsection.2.4.9}%
+\contentsline {subsubsection}{\numberline {D.10}Réinitialisation de mot de passe}{34}{subsubsection.2.4.10}%
+\contentsline {subsubsection}{\numberline {D.11}Rendre les graphes de statistiques du Dashboard fonctionnels}{36}{subsubsection.2.4.11}%
+\contentsline {subsubsection}{\numberline {D.12}Désactivation du compte Répertoire Vert}{37}{subsubsection.2.4.12}%
+\contentsline {subsubsection}{\numberline {D.13}Responsive}{38}{subsubsection.2.4.13}%
+\contentsline {subsection}{\numberline {E}Résultats par rapport à l'objectif et planning réel}{39}{subsection.2.5}%
+\contentsline {section}{Conclusion}{41}{section*.42}%
+\contentsline {section}{Bibliographie}{}{section*.43}%
+\contentsline {section}{Table des figures}{}{section*.43}%
+\contentsline {section}{Annexes}{I}{section*.44}%
 \etoc@startlocaltoc {1}
 \contentsline {subsection}{\numberline {A}Documents d'organisation et de planification}{I}{subsection.Alph0.1}%
 \contentsline {subsection}{\numberline {B}Le site web et l'API}{III}{subsection.Alph0.2}%
