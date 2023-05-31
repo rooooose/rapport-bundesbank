@@ -111,8 +111,8 @@ La comparaison des datasets comportait trop d'informations (moyenne, médiane de
 ~\\
 Afin de pouvoir générer les 4 versions de datasets uniquement sur les versions modifiées des jeux de données de la même période, la comparaison doit être réalisée en amont.
 De plus, la comparaison doit être optimisée et n'indiquer à la fin que si les datasets sont identiques ou non, et sinon montrer les différences.
-
-\pagebreak
+\\
+% \pagebreak
 \subsection{Projet NFiG}
 
 \subsubsection{Contexte}
@@ -132,7 +132,14 @@ Un code python avait déjà été écrit pour tenter d'automatiser cette recherc
 Des rapports Excel on été faits à la main afin de recenser quel graphique ou autre fichier output a été généré dans quel fichier de code / fichier log et à quelle ligne. 
 
 \subsubsection{Objectif visé}
-~\\ La tâche qui m'a été donnée
+~\\ 
+La 1ère tâche qui nous avait été donnée était une première lecture et compréhension du code déjà fait pour rechercher les citations de fichiers générés.
+
+Puis la seconde consistait en la génération automatique d'un rapport en markdown grâce à Python, à partir des fichiers Excel remplis manuellement.
+
+Plus de tâches auraient pu m'être données, mais nous avons préféré avec l'autre stagiaire nous concentrer sur d'autres projets. 
+Il était en effet assez difficile de comprendre la personne en charge de ce projet lorsqu'une nouvelle étape devait être commencée, celle-ci expliquant de manière très abstraite sans montrer concrètement de quoi il s'agit.
+Nous avions de plus le choix de travailler sur bien d'autres projets aussi intéressants.
 
 \pagebreak
 
@@ -140,6 +147,59 @@ Des rapports Excel on été faits à la main afin de recenser quel graphique ou 
 
 \subsubsection{Contexte}
 ~\\
+Ce projet fait l'objet d'un papier de recherche appelé "Exploiter les grands modèles linguistiques pour extraire les citations de jeux de données et de méthodologies".
+
+Il est utile pour les chercheurs de la Bundesbank de voir facilement quels datasets et méthodologies sont utilisés dans quels papiers de recherche déjà produits. 
+En effet, il sera ensuite plus facile pour eux de déterminer quels datasets et méthodologies sont les plus adaptés pour leur recherche. 
+
+Concrètement cela se traduirait par un système de recommandation orienté utilisateur : “Les chercheurs comme vous ont utilisé tels datasets et telles méthodologies” ou encore “Vous avez utilisé tel dataset, celui-ci pourrait aussi vous intéresser”. 
+
+Cela permettrait également d'identifier quels datasets ont débouché sur des résultats de qualité et de manière plus générale, quels datasets sont disponibles pour la communauté de recherche.
+Cela confère plus de valeur aux datasets, à savoir des informations de contexte : Comment les datasets sont-ils utilisés, quelles analyses permettent-ils, etc… 
+
+Cela peut aussi permettre d'améliorer les services de la DSZ, qui pourra ainsi proposer des jeux de données plus spécialement adaptés aux besoins des chercheurs.
+
+
 \subsubsection{Antécédents}
 ~\\
+Cette idée de recherche et sa valeur ajoutée, ainsi que les observations retirées, avaient déjà été documentées dans un livre écrit par les data scientists et chercheurs du département, portant sur les données dans les papiers de recherche.
+Les leçons tirées regroupent entre autres : 
+
+\begin{itemize}
+    \item Les datasets ayant un même nom dans le papier de recherche peuvent référer à des datasets en réalité différents
+    \item Les datasets mentionnés peuvent se référer à des datasets utilisés dans les recherche, mais aussi simplement cités
+\end{itemize}
+
+Ces leçons soulignent la complexité du problème à résoudre.
+
+L'idée est d'utiliser un Large Language Model (LLM) déjà existant de manière à ce qu'il nous donne directement la liste des Datasets / méthodologies mentionnées.
+Le LLM utilisé serait par exemple ChatGPT, pour des résultats optimaux.
+2 schémas pour la potentielle procédure à suivre ont été faits par un collègue :
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{proto_A_NLP.png}
+    \caption{Prototype A du projet de recherche}
+\end{figure}
+
+La 1ère idée serait donc de découper les papiers en différents paragraphes, et de demander à ChatGPT de directement donner la liste des Datasets / Méthodologies contenues dans chaque paragraphe.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{proto_B_NLP.png}
+    \caption{Prototype B}
+\end{figure}
+
+Cette 2ème idée est un peu plus prudente et procède en 2 temps : 1) Demander si qqchose d'intéressant est contenu dans l'extrait
+2) Si oui, demander quoi exactement.
+
+Cela pourrait être répété soit avec chaque phrase individuelle, soit avec des extraits plus grands.
+
+
 \subsubsection{Objectif visé}
+
+L'objectif est donc à la fin de réaliser un papier de recherche faisant part de cette expérimentation.
+Il s'agit avant tout de savoir utiliser ChatGPT, de savoir lui donner le contexte adapté afin qu'il rende le résultat le plus juste possible.
+
+Concrètement, il faudrait idéalement que Le LLM nous donne la liste exacte de tous les Datasets et Méthodologies utilisés, et qu'il sache reconnaître à quel dataset il est fait référence, même lorsqu'il n'est pas directement mentionné dans un certain extrait, mais qu'il l'a été précédemment.
+Ex : "La 1ère vague de données" -> Bonne réponse = la 1ere vague du Dataset X.
