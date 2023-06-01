@@ -1,11 +1,9 @@
 \section{Explication des projets}
 
-% Un titre de section aussi long est \textbf{fortement déconseillé} mais j'ai configuré le header pour qu'il le gère.
-
 \subsection{Projet Gaia}
 
-\subsubsection{Contexte}
-~\\
+\paragraph{Contexte}
+
 Le projet GAIA vise à simplifier l'utilisation des rapports de durabilité des entreprises grâce à une plateforme centralisée et à faciliter la recherche en réduisant les efforts manuels. 
 Il cherche également à créer une référence fiable pour les informations liées au climat.
 
@@ -28,10 +26,10 @@ Ensuite, le texte et les tableaux / graphiques sont extraits, et les données d'
     \caption{Mock-up de la plateforme Gaia}
 \end{figure}
 
-\subsubsection{Antécédents}
-~\\
+\paragraph{Antécédents}
+
 Mises à part les spécifications et objectifs de la plateforme qui étaient dejà clairs, rien n'avait été concrètement commencé avant mon arrivée.
-\subsubsection{Objectif visé}
+\paragraph{Objectif visé}
 
 L'objectif est de présenter une preuve de concept du projet.
 Mon principal objectif était donc de développer un crawler qui parcourerait les résultats de recherche Google pour les rapports de durabilité des entreprises majeures dans le monde.
@@ -42,8 +40,8 @@ Une fois que cela serait fait, je devrais présenter mes résultats à l'équipe
 \pagebreak
 \subsection{Projet ESCB Exchange}
 
-\subsubsection{Contexte}
-~\\
+\paragraph{Contexte}
+
 ESCB signifie Eurosystem/European System of Central Banks. Cela se réfère au système européen de banques centrales. 
 L'Eurosystem est composé de la Banque centrale européenne (BCE) et des banques centrales nationales des pays de la zone euro. 
 
@@ -57,13 +55,13 @@ L'un des sujets abordés lors des forums est notamment le rapprochement de donn�
 En effet, les banques collectent ces données et les utilisent pour des recherches. Il est donc primordial de choisir la meilleure source de données climatiques.
 Ma mission portait exactement là-dessus.
 
-\subsubsection{Antécédents}
-~\\
+\paragraph{Antécédents}
+
 Concernant le rapprochement de données provenant de différentes sources, un code d'analyses de données en R ainsi qu'une présentation présentant la comparaison avaient déjà été faits.
 La comparaison concernait les sources ISS et Carbon 4 Finance, tous deux fournisseurs de données. 
 
-\subsubsection{Objectif visé}
-~\\
+\paragraph{Objectif visé}
+
 Ma mission consistait en la même analyse que celle faite précédemment, sauf qu'au lieu de faire une analyse bilatérale, je devais en faire une trilatérale en ajoutant aux sources précédentes celle de TRUCOST.
 Le Powerpoint associé devait également être fait en aval.
 
@@ -77,8 +75,8 @@ Le Powerpoint associé devait également être fait en aval.
 
 \subsection{Projet CSDB}
 
-\subsubsection{Contexte}
-~\\
+\paragraph{Contexte}
+
 CSDB signifie "Central Securities Database". Il s'agit d'une base de données centrale des titres en Allemagne, utilisée pour la surveillance des marchés financiers, le suivi des transactions de titres et la facilitation des processus de règlement-livraison.
 Au sein de la DSZ, les chercheurs utilisent cette base de données.
 \\
@@ -95,8 +93,8 @@ Or, chaque dataset fait plusieurs Go, et actuellement, cette génération des 4 
 
 Quand la procédure doit être répétée tous les mois, cette solution n'est pas viable telle quelle et doit être optimisée.
 
-\subsubsection{Antécédents}
-~\\
+\paragraph{Antécédents}
+
 La situation à mon arrivée était la suivante :
 
 Les nouvelles et les anciennes versions du "même" ensemble de données (par exemple les données 2009-04) étaient comparées après la génération des 4 ensembles de données.
@@ -107,16 +105,16 @@ Cependant le temps de compression semblait fortement ralentir le processus.
 
 La comparaison des datasets comportait trop d'informations (moyenne, médiane de chaque colonne des datasets, et bien d'autres valeurs statistiques), ce qui utilisait très certainement du temps supplémentaire inutile, quand seulement un très bref résultat était attendu.
 
-\subsubsection{Objectif visé}
-~\\
+\paragraph{Objectif visé}
+
 Afin de pouvoir générer les 4 versions de datasets uniquement sur les versions modifiées des jeux de données de la même période, la comparaison doit être réalisée en amont.
 De plus, la comparaison doit être optimisée et n'indiquer à la fin que si les datasets sont identiques ou non, et sinon montrer les différences.
 \\
 % \pagebreak
 \subsection{Projet NFiG}
 
-\subsubsection{Contexte}
-~\\
+\paragraph{Contexte}
+
 NFiG signifie "pour usage interne seulement" (Nur für internen Gebrauch) et concerne les données des chercheurs du département. 
 Ces derniers utilisent Stata, un logiciel de statistiques pour générer des graphiques ou effectuer différentes analyses.
 Lorsque ces graphiques doivent être publiés, ils doivent être adaptés de manière à ne plus être confidentiels.
@@ -126,13 +124,13 @@ Par conséquent, chaque graphique doit être retrouvé dans le code qui l'a gén
 Le but est donc de retrouver automatiquement où est créé chaque graphe dans le code, ou de manière plus générale, de faciliter leur "traçage".
 Or, les exportations peuvent être générées par des boucles, ce qui rend la recherche des noms de fichiers difficile.
 
-\subsubsection{Antécédents}
-~\\
+\paragraph{Antécédents}
+
 Un code python avait déjà été écrit pour tenter d'automatiser cette recherche, mais n'a pas vraiment réussi.
 Des rapports Excel on été faits à la main afin de recenser quel graphique ou autre fichier output a été généré dans quel fichier de code / fichier log et à quelle ligne. 
 
-\subsubsection{Objectif visé}
-~\\ 
+\paragraph{Objectif visé}
+
 La 1ère tâche qui nous avait été donnée était une première lecture et compréhension du code déjà fait pour rechercher les citations de fichiers générés.
 
 Puis la seconde consistait en la génération automatique d'un rapport en markdown grâce à Python, à partir des fichiers Excel remplis manuellement.
@@ -145,8 +143,8 @@ Nous avions de plus le choix de travailler sur bien d'autres projets aussi inté
 
 \subsection{Projet de recherche NLP}
 
-\subsubsection{Contexte}
-~\\
+\paragraph{Contexte}
+
 Ce projet fait l'objet d'un papier de recherche appelé "Exploiter les grands modèles linguistiques pour extraire les citations de jeux de données et de méthodologies".
 
 Il est utile pour les chercheurs de la Bundesbank de voir facilement quels datasets et méthodologies sont utilisés dans quels papiers de recherche déjà produits. 
@@ -160,8 +158,8 @@ Cela confère plus de valeur aux datasets, à savoir des informations de context
 Cela peut aussi permettre d'améliorer les services de la DSZ, qui pourra ainsi proposer des jeux de données plus spécialement adaptés aux besoins des chercheurs.
 
 
-\subsubsection{Antécédents}
-~\\
+\paragraph{Antécédents}
+
 Cette idée de recherche et sa valeur ajoutée, ainsi que les observations retirées, avaient déjà été documentées dans un livre écrit par les data scientists et chercheurs du département, portant sur les données dans les papiers de recherche.
 Les leçons tirées regroupent entre autres : 
 
@@ -190,13 +188,13 @@ La 1ère idée serait donc de découper les papiers en différents paragraphes, 
     \caption{Prototype B}
 \end{figure}
 
-Cette 2ème idée est un peu plus prudente et procède en 2 temps : 1) Demander si qqchose d'intéressant est contenu dans l'extrait
-2) Si oui, demander quoi exactement.
+Cette 2ème idée est un peu plus prudente et procède en 2 temps : 1- Demander si qqchose d'intéressant est contenu dans l'extrait
+2- Si oui, demander quoi exactement.
 
 Cela pourrait être répété soit avec chaque phrase individuelle, soit avec des extraits plus grands.
 
 
-\subsubsection{Objectif visé}
+\paragraph{Objectif visé}
 
 L'objectif est donc à la fin de réaliser un papier de recherche faisant part de cette expérimentation.
 Il s'agit avant tout de savoir utiliser ChatGPT, de savoir lui donner le contexte adapté afin qu'il rende le résultat le plus juste possible.

@@ -1,37 +1,48 @@
 \section{Déroulement du travail}
 
-\subsection{La méthodologie}
-~\\
+\subsection{Méthodologie et Organisation}
 
-Durant toute la durée du stage, il y avait un suivi régulier, permettant une gestion de projet selon la méthode agile.\\
+Durant toute la durée du stage, il y avait un suivi régulier, permettant une gestion de projet selon la méthode agile.
 
-Ainsi, cela fonctionnait par cycles répétés :
+Chaque jour, une réunion d'alignement de 30 min s'appelant "Jour Fixe" avec mon équipe (dont mon tuteur), le SFDH, avait lieu.
+Cela permettait à chaque membre de tenir les autres au courant de ce qu'il a fait la veille et de se faire aider par l'équipe en cas de questions.
 
-Tous les jeudis, une réunion avec l'ensemble du département IT et le client (Yvan, le responsable de l'association) avait lieu afin de recueillir ses besoins pour le site.\\
-Si nécessaire, un poker planning était réalisé pour répartir les tâches efficacement selon les difficultés et le temps prévu.\\
+Au début de chaque mois se déroulait additionnellement le Jour Fixe avec Stefan Bender, le responsable du département DSZ, afin d'aborder des points organisationnels et le tenir au courant du travail général de l'équipe du SFDH.
 
-Tous les jours, une réunion de suivi avec le tuteur et l'équipe permettait de partager notre avancée et obtenir de l'aide sur des points de blocage.\\
+Un Jour Fixe DSZ se tenait tous les 3èmes mercredis du mois, avec l'ensemble du département, pour un alignement général des différents sous-départements. 
 
-Tous les mardis, une réunion avec le département Design permettait de mettre au clair certains points ou de faire des commandes, car le développement d'un site est étroitement lié au design.\\
+Au milieu du stage, un "Feedback Call" avec mon tuteur était l'occasion de partager mon ressenti sur le stage, ce que je voulais faire pendant les mois restants, si les projets précédents m'avaient plu, etc... 
+Cela permettait aussi à mon tuteur de me donner son avis sur mon travail, et d'éventuellement m'indiquer les points à améliorer.
+\\
 
-Une fois toutes les 2 semaines, une réunion transversale pour le projet Répertoire Vert avait lieu.
+Comme le travail avait lieu en hybride, toutes les réunions se faisaient en visio via Webex.
+J'ai d'ailleurs bénéficié d'un ordinateur portable afin de pouvoir faire du télétravail plusieurs jours par semaine.
+La communication avec les membres de la Bundesbank se faisait alors via la messagerie Jabber et par mail.
+\\
 
-Pour finir, tous les lundi et jeudi, une mise en ligne du site était nécessaire pour garder la version en ligne toujours à jour et présentable au client.
+Au niveau de l'organisation concernant purement mes tâches, le travail m'était toujours donné tâche par tâche, ce qui me permettait de ne pas être débordée et d'être aussi plus efficace.
+De plus, cela encourage des réunions fréquentes et ainsi une gestion de projet agile.
 
-D'un point de vue technique, il fallait mettre à jour le site sur un serveur Linux distant à l'aide de Git, un logiciel de gestion de versions que j'ai particulièrement utilisé durant ce stage. \\
+Dès qu'une tâche était terminée, j'organisais une réunion d'avancement avec les personnes concernées pour avoir leur feedback ainsi que de nouvelles tâches.
 
-Justement, il était important de faire des \textbf{commits et push} au moins 1 fois par jour, pour garder un contrôle des versions du site.
-Chaque membre de l'équipe possédait une branche à son nom. Plusieurs fois par semaine, un merge des toutes les branches sur la branche de développement était réalisé, avant de faire un merge sur master de la branche de Développement.
-En effet, la branche master est celle utilisée pour la mise en production, elle doit donc être propre, fonctionnelle et régulièrement mise à jour. \\
+\paragraph{Sécurité informatique}
 
-D'autre part, il ne fallait pas négliger le remplissage les outils de suivi, à savoir : \\
-- \textbf{le journal de bord} pour les heures et les tâches réalisées par jour/semaine/mois\\ 
-- \textbf{le tableau des tâches} pour organiser les tâches à faire/en cours/faites, et répertorier le temps mis pour chacune d'entre elles.\\
-(voir Annexes)\\
+S'agissant d'une grande banque centrale, la sécurité est bien sûr prioritaire. 
+Les ordinateurs ne peuvent être connectés à internet seulement lorsqu'ils sont connectés au réseau de la Banque (directement ou par VPN), et seuls certains sites sont autorisés.
 
-Des points début, mi-stage et fin de stage étaient réalisés avec le tuteur et la coach RH pour vérifier le remplissage des outils et voir si tout allait bien.
+La Banque possède un serveur interne dans lequel tous les dossiers et fichiers sont partagés. 
+Chaque dossier est protégé et n'est accessible qu'à certains groupes.
 
-\pagebreak
+Si un nouveau logiciel a besoin d'être installé, il doit être commandé via la plateforme Servity, puis l'installation doit être déclenchée par le service IT.
+De même pour certains accès, notamment pour Gitlab ou Python, qui sont à demander sur la plateforme BIAM.
+\\
+
+La mise en place de Python comprend notamment la création d'environnements virtuels pour chaque projet, afin d'éviter des problèmes aux changements de version de Python.
+
+Heureusement, tout cela est très bien guidé sur Confluence, une plateforme de documentation partagée, où sont notamment disponibles des guides pour la mise en place de Python sur les machines de la banque.
+Elle est également utilisée pour documenter certains projets avec l'état des lieux actuel, les recherches déjà effectuées, les étapes suivantes, etc...
+
+% \pagebreak
 \subsection{Application de la méthode et Résultats}
 
 \subsubsection{Projet Gaia}

@@ -1,0 +1,44 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {french}{}\relax 
+\babel@toc {french}{}\relax 
+\contentsline {section}{Remerciements}{}{section*.1}%
+\contentsline {section}{Introduction}{1}{section*.2}%
+\contentsline {section}{\numberline {I}Sujet et place dans le service}{2}{section.1}%
+\contentsline {subsection}{\numberline {A}Sujet}{2}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {A.1}Sujet défini avant mon arrivée}{2}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {A.2}Sujet réel}{2}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {B}Fonction occupée dans le service}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {II}Explication des projets}{4}{section.2}%
+\contentsline {subsection}{\numberline {A}Projet Gaia}{4}{subsection.2.1}%
+\contentsline {paragraph}{Contexte}{4}{subsection.2.1}%
+\contentsline {paragraph}{Antécédents}{5}{figure.caption.3}%
+\contentsline {paragraph}{Objectif visé}{5}{figure.caption.3}%
+\contentsline {subsection}{\numberline {B}Projet ESCB Exchange}{6}{subsection.2.2}%
+\contentsline {paragraph}{Contexte}{6}{subsection.2.2}%
+\contentsline {paragraph}{Antécédents}{6}{subsection.2.2}%
+\contentsline {paragraph}{Objectif visé}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {C}Projet CSDB}{7}{subsection.2.3}%
+\contentsline {paragraph}{Contexte}{7}{subsection.2.3}%
+\contentsline {paragraph}{Antécédents}{7}{subsection.2.3}%
+\contentsline {paragraph}{Objectif visé}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {D}Projet NFiG}{8}{subsection.2.4}%
+\contentsline {paragraph}{Contexte}{8}{subsection.2.4}%
+\contentsline {paragraph}{Antécédents}{8}{subsection.2.4}%
+\contentsline {paragraph}{Objectif visé}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {E}Projet de recherche NLP}{9}{subsection.2.5}%
+\contentsline {paragraph}{Contexte}{9}{subsection.2.5}%
+\contentsline {paragraph}{Antécédents}{9}{subsection.2.5}%
+\contentsline {paragraph}{Objectif visé}{10}{figure.caption.6}%
+\contentsline {section}{\numberline {III}Déroulement du travail}{11}{section.3}%
+\contentsline {subsection}{\numberline {A}Méthodologie et Organisation}{11}{subsection.3.1}%
+\contentsline {paragraph}{Sécurité informatique}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {B}Application de la méthode et Résultats}{12}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {B.1}Projet Gaia}{12}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {B.2}Projet ESCB Exchange}{12}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {B.3}Projet CSDB}{12}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {B.4}Projet NFIG}{12}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {B.5}Projet de recherche NLP}{12}{subsubsection.3.2.5}%
+\contentsline {subsection}{\numberline {C}Planning général suivi}{12}{subsection.3.3}%
+\contentsline {section}{Conclusion}{13}{section*.7}%
+\contentsline {section}{Bibliographie}{}{section*.8}%
+\contentsline {section}{Table des figures}{}{section*.8}%
