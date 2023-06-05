@@ -47,6 +47,137 @@ Elle est également utilisée pour documenter certains projets avec l'état des 
 
 \subsubsection{Projet Gaia}
 
+La toute première étape du projet était de participer à une réunion avec Manuel Fangmann, un membre du pôle Innovation de la Bundesbank, qui participait activement au projet durant l'ensemble de mon stage.
+Le projet m'a donc été présenté et ma 1ère mission attribuée : Ecrire un code python qui parcourt les résultats Google avec comme entrée 'companyName + "sustainability reports" + year + "pdf"' et télécharger tous les pdf.
+
+La liste d'entreprise est dans un premier temps celle du DAX40, qui réunit les 30 plus grandes entreprises cotées à la Bourse de Francfort.
+J'ai décidé de tester la recherche avec une liste d'années allant de 2017 à 2022.
+
+Il m'a été demandé de travailler sur mon ordinateur personnel pour ce projet, car étant donné que l'accès à la quasi-totalité des sites est bloqué sur les machine de la banque, il serait compliqué de téléchargé les pdfs depuis ces sites.
+\\
+
+En 2 jours, j'ai donc implémenté le Google Crawler à l'aide du package requests-html, et téléchargé les pdfs les plus pertinents, mais les résultats n'étaient pas des meilleurs. 
+En effet, les résultats de recherche n'incluaient pas que des pdfs, et ceux trouvés n'étaient donc parfois pas les plus pertinents.
+\\
+
+J'ai ensuite tenté de récupérer les titres des PDFs ou des liens tels qu'ils sont indiqués pour les utilisateurs afin de pouvoir y lire le nom de l'entreprise et l'année, mais je n'ai pas réussi et cette entreprise était dans tous les cas inutile, puisque ces informations pouvaient souvent se trouver directement dans le lien.
+
+Dans ma recherche d'amélioration, j'ai trouvé un package donnant des résultats plus pertinents : Beautiful Soup.
+J'ai également mis en place un comptage des liens "douteux", c'est-à-dire ceux ne contenant ni le nom de la bonne entreprise, ni l'année.
+Les différents liens sont désormais triés à la volée selon s'ils sont douteux ou non, et ces 2 listes ensuite sauvegardés dans le fichier texte correspondant.
+\\
+
+Après la 1ère réunion d'avancement, j'ai mis en place beaucoup d'améliorations à mon code :
+\begin{itemize}
+    \item Calcul du pourcentage de pdfs justes trouvés par an
+    \item Amélioration du tri des pdfs trouvés/non trouvés : Désormais, un pdf est défini comme douteux s'il ne contient pas l'année ET/OU pas le nom de l'entreprise, et non pas uniquement si aucun des deux n'est présent.
+    \item Ajout d'un opérateur de recherche avancée pour n'obtenir que les les liens qui menant à un pdf (filetype:pdf) (-> il n'y a donc plus de rapports "not found", seulement des pdfs douteux)
+    \item Parfois, seuls les 2 derniers chiffres de l'année sont notés dans le lien, ou encore l'une des deux parties du nom de la société (Ex: "Telekom" dans "Deutsche Telekom"), j'en ai donc tenu compte
+    \item Un problème qui revenait assez fréquemment était que la bonne année pouvait être présente dans le lien, mais que dans le nom du fichier, une autre année était indiquée. Afin de passer en priorité l'année présente dans le nom du fichier, j'ai simplement vérifié que l'année était inscrite précisément à cet endroit, sans inspecter le reste du lien.
+    \item les PDFs ne peuvent être définis comme trouvés uniquement si le lien contient le terme "Report"
+\end{itemize}
+
+La principale difficulté lors de la mise en place de ces améliorations était la gestion d'une condition très longue pour la définition d'un lien "non trouvé", qui est d'autant plus négative, avec à la fois des OR et AND.
+J'ai finalement simplifié le résonnement en faisant un condition positive pour les liens "trouvés".
+
+J'ai également restructuré mes résultats afin de pouvoir calculer le pourcentage de PDFs trouvés par an.
+\\
+
+Pour anticiper la suite du projet avec l'étape de Text Mining des PDFs, il m'a été demandé de tester l'extraction de textes et d'images des PDFs, ce que j'ai réussi sans difficulté avec le package Fitz.
+\\
+
+Concernant le téléchargement des PDFs, j'avais des difficultés à tous les télécharger, certains sites bloquant les requêtes lorsqu'elles sont détectées comme étant automatisées.
+Cela se traduisait soit par une requête n'aboutissant jamais mais sans erreur, soit par un code de réponse "403-Forbidden".
+Un autre cas d'impossibilité du téléchargement est lorsque les rapports sont incorporés à la page web, avec un "viewer intégré", ou encore lorsque le pdf n'est plus disponible sur la page en question.
+
+J'ai pu résoudre le cas de requête infinie grâce à une liste de "User Agents" qui seraient choisis à chaque fois aléatoirement pour être inclus dans le header de la requête.
+L'erreur 403 n'était en revanche pas solvable, même en tentant avec un Pool de Proxys. 
+\\
+
+Lors d'une réunion suivante, l'idée de lire les PDFs afin de mieux les classer a été suggérée. 
+Je me suis donc attelée à cette tâche et ai extrait le texte des 3 premières pages des rapports dont le lien est douteux afin d'y chercher l'année, le nom de l'entreprise (ou partie du nom) et le terme "Sustainable Report" ou un dérivé.
+Le lien était donc reclassé en conséquence.
+
+Cela a considérablement amélioré les résultats, car ne considérer que le lien était très réducteur, et beaucoup de rapports douteux étaient en réalité justes.
+Mais seules les 3 premières pages étaient optimales à lire, car après une autre année pouvait apparaître, bien qu'il s'agissait du rapport d'une autre année, faussant les résultats.
+Lire moins de 3 pages était en revanche trop peu pour trouver toutes les informations requises.
+
+Cette lecture de PDFs n'a cependant pas résolu tous les problèmes, bien qu'ils soient rares :
+\begin{itemize}
+    \item Le nom de l'entreprise ou même l'année ne sont parfois inscrits que sous forme d'image, non reconnue dans l'extraction de texte.
+    \item L'année recherchée peut être écrite au début du rapport sans qu'il ne s'agisse du rapport de cette année-là. Celui-ci est donc noté comme trouvé alors qu'il est faux.
+\end{itemize}
+
+Après la prochaine réunion est venue l'étape de Refactoring du code, afin de 1-Rendre le code qui devenait de plus en plus fourni, plus lisible. 
+2- Rendre les différentes étapes indépendantes les unes des autres.
+
+Mon code pouvait être découpé en 4 parties : Crawling, Téléchargement des pdfs, Lecture des fichiers, et écriture des statistiques finales des résultats trouvés.
+Il y a donc 1 fichier par étape, en plus du Main qui les appelle toutes. 
+
+Pour que toutes ces étapes soient bien indépendantes les unes des autres, il fallait que le tri des liens se fasse en deux temps : une première fois en même temps que le crawling, et une deuxième fois après la lecture automatique des rapports douteux.
+J'ai donc 4 fichiers de résultats où se trouvent les différentes listes des liens obtenus pour chaque requête : found-list et doubt-list avant le téléchargement, et de même après le téléchargement.
+Le fichier found-list après téléchargement est composé de la copie de la 1ère found-list, mais avec en plus de nouveaux liens qui étaient au départ douteux.
+
+Une fois que tout fonctionnait bien, il était temps de tester le code sur un volume beaucoup plus grand d'entreprises, à savoir la liste de celles du MSCI World, Index boursier sur les plus grandes entreprises dans le monde entier.
+Cette liste en contient 3425 différentes.
+MSCI Liste agrandir ==> guacamole 
+
+difficulté crawling : noms des entreprises dans csv trop longs + doubles
+
+04/05:
+GAIA sur instance Guacamole : Difficulté : Beautiful Soup ne trouve aucun résultat pour certaines entreprises, mais quand on relance ça marche et remet l’erreur pour une autre entreprise, et cela ne remarche qu’une fois que l’instance est redémarrée et qu’on se reconnecte. 
+Lösung : Google Custom Search API - Aber Ergebnisse sind nicht ganz gleich wie meine Ergebnisse wenn ich selbst eine Suche durchführe.
+Le télécharchement des pdf sur aws bug (blocage sans erreur)
+
+catch Exception and save it but still continue (PDFs inclus dans la page web, ou n'existant plus, ou 403)
+2nd timer sleep so it doesn’t  
+
+09/05 :
+GAIA : comme le code met tres longtemps à s exécuter completement, j ai dû trouver une solution pour qu il puisse reprendre là où il en etait lorsque l instance se déconnecte ou que je dois fermer la page. 
+Il est aussi important que la partie "web crawling", c est à dire la recherche de liens, et la partie téléchargement des pdfs, soient indépendantes l'une de l'autre.
+==> lecture du fichier lui-même pour trouver les liens et non dans les tables contenues dans les variables.
+Ecriture de la dernière entreprise traitée avec son année dans un fichier
+Ecriture des fichiers de résultats à chaque entreprise et non à la fin de chaque année, et lecture du fichier résultat existant pour placer le nouveau résultat au bon endroit
+Difficulté : ouvrir un même fichier en mode 'write' puis en mode 'append'
+
+Code modifié pour reprendre là où on en était
+
+GAIA : 
+Nettoyage des noms des entreprises dans le csv
+Some annual reports don’t have any data on Scope
+Post holdings / software ag problem / fp corp
+
+GAIA : nettoyage des noms
+
+Gaia : Recommencement du début avec plus de mots tolérés dans les noms d’entreprise car sinon pas assez précis
+
+GAIA : noter les stats pour les exceptions (pdf ne pouvant pas être téléchargés)
+correction de bug avec le doubt count toujours remis à 0 dès qu’on relance le code
+ajout du nombre de pdfs non téléchargés dans les stats
+résolution de l’exception à la lecture d’un pdf erroné
+Difficulté : probleme avec la somme et le traitement de l’exception qui reinitialisait le tableau
+J’ai beaucoup appris sur le traitement des exceptions et l’écriture / lecture d’un fichier
+
+GAIA : Enregistrement des fichiers directement dans Dropbox sinon c’est trop lourd, mais faisable que depuis mon pc
+DIfficulté : Essai d’utiliser git lfs mais n’a pas marché
+
+suppression des pdfs après qu’ils soient lus + Upload dans le dropbox de Hendrik
+Difficulté : Trop de pdfs, plus de place sur mon dropbox
+
+Résolution de bug GAIA, liens qui se supprimaient du fichier car on le replace par un nouveau des qu’on relance le code ==> Repris depuis le début
+Diapo explicative des résultats GAIA fait, manque plus que les résultats de la partie 2
+suppression de la condition avec les 2 premiers chiffres de l’année pour le crawling ==> code à relancer plus tard
+
+GAIA : suppression de l’upload dans dropbox
+Ajout d’infos dans les statistiques
+Diapo de présentation des résultats amélioré
+
+Fin du diapo et envoi
+Relance du code sans la condition des 2 chiffres de l’année dans le lien et correction bug quand lien = None + doublons supprimés
+
+modification de certains noms dans msci (bug ' n ' ou ' i ') + prévention des doublons dans les fichiers de résultats douteux et trouvés
+
+
 
 \subsubsection{Projet ESCB Exchange}
 

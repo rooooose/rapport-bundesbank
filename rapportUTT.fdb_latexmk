@@ -1,12 +1,11 @@
 # Fdb version 4
-["biber rapportUTT"] 1685624003 "rapportUTT.bcf" "rapportUTT.bbl" "rapportUTT" 1685625542 0
-  "rapportUTT.bcf" 1685625541 107752 5e857d794a4c03270f779eec57890655 "pdflatex"
-  "src/parts/bibliography.bib" 1640964115 3762 1326c5592c664c90869862138fcf2e24 ""
+["biber rapportUTT"] 0 "rapportUTT.bcf" "rapportUTT.bbl" "rapportUTT" 1685998482 -1
+  "rapportUTT.bcf" 1685998482 107752 5e857d794a4c03270f779eec57890655 "pdflatex"
   (generated)
   "rapportUTT.bbl"
   "rapportUTT.blg"
   (rewritten before read)
-["pdflatex"] 1685625535 "c:/Users/Rose/Documents/UTT ISI/ISI6 ST10/Deutsche Bundesbank Data Science/rapport-bundesbank/rapportUTT.tex" "rapportUTT.pdf" "rapportUTT" 1685625542 0
+["pdflatex"] 1685998475 "c:/Users/Rose/Documents/UTT ISI/ISI6 ST10/Deutsche Bundesbank Data Science/rapport-bundesbank/rapportUTT.tex" "rapportUTT.pdf" "rapportUTT" 1685998482 0
   "C:/Users/Rose/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1682175970 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Rose/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1679865302 23175902 d7171ed6d82206ce4ec166cc62d99ccd ""
   "C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256933040 2375 baa924870cfb487815765f9094cf3728 ""
@@ -334,14 +333,14 @@
   "Ressources-graphiques/keywords-panel.png" 1632056144 2055 39f446b066458c6cacb1d6d43685bac1 ""
   "Ressources-graphiques/logos/UTT.eps" 1632056145 2851486 d69b44bbb5922295d14ed6e84c826d43 ""
   "Ressources-graphiques/logos/entreprise.png" 1684594303 97263 d9a59f81af8c3fc8d05862d5dc13d9be ""
-  "c:/Users/Rose/Documents/UTT ISI/ISI6 ST10/Deutsche Bundesbank Data Science/rapport-bundesbank/rapportUTT.tex" 1685615077 5087 2a1a8d562b743f8e2eb045b3c8d93ed1 ""
+  "c:/Users/Rose/Documents/UTT ISI/ISI6 ST10/Deutsche Bundesbank Data Science/rapport-bundesbank/rapportUTT.tex" 1685625683 5051 2d1d3c82ebf443a3e7fa533c3cdfa185 ""
   "rUTT.cls" 1632056896 15935 1e5e8918fb91b8db35e5f35133eb1e31 ""
-  "rapportUTT.aux" 1685625541 14428 57fbbc1cd1ac811b88a6bc73c4b1a8bf "pdflatex"
-  "rapportUTT.bbl" 1685624005 14976 e80fa146bb91b7ac288d5280b34ec650 "biber rapportUTT"
-  "rapportUTT.lof" 1685625541 517 375b7fe20104af1df6862f18615a5d83 "pdflatex"
-  "rapportUTT.run.xml" 1685625541 2389 70191650bc3e6f07fd21cdddf28dbf63 "pdflatex"
-  "rapportUTT.tex" 1685615077 5087 2a1a8d562b743f8e2eb045b3c8d93ed1 ""
-  "rapportUTT.toc" 1685625541 3205 25c4605c5f2d1c1e74cbbbc6ce6e41d0 "pdflatex"
+  "rapportUTT.aux" 1685998482 14433 a3d71456f51f66da4fc64e0069c882dc "pdflatex"
+  "rapportUTT.bbl" 1685886790 14976 e80fa146bb91b7ac288d5280b34ec650 "biber rapportUTT"
+  "rapportUTT.lof" 1685998482 517 375b7fe20104af1df6862f18615a5d83 "pdflatex"
+  "rapportUTT.run.xml" 1685998482 2389 70191650bc3e6f07fd21cdddf28dbf63 "pdflatex"
+  "rapportUTT.tex" 1685625683 5051 2d1d3c82ebf443a3e7fa533c3cdfa185 ""
+  "rapportUTT.toc" 1685998482 3205 2f8224981272182333b64607e21692c7 "pdflatex"
   "src/contents/pics//ESCB logos.png" 1685456143 23544 87cdf6ef2b2830288039e1ee61b29b20 ""
   "src/contents/pics//GAIA.png" 1684594445 1544202 476fc7df504e480164176220a0f51dd2 ""
   "src/contents/pics//proto_A_NLP.png" 1685528448 25734 5c7c5c0ad9c7d2e1e0d3c821b0673034 ""
@@ -354,8 +353,8 @@
   "src/parts/Introduction.tex" 1685615055 3600 94491398554e9cddd75e24a7d281a685 ""
   "src/parts/Remerciements.tex" 1641134279 821 da4b1d35783a2f263cf056b1309b7db1 ""
   "src/parts/firstPart.tex" 1685609859 2698 28a4ca0641b154db75ef9837421db978 ""
-  "src/parts/secondPart.tex" 1685614705 13321 9a16cec2277622eec3d9a2aea3cb1bc8 ""
-  "src/parts/thirdPart.tex" 1685625529 3576 cbb03a66d5d2a6b3da2f7cda369e5b39 ""
+  "src/parts/secondPart.tex" 1685809653 13527 845f450340062961163d68ddcd0257d7 ""
+  "src/parts/thirdPart.tex" 1685998467 14592 76c6b8bc2804b6c0a7518826054964eb ""
   (generated)
   "rapportUTT.aux"
   "rapportUTT.bcf"
