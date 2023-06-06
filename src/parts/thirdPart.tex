@@ -64,7 +64,7 @@ J'ai ensuite tenté de récupérer les titres des PDFs ou des liens tels qu'ils 
 
 Dans ma recherche d'amélioration, j'ai trouvé un package donnant des résultats plus pertinents : Beautiful Soup.
 J'ai également mis en place un comptage des liens "douteux", c'est-à-dire ceux ne contenant ni le nom de la bonne entreprise, ni l'année.
-Les différents liens sont désormais triés à la volée selon s'ils sont douteux ou non, et ces 2 listes ensuite sauvegardés dans le fichier texte correspondant.
+Les différents liens sont désormais triés à la volée selon s'ils sont douteux ou non, et ces 2 listes ensuite sauvegardés dans le fichier json correspondant.
 \\
 
 Après la 1ère réunion d'avancement, j'ai mis en place beaucoup d'améliorations à mon code :
@@ -111,45 +111,56 @@ Cette lecture de PDFs n'a cependant pas résolu tous les problèmes, bien qu'ils
 Après la prochaine réunion est venue l'étape de Refactoring du code, afin de 1-Rendre le code qui devenait de plus en plus fourni, plus lisible. 
 2- Rendre les différentes étapes indépendantes les unes des autres.
 
-Mon code pouvait être découpé en 4 parties : Crawling, Téléchargement des pdfs, Lecture des fichiers, et écriture des statistiques finales des résultats trouvés.
+Mon code pouvait être découpé en 5 parties : Préparation de la liste d'entrperises, Crawling (=recherche des liens), Téléchargement des pdfs, Lecture des fichiers, et écriture des statistiques finales des résultats trouvés.
 Il y a donc 1 fichier par étape, en plus du Main qui les appelle toutes. 
 
-Pour que toutes ces étapes soient bien indépendantes les unes des autres, il fallait que le tri des liens se fasse en deux temps : une première fois en même temps que le crawling, et une deuxième fois après la lecture automatique des rapports douteux.
+Pour que toutes ces étapes soient plus indépendantes les unes des autres, il fallait que le tri des liens se fasse en deux temps : une première fois en même temps que le crawling, et une deuxième fois après la lecture automatique des rapports douteux.
 J'ai donc 4 fichiers de résultats où se trouvent les différentes listes des liens obtenus pour chaque requête : found-list et doubt-list avant le téléchargement, et de même après le téléchargement.
 Le fichier found-list après téléchargement est composé de la copie de la 1ère found-list, mais avec en plus de nouveaux liens qui étaient au départ douteux.
+\\
 
-Une fois que tout fonctionnait bien, il était temps de tester le code sur un volume beaucoup plus grand d'entreprises, à savoir la liste de celles du MSCI World, Index boursier sur les plus grandes entreprises dans le monde entier.
-Cette liste en contient 3425 différentes.
-MSCI Liste agrandir ==> guacamole 
+Une fois que tout fonctionnait bien, il était temps de tester le code sur un volume beaucoup plus grand d'entreprises, à savoir la liste de celles du MSCI World, Index boursier pour les plus grandes entreprises dans le monde entier.
+Cette liste en contient 3425 différentes. En ajoutant celles du DAX40, j'ai un échantillon de 3455 entreprises. 
+Néanmoins, le fichier csv fourni contenait des doublons, et les noms des entreprises étaient parfois beaucoup trop longs (Ex : CONTEXTLOGIC INC CLASS A).
+J'ai donc dans un premier temps fait une liste des termes "interdits" et ai tronqué les noms à partir de ces termes pour rendre une liste de noms propre (notamment "inc", "group", "plc", "class", etc.).
 
-difficulté crawling : noms des entreprises dans csv trop longs + doubles
+===============> MONTRER LISTE MSCI
+\\
 
-04/05:
-GAIA sur instance Guacamole : Difficulté : Beautiful Soup ne trouve aucun résultat pour certaines entreprises, mais quand on relance ça marche et remet l’erreur pour une autre entreprise, et cela ne remarche qu’une fois que l’instance est redémarrée et qu’on se reconnecte. 
-Lösung : Google Custom Search API - Aber Ergebnisse sind nicht ganz gleich wie meine Ergebnisse wenn ich selbst eine Suche durchführe.
-Le télécharchement des pdf sur aws bug (blocage sans erreur)
+Pour ce projet, nous bénéficions d'une instance AWS Guacamole afin d'avoir une meilleure performance, le code étant très long à s'exécuter.
+Mais tout ne s'est pas passé comme prévu : 
+\begin{itemize}
+    \item Lorsque mon code s'exécute sur l'instance, il s'arrête au bout de 5min avec une Exception provoquée par une réponse vide de Beautiful Soup.
+    Je devais donc redémarrer l'instance afin que cela remarche, mais le problème revenait toujours, à une entreprise différente. En local, cela se produisait aussi, mais beaucoup plus tard.
+    J'ai essayé de trouver une solution en cherchant un autre moyen de crawler, et suis tombée sur l'API Google Custom Search, qui fonctionnait beaucoup mieux avec des résultats fiables, mais qui avait un nombre de requêtes maximal par jour très bon pour la version gratuite.
+    \item Le blocage du téléchargement que j'avais résolu en local, apparaissait sur l'instance de nouveau, ce qui bloquait l'ensemble du code.
+\end{itemize}
 
-catch Exception and save it but still continue (PDFs inclus dans la page web, ou n'existant plus, ou 403)
-2nd timer sleep so it doesn’t  
+J'ai donc organisé un court meeting afin de mettre l'équipe au courant de mes problèmes et de demander de l'aide.
+Cette réunion m'a bien débloquée grâce aux solutions proposées :
+En réalité, lorsque le code s'exécute rapidement, Beautiful Soup était "débordé" et n'avait pas toujours le temps de donner une réponse.
+Avec un simple "time.sleep" de 0,8 secondes, le problème était résolu. La seule conséquence était que le temps d'exécution était un peu plus long.
 
-09/05 :
-GAIA : comme le code met tres longtemps à s exécuter completement, j ai dû trouver une solution pour qu il puisse reprendre là où il en etait lorsque l instance se déconnecte ou que je dois fermer la page. 
-Il est aussi important que la partie "web crawling", c est à dire la recherche de liens, et la partie téléchargement des pdfs, soient indépendantes l'une de l'autre.
-==> lecture du fichier lui-même pour trouver les liens et non dans les tables contenues dans les variables.
-Ecriture de la dernière entreprise traitée avec son année dans un fichier
-Ecriture des fichiers de résultats à chaque entreprise et non à la fin de chaque année, et lecture du fichier résultat existant pour placer le nouveau résultat au bon endroit
-Difficulté : ouvrir un même fichier en mode 'write' puis en mode 'append'
+Concernant le problème de téléchargement, j'ai mis en place un timeout et attrapé l'exception levée afin de continuer le code malgré tout.
+\\
 
-Code modifié pour reprendre là où on en était
+Une journée de travail entière ne suffisant pas pour que le code s'exécute complètement, j'ai dû trouver une solution pour qu'il puisse reprendre là où il en etait lorsque l'instance se déconnecte ou que je dois fermer la page.
 
-GAIA : 
-Nettoyage des noms des entreprises dans le csv
-Some annual reports don’t have any data on Scope
-Post holdings / software ag problem / fp corp
+Parmi les différents changements à effectuer pour cela dans le programme, il fallait rendre les parties "web crawling" et "téléchargement/lecture des pdfs" complètement indépendantes l'une de l'autre.
+Lors de la 1ère étape, au lieu de remplir des tableaux qui se vident à chaque nouvelle relance, il était pertinent de directement remplir les fichiers json (doubt-results0 ou found-results0) regroupant tous les liens trouvés ou non trouvés (ces fichiers n'étaient auparavent remplis qu'à la fin de chaque année parcourue). 
+Ainsi à la 2ème étape, ces fichiers json pouvaient être lus pour trouver les liens et non dans les tables contenues dans les variables.
+Ces liens étaient ensuite placés dans l'un des 2 nouveaux fichiers (doubt-results1 ou found-results1), au niveau de l'année courante.
+================> PHOTO
 
-GAIA : nettoyage des noms
+La dernière entreprise traitée avec l'année en cours était notée dans un fichier txt lu à chaque nouvelle relance.
+\\
 
-Gaia : Recommencement du début avec plus de mots tolérés dans les noms d’entreprise car sinon pas assez précis
+En parcourant le fichier csv de la liste MSCI, j'ai remarqué que j'avais oublié beaucoup de termes interdits. 
+Mais je devais à la fois vérifier que les rapports étaient toujours trouvés avec le nom de l'entreprise raccourci.
+J'ai donc passé un petit temps à nettoyer les noms.
+Un peu plus tard, j'ai remarqué que certaines entreprises avaient besoin des termes interdits pour être trouvées (Ex : Post holdings / software ag problem / fp corp).
+J'ai donc modifié ma stratégie et ai instauré une liste de mots tolérés, et une de mots interdits. Ainsi, tous les termes après les mots tolérés sont supprimés (Ex : Tous ceux apres "inc").
+Pour que la recherche du nom dans les rapports fonctionne toujours, j'ai mis en place la même règle pour les liens : que seule une partie du nom peut être présente.
 
 GAIA : noter les stats pour les exceptions (pdf ne pouvant pas être téléchargés)
 correction de bug avec le doubt count toujours remis à 0 dès qu’on relance le code
@@ -163,10 +174,11 @@ DIfficulté : Essai d’utiliser git lfs mais n’a pas marché
 
 suppression des pdfs après qu’ils soient lus + Upload dans le dropbox de Hendrik
 Difficulté : Trop de pdfs, plus de place sur mon dropbox
+Il n'empêche que l'exécution était donc plus pratique et plus réussie sur ma machine personnelle, le téléchargement étant moins souvent bloqué par les sites.
 
 Résolution de bug GAIA, liens qui se supprimaient du fichier car on le replace par un nouveau des qu’on relance le code ==> Repris depuis le début
 Diapo explicative des résultats GAIA fait, manque plus que les résultats de la partie 2
-suppression de la condition avec les 2 premiers chiffres de l’année pour le crawling ==> code à relancer plus tard
+suppression de la condition avec les 2 premiers chiffres de l’année pour le crawling ==> code à relancer plus tard (en dehors des heures de travail)
 
 GAIA : suppression de l’upload dans dropbox
 Ajout d’infos dans les statistiques
@@ -177,6 +189,7 @@ Relance du code sans la condition des 2 chiffres de l’année dans le lien et c
 
 modification de certains noms dans msci (bug ' n ' ou ' i ') + prévention des doublons dans les fichiers de résultats douteux et trouvés
 
+MONTRER RESULTATS DIAPOS
 
 
 \subsubsection{Projet ESCB Exchange}
