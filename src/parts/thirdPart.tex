@@ -79,8 +79,6 @@ Après la 1ère réunion d'avancement, j'ai mis en place beaucoup d'amélioratio
 
 La principale difficulté lors de la mise en place de ces améliorations était la gestion d'une condition très longue pour la définition d'un lien "non trouvé", qui est d'autant plus négative, avec à la fois des OR et AND.
 J'ai finalement simplifié le résonnement en faisant un condition positive pour les liens "trouvés".
-
-J'ai également restructuré mes résultats afin de pouvoir calculer le pourcentage de PDFs trouvés par an.
 \\
 
 Pour anticiper la suite du projet avec l'étape de Text Mining des PDFs, il m'a été demandé de tester l'extraction de textes et d'images des PDFs, ce que j'ai réussi sans difficulté avec le package Fitz.
@@ -119,13 +117,23 @@ J'ai donc 4 fichiers de résultats où se trouvent les différentes listes des l
 Le fichier found-list après téléchargement est composé de la copie de la 1ère found-list, mais avec en plus de nouveaux liens qui étaient au départ douteux.
 \\
 
+La procédure est détaillée plus clairement ici :
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{procedure.png}
+    \caption{Procédure du code}
+\end{figure}
+
 Une fois que tout fonctionnait bien, il était temps de tester le code sur un volume beaucoup plus grand d'entreprises, à savoir la liste de celles du MSCI World, Index boursier pour les plus grandes entreprises dans le monde entier.
 Cette liste en contient 3425 différentes. En ajoutant celles du DAX40, j'ai un échantillon de 3455 entreprises. 
 Néanmoins, le fichier csv fourni contenait des doublons, et les noms des entreprises étaient parfois beaucoup trop longs (Ex : CONTEXTLOGIC INC CLASS A).
 J'ai donc dans un premier temps fait une liste des termes "interdits" et ai tronqué les noms à partir de ces termes pour rendre une liste de noms propre (notamment "inc", "group", "plc", "class", etc.).
 
-===============> MONTRER LISTE MSCI
-\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{msci.png}
+    \caption{Extrait de la liste MSCI avec les noms des entreprises en jaune}
+\end{figure}
 
 Pour ce projet, nous bénéficions d'une instance AWS Guacamole afin d'avoir une meilleure performance, le code étant très long à s'exécuter.
 Mais tout ne s'est pas passé comme prévu : 
@@ -141,7 +149,9 @@ Cette réunion m'a bien débloquée grâce aux solutions proposées :
 En réalité, lorsque le code s'exécute rapidement, Beautiful Soup était "débordé" et n'avait pas toujours le temps de donner une réponse.
 Avec un simple "time.sleep" de 0,8 secondes, le problème était résolu. La seule conséquence était que le temps d'exécution était un peu plus long.
 
-Concernant le problème de téléchargement, j'ai mis en place un timeout et attrapé l'exception levée afin de continuer le code malgré tout.
+Concernant le problème de téléchargement, j'ai mis en place un timeout et attrapé l'exception levée afin de continuer le code malgré tout. 
+Les PDFs pour lesquels une exception a été levée sont sauvegardés dans un fichier afin de pouvoir les compter après-coup.
+J'ai donc implémenté le calcul du pourcentage par an et du nombre total de PDFs n'ayant pas pu être téléchargés.
 \\
 
 Une journée de travail entière ne suffisant pas pour que le code s'exécute complètement, j'ai dû trouver une solution pour qu'il puisse reprendre là où il en etait lorsque l'instance se déconnecte ou que je dois fermer la page.
@@ -150,7 +160,12 @@ Parmi les différents changements à effectuer pour cela dans le programme, il f
 Lors de la 1ère étape, au lieu de remplir des tableaux qui se vident à chaque nouvelle relance, il était pertinent de directement remplir les fichiers json (doubt-results0 ou found-results0) regroupant tous les liens trouvés ou non trouvés (ces fichiers n'étaient auparavent remplis qu'à la fin de chaque année parcourue). 
 Ainsi à la 2ème étape, ces fichiers json pouvaient être lus pour trouver les liens et non dans les tables contenues dans les variables.
 Ces liens étaient ensuite placés dans l'un des 2 nouveaux fichiers (doubt-results1 ou found-results1), au niveau de l'année courante.
-================> PHOTO
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{doubt_results_1.png}
+    \caption{Extrait des résultats douteux après la lecture des pdfs (doubt-results-1.json)}
+\end{figure}
 
 La dernière entreprise traitée avec l'année en cours était notée dans un fichier txt lu à chaque nouvelle relance.
 \\
@@ -160,38 +175,58 @@ Mais je devais à la fois vérifier que les rapports étaient toujours trouvés 
 J'ai donc passé un petit temps à nettoyer les noms.
 Un peu plus tard, j'ai remarqué que certaines entreprises avaient besoin des termes interdits pour être trouvées (Ex : Post holdings / software ag problem / fp corp).
 J'ai donc modifié ma stratégie et ai instauré une liste de mots tolérés, et une de mots interdits. Ainsi, tous les termes après les mots tolérés sont supprimés (Ex : Tous ceux apres "inc").
-Pour que la recherche du nom dans les rapports fonctionne toujours, j'ai mis en place la même règle pour les liens : que seule une partie du nom peut être présente.
+Pour que la recherche du nom dans les rapports fonctionne toujours, j'ai mis en place la même règle que pour les liens : que seule une partie du nom peut être présente.
+\\
 
-GAIA : noter les stats pour les exceptions (pdf ne pouvant pas être téléchargés)
-correction de bug avec le doubt count toujours remis à 0 dès qu’on relance le code
-ajout du nombre de pdfs non téléchargés dans les stats
-résolution de l’exception à la lecture d’un pdf erroné
-Difficulté : probleme avec la somme et le traitement de l’exception qui reinitialisait le tableau
-J’ai beaucoup appris sur le traitement des exceptions et l’écriture / lecture d’un fichier
+J'ai donc pu tenter de lancer mon code pour de bon sur l'instance AWS, mais le fait d'y enregistrer les quelques 20 000 rapports dans le Repository Git posait problème, et plus aucune commande ne fonctionnait (git push, pull, add, status etc...).
+Même en tentant de mettre en place git LFS, rien n'y faisait.
+Afin de pouvoir accéder aux PDFs et étant donné que l'instance ne disposait que d'un terminal, j'ai pensé à uploader les PDFs directement sur Dropbox à la volée grâce à l'API, puisqu'ils devaient dans tous les cas y être à la fin.
+Cela fonctionnait sur mon PC, mais pas sur l'instance, j'ai donc abandonné l'idée de l'utiliser. 
+L'exécution était donc plus pratique et même plus réussie sur ma machine personnelle, le téléchargement étant moins souvent bloqué par les sites.
 
-GAIA : Enregistrement des fichiers directement dans Dropbox sinon c’est trop lourd, mais faisable que depuis mon pc
-DIfficulté : Essai d’utiliser git lfs mais n’a pas marché
+Alors que j'avais bien entamé l'exécution en local, j'ai remarqué que toutes les heures environ, le token expirait. Il fallait donc manuellement en regénérer un nouveau.
+Il était donc finalement plus simple de d'enregistrer les PDFs en local et d'après coup tout uploader en même temps.
+J'ai pu utiliser le forfait Business de Dropbox de mon tuteur pour y uploader les 136GB de PDFs.
+\\
 
-suppression des pdfs après qu’ils soient lus + Upload dans le dropbox de Hendrik
-Difficulté : Trop de pdfs, plus de place sur mon dropbox
-Il n'empêche que l'exécution était donc plus pratique et plus réussie sur ma machine personnelle, le téléchargement étant moins souvent bloqué par les sites.
+Les dernières observations que j'ai faites sur mes résultats, sont que :
 
-Résolution de bug GAIA, liens qui se supprimaient du fichier car on le replace par un nouveau des qu’on relance le code ==> Repris depuis le début
-Diapo explicative des résultats GAIA fait, manque plus que les résultats de la partie 2
-suppression de la condition avec les 2 premiers chiffres de l’année pour le crawling ==> code à relancer plus tard (en dehors des heures de travail)
+1) Les résultats contenaient des doublons, soit à cause du fichier MSCI initial, soit quand je relançais le code, et qu'une entreprise qui avait déja été faite avant, soit refaite une 2ème fois.
 
-GAIA : suppression de l’upload dans dropbox
-Ajout d’infos dans les statistiques
-Diapo de présentation des résultats amélioré
+2) qu'en fin de compte, le fait de considérer comme juste un lien qui contient les 2 derniers chiffres de l'année recherchée, faussait les résultats plus qu'autre chose :
+certains liens contenaient juste une suite aléatoire de chiffres qui ne faisaient pas référence à l'année, et ils étaient considérés à tort comme justes.
 
-Fin du diapo et envoi
-Relance du code sans la condition des 2 chiffres de l’année dans le lien et correction bug quand lien = None + doublons supprimés
+J'ai donc supprimé cette condition, résolu le bug des doublons, et relancé le code une bonne fois pour toute, qui avait besoin de plus de 2 jours pour s'exécuter complètement.
+\\
 
-modification de certains noms dans msci (bug ' n ' ou ' i ') + prévention des doublons dans les fichiers de résultats douteux et trouvés
+Mes fichiers statisitques contenaient désormais plus d'informations qu'au début : 
+Pourcentage de PDFs trouvés pour une année spécifiques, nombre cumulé de PDFs douteux, trouvés, et à trouver au total :
 
-MONTRER RESULTATS DIAPOS
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{stats0.png}
+    \caption{Statistiques de 2017 avant le téléchargement des PDFs}
+\end{figure}
 
+Pour finir, je devais faire une présentation de quelques slides afin de présenter mes résultats à l'équipe Gaia.
+Un léger refactoring du code (division en plus de fonctions) et surtout sa documentation étaient également nécessaires. 
+\\
+Les résultats obtenus pour ce projet sont donc présentés sur les slides suivantes :
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{gaia_results.png}
+    \caption{Résultats du projet GAIA (nombre de PDFS trouvés et douteux)}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=8cm]{pdfs_not_downloaded.png}
+    \caption{Statistiques sur les PDFs n'ayant pu être téléchargés}
+\end{figure}
+
+Ces résultats étaient donc plutôt bons et ont satisfait l'équipe Gaia.
+ 
 \subsubsection{Projet ESCB Exchange}
 
 \subsubsection{Projet CSDB}
