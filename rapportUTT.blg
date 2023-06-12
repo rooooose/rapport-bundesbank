@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'rapportUTT.blg'
+[160] biber-MSWIN64:340> INFO - === 
+[200] Biber.pm:419> INFO - Reading 'rapportUTT.bcf'
+[330] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[350] Biber.pm:4419> INFO - Processing section 0
+[364] Biber.pm:4610> INFO - Looking for bibtex file 'src/parts/bibliography.bib' for section 0
+[426] bibtex.pm:1713> INFO - LaTeX decoding ...
+[452] bibtex.pm:1519> INFO - Found BibTeX data source 'src/parts/bibliography.bib'
+[511] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[511] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[511] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'fr-FR'
+[511] Biber.pm:4245> INFO - No sort tailoring available for locale 'fr-FR'
+[531] bbl.pm:660> INFO - Writing 'rapportUTT.bbl' with encoding 'UTF-8'
+[536] bbl.pm:763> INFO - Output to rapportUTT.bbl
+[536] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Rose\AppData\Local\Temp\biber_tmp_f3EC\f4d088b3f9f145b5c3058da33afd57d4_16424.utf8, line 4, warning: 34 characters of junk seen at toplevel
+[536] Biber.pm:133> INFO - WARNINGS: 1

@@ -229,9 +229,103 @@ Ces résultats étaient donc plutôt bons et ont satisfait l'équipe Gaia.
  
 \subsubsection{Projet ESCB Exchange}
 
+Pour ce projet, ma mission était très courte et devait être réalisée en 8 jours maximum, et en 5 jours elle était terminée. 
+
+Je devais donc reprendre le code écrit précédemment pour la comparaison bilatérale des sources de données, et mettre à jour la présentation existante avec les nouveaux résultats.
+
+La fusion des 3 datasets sur le code ISIN des entreprises menait à un échantillion assez restreint d'observations, mais suffisant pour les représenter graphiquement.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{escb sample.png}
+    \caption{Résultats de la fusion des datasets}
+\end{figure}
+
+Il fallait ensuite, pour chaque "Scope" (1, 2, 3) (= périmètres du bilan d'émissions de CO2) comparer les sources deux à deux graphiquement et obtenir le coefficient de correlation.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{escb graph.png}
+    \caption{Comparaison des sources ISS et Carbon4Finance}
+\end{figure}
+
+Afin de pouvoir déterminer le dataset contenant les données les plus justes, on cherche pour chaque scope le nombre d'observations pour lesquelles, dans une marge de tolérance de 10\% : \\
+- Les valeurs concordent toutes entre les trois sources de données \\
+- Aucune source de données n'est d'accord avec les autres\\
+
+Le reste des observations peuvent alors être comparées. Le datasource qui est le plus de fois en accord avec d'autres est le plus exact.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{escb agree.png}
+    \caption{Nombre }
+\end{figure}
+
+La principale difficulté durant ce projet était de comprendre le code d'une autre personne portant sur des opérations statistiques ainsi que d'où venaient cetains résultats notés dans la présentation.
+
+Mon tuteur m'a ensuite suggéré d'essayer la comparaison quadrilatérale, avec en plus les données d'ERICA, mais seulement 10 observations restaient après la fusion. 
+Les données plus récentes sont donc attendues.
+
 \subsubsection{Projet CSDB}
 
+Ma mission pour ce projet est donc de trouver une méthode de comparaison de datasets optimale et efficace.
+
+J'ai dans un premier temps cherché les différentes méthodes qui existent en Python pour comparer facilement des datasets.
+Il y a notamment la méthode "compare" de pandas, mais celle-ci ne fonctionne que sur des datasets de forme identique.
+Cela n'était donc pas garanti, par exemple lorsque des colonnes étaient ajoutées sur une nouvelle version.
+
+La package Datacompy en revanche, semblait remplir la mission à merveille, avec la possibilité de générer un rapport détaillé sur les différences et similitudes trouvées.
+
+CSDB : Präsentation von datensätze Vergleich und bearbeitung ==> jetzt sind die Datensätze als gleich angesehen wenn : 
+In einem NA gibt und im anderen ein “ “ oder “” gibt
+wenn eine extra Spalte in einem gibt aber die leer ist
+Jetzt muss man auf den richtigen Datensätze ausprobieren
+
+Datensätze Vergleich -> Leerzeichen durch None ersetzt + Sortieren nach ISIN + Leerzeichen rausschmeissen
+Schwierigkeit : Manchmal gibt es mehr als 1 Leerzeichen + Identische Werte werden als unterschiedlich betrachtet
+
+14/04 : 
+Vergleich zeigt keine Differenzen mehr : relative Toleranz für Zahlen, keine Datum mehr
+Join auf ISINS : Keine Sortierung mehr notwendig
+
+CSDB : Versuch mit pandas.compare : 
+Schwierigkeit : Manche floats sind als unterschiedlich betrachtet (weil als strings gesehen) und manche strings auch
+
+Datensätze Vergleich ohne Datacompy geschafft ==> effizienter und akkurater (gleiche Spalten sind wieder als unterschiedlich betrachtet)
+8min vs 20min
+
+CSDB Meeting : Nominal values Ergebnisse komisch : Spalte sollte leer sein und Werte mögen falsch sein -> Beobachtung von der Spalte in csv
+Mais en fait il y avait vraiment beaucoup de lignes remplies quand on regardait le nombre
+
+Später :
+Neue Datensätze miteinander vergleichen
+
+CSDB : Beobachtungen zu den Daten im Jupyter Notebook speichern
+
+CSDB : documentation de la 1ere comparaison
+début comparaison des gros -> Memory size error
+
+CSDB : Avancée de la comparaison sur VM
+
+CSDB : Fin de la comparaison - réu
+
 \subsubsection{Projet NFIG}
+
+5 jours
+NFiG Code Debug Anfang
+NFIG Meeting : (NFiG = Nur für internen Gebrauch)
+Aufgabe : Bericht mit python erzeugen
+NFiS : Bericht Erstellung angefangen. 
+
+20/04 : 
+CSDB : Beobachtungen zu den Daten im Jupyter Notebook speichern
+NFiG : Automatische Eintragung von Elementen in eine Markdown-Tabelle. Schwierigkeit : geschachteltes dataframe zu füllen
+
+21/04 : 
+NFiG : Bericht fertig gemacht mit geschachtelten dfs in html konvertiert, und Liste für Zeile Nummer
+
+24/04 : 
+NFiG : Kommentare
+
 
 \subsubsection{Projet de recherche NLP}
 
