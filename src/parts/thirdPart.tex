@@ -226,7 +226,9 @@ Les résultats obtenus pour ce projet sont donc présentés sur les slides suiva
 \end{figure}
 
 Ces résultats étaient donc plutôt bons et ont satisfait l'équipe Gaia.
- 
+
+\pagebreak
+
 \subsubsection{Projet ESCB Exchange}
 
 Pour ce projet, ma mission était très courte et devait être réalisée en 8 jours maximum, et en 5 jours elle était terminée. 
@@ -257,7 +259,7 @@ Le reste des observations peuvent alors être comparées. Le datasource qui est 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{escb agree.png}
-    \caption{Nombre }
+    \caption{Nombre d'observations identiques entre les sources}
 \end{figure}
 
 La principale difficulté durant ce projet était de comprendre le code d'une autre personne portant sur des opérations statistiques ainsi que d'où venaient cetains résultats notés dans la présentation.
@@ -265,48 +267,61 @@ La principale difficulté durant ce projet était de comprendre le code d'une au
 Mon tuteur m'a ensuite suggéré d'essayer la comparaison quadrilatérale, avec en plus les données d'ERICA, mais seulement 10 observations restaient après la fusion. 
 Les données plus récentes sont donc attendues.
 
+\pagebreak
+
 \subsubsection{Projet CSDB}
 
 Ma mission pour ce projet est donc de trouver une méthode de comparaison de datasets optimale et efficace.
 
 J'ai dans un premier temps cherché les différentes méthodes qui existent en Python pour comparer facilement des datasets.
-Il y a notamment la méthode "compare" de pandas, mais celle-ci ne fonctionne que sur des datasets de forme identique.
+Il y a notamment les méthodes "compare" et "equals" de pandas, mais celle-ci ne fonctionne que sur des datasets de forme identique.
 Cela n'était donc pas garanti, par exemple lorsque des colonnes étaient ajoutées sur une nouvelle version.
 
 La package Datacompy en revanche, semblait remplir la mission à merveille, avec la possibilité de générer un rapport détaillé sur les différences et similitudes trouvées.
 
-CSDB : Präsentation von datensätze Vergleich und bearbeitung ==> jetzt sind die Datensätze als gleich angesehen wenn : 
-In einem NA gibt und im anderen ein “ “ oder “” gibt
-wenn eine extra Spalte in einem gibt aber die leer ist
-Jetzt muss man auf den richtigen Datensätze ausprobieren
+J'ai d'abord testé ces packages sur des petits Dataframes de test.
 
-Datensätze Vergleich -> Leerzeichen durch None ersetzt + Sortieren nach ISIN + Leerzeichen rausschmeissen
-Schwierigkeit : Manchmal gibt es mehr als 1 Leerzeichen + Identische Werte werden als unterschiedlich betrachtet
+Le seul problème était que les lignes étaient vues comme différentes lorsqu'elles contiennent "" ou " ", de même lorsqu'un dataframe contient une colonne supplémentaire mais qui est vide (On veut qu'ils soient considérés dans ce cas comme identiques).
+Une fois ces détails résolus, j'ai pu tester la méthode de comparaison sur les premiers vrais fichiers csv, pesant plus de 2Go.
+\\
 
-14/04 : 
-Vergleich zeigt keine Differenzen mehr : relative Toleranz für Zahlen, keine Datum mehr
-Join auf ISINS : Keine Sortierung mehr notwendig
+A la première exécution, je remarque que toutes les lignes sont différentes. Il fallait en fait trier les datasets par ISIN afin que la comparaison se fasse correctement.
+IL restait tout de même des fausses différences invisibles à l'oeil nu, à cause d'un nombre différent d'espaces (pouvant aller jusqu'à 150 espaces). Ceux-ci sont donc remplacés par None.
+Parfois des espaces à la fin des mots étaient aussi présents, il était donc nécessaire de les supprimer. 
 
-CSDB : Versuch mit pandas.compare : 
-Schwierigkeit : Manche floats sind als unterschiedlich betrachtet (weil als strings gesehen) und manche strings auch
+Concernant les nombres, ils pouvaient souvent arriver qu'ils soient arrondis seulement dans l'un des datasets.
+J'ai résolu cela en comparant les floats avec une tolérence de 1\%.
+Pour 1 colonne, cette méthode n'a pas fonctionné, peut être à cause d'un format string. 
+Ici, les mêmes entiers étaient succédés par un ".0" dans l'un des datasets.
+Après de longues recherches, je n'ai finalement pas trouvé de solution, celles trouvées cassant toutes les valeurs de toutes les colonnes avec un nombre inifini de "0".
 
-Datensätze Vergleich ohne Datacompy geschafft ==> effizienter und akkurater (gleiche Spalten sind wieder als unterschiedlich betrachtet)
-8min vs 20min
+Le dernier obstacle était les dates qui n'étaient pas du même format dans tous les datasets, étant parfois notés en toutes lettres.
+Les colonnes de dates ont finalement été toutes supprimées, n'étant pas importantes.
 
-CSDB Meeting : Nominal values Ergebnisse komisch : Spalte sollte leer sein und Werte mögen falsch sein -> Beobachtung von der Spalte in csv
-Mais en fait il y avait vraiment beaucoup de lignes remplies quand on regardait le nombre
+Au fil de l'utilisation du package Datacompy, j'ai découvert que l'on pouvait joindre les datasets sur une colonne spécifique, rendant le tri inutile.
+\\
 
-Später :
-Neue Datensätze miteinander vergleichen
+Cependant, nous avons soupçonné que l'autre méthode de comparaison, un peu plus artisanale, serait plus optimale.
+En effet, il ne nécessite que très peu de lignes de code, mais chaque ligne est très longue à s'exécuter, calculant beaucoup d'informations non indispensables pour nous (20min en tout).
 
-CSDB : Beobachtungen zu den Daten im Jupyter Notebook speichern
+J'ai donc tenté de comparer les colonnes une à une avec les méthodes de pandas, et il s'est avéré que cette solution était beaucoup plus efficace (8min vs 20min d'exécution).
+Les colonnes supplémentaires étaient ensuite recherchées puis inspectées afin de voir si elles sont vides.
 
-CSDB : documentation de la 1ere comparaison
-début comparaison des gros -> Memory size error
+Tout fonctionnait parfaitement, à part ce problème de ".0" et pour certaines chaînes de caractères encodées différemment.
+\\
 
-CSDB : Avancée de la comparaison sur VM
+Pour terminer, j'ai exécuter mon code pour les 12 mois de 2015, et documenté les résultats dans un markdown.
+Pour ce faire, j'ai dû utiliser un Virtual Computer, car ces datasets faisaient entre 4 et 7Go.
 
-CSDB : Fin de la comparaison - réu
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=14cm]{csdb results.png}
+    \caption{Extrait des résultats - Premiers datasets - avril 2009}
+\end{figure}
+
+Après cela, il m'a été conseillé de me concentrer sur le nouveau projet d'NLP, afin de ne pas avoir la tête sur plusieurs projets en même temps.
+
+\pagebreak
 
 \subsubsection{Projet NFIG}
 
