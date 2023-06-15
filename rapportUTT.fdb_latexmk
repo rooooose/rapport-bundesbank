@@ -1,12 +1,11 @@
 # Fdb version 4
-["biber rapportUTT"] 1686577807 "rapportUTT.bcf" "rapportUTT.bbl" "rapportUTT" 1686645606 0
-  "rapportUTT.bcf" 1686645606 107752 5e857d794a4c03270f779eec57890655 "pdflatex"
-  "src/parts/bibliography.bib" 1640964115 3762 1326c5592c664c90869862138fcf2e24 ""
+["biber rapportUTT"] 0 "rapportUTT.bcf" "rapportUTT.bbl" "rapportUTT" 1686827644 -1
+  "rapportUTT.bcf" 1686827643 107752 5e857d794a4c03270f779eec57890655 "pdflatex"
   (generated)
   "rapportUTT.bbl"
   "rapportUTT.blg"
   (rewritten before read)
-["pdflatex"] 1686645597 "c:/Users/Rose/Documents/UTT ISI/ISI6 ST10/Deutsche Bundesbank Data Science/rapport-bundesbank/rapportUTT.tex" "rapportUTT.pdf" "rapportUTT" 1686645606 0
+["pdflatex"] 1686827635 "c:/Users/Rose/Documents/UTT ISI/ISI6 ST10/Deutsche Bundesbank Data Science/rapport-bundesbank/rapportUTT.tex" "rapportUTT.pdf" "rapportUTT" 1686827644 0
   "C:/Users/Rose/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1682175970 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Rose/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1679865302 23175902 d7171ed6d82206ce4ec166cc62d99ccd ""
   "C:/Users/Rose/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256933040 2375 baa924870cfb487815765f9094cf3728 ""
@@ -334,14 +333,14 @@
   "Ressources-graphiques/keywords-panel.png" 1632056144 2055 39f446b066458c6cacb1d6d43685bac1 ""
   "Ressources-graphiques/logos/UTT.eps" 1632056145 2851486 d69b44bbb5922295d14ed6e84c826d43 ""
   "Ressources-graphiques/logos/entreprise.png" 1684594303 97263 d9a59f81af8c3fc8d05862d5dc13d9be ""
-  "c:/Users/Rose/Documents/UTT ISI/ISI6 ST10/Deutsche Bundesbank Data Science/rapport-bundesbank/rapportUTT.tex" 1686581858 5037 f7f493ab72c7d976893a9c229b2bda8f ""
+  "c:/Users/Rose/Documents/UTT ISI/ISI6 ST10/Deutsche Bundesbank Data Science/rapport-bundesbank/rapportUTT.tex" 1686647054 5060 762c1a00a37bddead52a2e2d904132f4 ""
   "rUTT.cls" 1632056896 15935 1e5e8918fb91b8db35e5f35133eb1e31 ""
-  "rapportUTT.aux" 1686645606 16245 ee370547b83681887f5f36caa27c079d "pdflatex"
+  "rapportUTT.aux" 1686827643 16792 66a248d2b3b93fd46b9f085b6aa92907 "pdflatex"
   "rapportUTT.bbl" 1686577841 14976 e80fa146bb91b7ac288d5280b34ec650 "biber rapportUTT"
-  "rapportUTT.lof" 1686645606 1910 29a6a0c0a2d6710ef8efc70a676fcb1b "pdflatex"
-  "rapportUTT.run.xml" 1686645606 2389 70191650bc3e6f07fd21cdddf28dbf63 "pdflatex"
-  "rapportUTT.tex" 1686581858 5037 f7f493ab72c7d976893a9c229b2bda8f ""
-  "rapportUTT.toc" 1686645606 3208 42b6bdabf12e0ec144ff43b2751e5017 "pdflatex"
+  "rapportUTT.lof" 1686827643 2334 39ccee3d3a02c198e7a31cb173a68a40 "pdflatex"
+  "rapportUTT.run.xml" 1686827643 2389 70191650bc3e6f07fd21cdddf28dbf63 "pdflatex"
+  "rapportUTT.tex" 1686647054 5060 762c1a00a37bddead52a2e2d904132f4 ""
+  "rapportUTT.toc" 1686827643 3208 9f4f64a2011a4ae0127588efc33719b2 "pdflatex"
   "src/contents/pics//ESCB logos.png" 1685456143 23544 87cdf6ef2b2830288039e1ee61b29b20 ""
   "src/contents/pics//GAIA.png" 1684594445 1544202 476fc7df504e480164176220a0f51dd2 ""
   "src/contents/pics//csdb results.png" 1686645393 89886 ffb7be2a665458f16de4a466c3eb633c ""
@@ -351,6 +350,9 @@
   "src/contents/pics//escb sample.png" 1686572301 57881 e1f43b0c43375fcabfe886aba8a102a8 ""
   "src/contents/pics//gaia_results.png" 1686236470 30095 529d52660bec06e33d10b755c879ec4f ""
   "src/contents/pics//msci.png" 1686235446 90536 87980826ffcab7fcd7193428c5725025 ""
+  "src/contents/pics//nfig excel.png" 1686727177 97399 aeb36a004728c42abe8543cc4b441a22 ""
+  "src/contents/pics//nfig exemple rapport.png" 1686728464 44483 988ec1262fd8ef2ab1cca995f8beeb08 ""
+  "src/contents/pics//nfig rapport.png" 1686729138 100473 33508bebc72f0fbb116d0c76b0ea397a ""
   "src/contents/pics//pdfs_not_downloaded.png" 1686236650 15172 6110b5eff1e0a21e9b8963dc0cb170a7 ""
   "src/contents/pics//procedure.png" 1686235063 18355 0f7aca564a31e88c5b0542ab00fd699e ""
   "src/contents/pics//proto_A_NLP.png" 1685528448 25734 5c7c5c0ad9c7d2e1e0d3c821b0673034 ""
@@ -365,7 +367,7 @@
   "src/parts/Remerciements.tex" 1641134279 821 da4b1d35783a2f263cf056b1309b7db1 ""
   "src/parts/firstPart.tex" 1686580427 2682 7fadf658f6a23bedd3bac4e72bc9c276 ""
   "src/parts/secondPart.tex" 1686582721 13543 ce4e9ea80a505dc7a998a69308c1098b ""
-  "src/parts/thirdPart.tex" 1686645590 25406 8b5f876ba531d0ef985888af3d37f3f1 ""
+  "src/parts/thirdPart.tex" 1686827622 33311 96d1ae3ec6fcd42841e5a7b27e24c014 ""
   (generated)
   "rapportUTT.aux"
   "rapportUTT.bcf"

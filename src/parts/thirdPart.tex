@@ -325,23 +325,103 @@ Après cela, il m'a été conseillé de me concentrer sur le nouveau projet d'NL
 
 \subsubsection{Projet NFIG}
 
-5 jours
-NFiG Code Debug Anfang
-NFIG Meeting : (NFiG = Nur für internen Gebrauch)
-Aufgabe : Bericht mit python erzeugen
-NFiS : Bericht Erstellung angefangen. 
+Tout comme le projet CSDB Exchange, celui-ci n'a duré que 5 jours pour la génération du rapport.
 
-20/04 : 
-CSDB : Beobachtungen zu den Daten im Jupyter Notebook speichern
-NFiG : Automatische Eintragung von Elementen in eine Markdown-Tabelle. Schwierigkeit : geschachteltes dataframe zu füllen
+Avant cela, j'avais dû essayer de comprendre le code déjà écrit pour trouver automatiquement les fichiers générés dans le code, au moment où nous croyions encore avec mon collègue qua nous allions travailler là-dessus.
 
-21/04 : 
-NFiG : Bericht fertig gemacht mit geschachtelten dfs in html konvertiert, und Liste für Zeile Nummer
+2 semaines plus tard, ma vraie mission a pu commencer : 
 
-24/04 : 
-NFiG : Kommentare
+A partir de 2 fichiers Excel comme ci-dessous, regroupant quel fichier output est généré à quelle ligne dans quel fichier .do et .log de quelle date, je devais donc générer un rapport avec Python selon le modèle de la figure 16.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{nfig excel.png}
+    \caption{Fichier Excel à partir duquel le rapport devait être généré}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=14cm]{nfig exemple rapport.png}
+    \caption{Exemple de rapport type à générer automatiquement}
+\end{figure}
+
+Comme le modèle de rapport le montre, la 1ère colonne du tableau est elle-même composée de 2 colonnes, ce qui impliquait d'avoir des dataframes emboîtés.
+Cela a été un peu compliqué à mettre en place, mais a finalement bien fonctionné à la fin, en choisissant un format HTML plutôt que Markdown pour le rapport.
+
+Egalement, la colonne "n" fait référence à la colonne "freq" dans l'Excel, mais il n'était pas clair si ce nombre n'était valable que pour 1 apparition (autrement dit, 3 apparitions dans 1 fichier = 3 fréquences), par exemple si le nom du fichier output apparait plusieurs fois à la même ligne; 
+ou si une fréquence était valable pour le nombre total des apparitions, comme le montre le modèle.
+
+Dans le doute, j'ai choisi la 1ère option, plus compliquée à implémenter, et le résultat ressemble à cela :
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{nfig rapport.png}
+    \caption{Extrait du rapport généré automatiquement}
+\end{figure}
+
+J'ai demandé au client ce qu'il en était pour ce doute, il devait lui-même vérifier mais ne m'a jamais redit.
 
 \subsubsection{Projet de recherche NLP}
+
+Pour commencer tout travail de recherche, il faut débuter par la revue littéraire en anglais pour trouver des articles similaires. 
+J'en ai donc trouvé 8 qui se rapporchaient de près ou de loin à notre sujet, soit recherchant juste des datasets mentionnés dans les papiers de recherche, soit les méthodologies, ou utilisant un LLM.
+Ce que nous souhaiterions dans l'idéal atteindre est de trouver seulement les datasets et méthodologies utilisées, et non simplement mentionnées.
+\\
+
+La 2nde tâche était de diviser les papiers de recherche en phrases, afin de pouvoir plus tard les fournir une à une à ChatGPT. 
+Pour cela, j'ai utilisé le package de NLP nltk, mais ai dû ajouter à la main quelques règles, notamment pour "et al." et "N." pour numéro, où les points étaient là considérés comme des fins de phrases.
+J'ai alors dû mettre en place une fonction récursive, ce qui était assez délicat mais très formateur.
+Installer le package NLTK n'était également pas des plus simple à la Bundesbank, certaines dépendances devaient être téléchargées à la main, dû aux diverses autorisations.
+\\
+
+Une fois cela terminé, ma mission était de libeller quelques phrases contenant des mentions de datasets et d'autres n'en contenant pas, puis de fournir ces phrases à ChatGPT et d'observer les résultats.
+Concernant la question exacte à poser à ChatGPT, il était plus efficace de lui donner la définition d'un dataset ou d'une méthodologie, puis de lui demander de s'appuyer sur cette définition pour trouver les éléments.
+Cependant, toute suite de nombres était considérée comme un dataset, or cela ne nous intéressait pas, souhaitant seulement les noms des datasets utilisés, et non ceux fabriqués durant la recherche.
+
+Un autre département de la Bundesbank (IT7) était intéressé par le projet et lors de la réunion avec eux, nous avons pu présenter ces résultats.
+Pour des raisons budgétaires, il était finalement préférable selon eux de diviser les papiers en pages plutôt qu'en phrases afin de pas devoir fait trop de petites requêtes.
+
+J'ai donc de nouveau sélectionné des pages contenant des datasets ou méthodologies, et d'autres ne contenant rien, documenté le tout dans un Excel, et envoyé le fichier à l'IT7 afin qu'ils piussent tester les échantillons facilement eux-même.
+\\
+
+L'intention de cette recherche devait être officiellement déposée à un comité de recherche, il fallait donc soumettre l'Abstract assez tôt. 
+Une collègue l'a écrit, et le reste de l'équipe devait le relire et corriger, ce à quoi j'ai participé.
+\\
+
+Cette même collègue a aussi commencé l'écriture d'un code visant à filtrer les papiers pour supprimer les parties non pertinentes, notamment les pages Titre, les Références, etc\dots
+Comme j'étais censée mettre en commun nos 2 codes pour préparer des extraits directement utilisables pour ChatGPT mais qu'il n'était pas terminé, j'ai décidé de le faire moi-même.
+Elle avait, dans un Jupyter Notebook, préparer les différentes sections pour le code à venir, par exemple "Suppression de l'Introduction", "Division en sections", etc\dots
+\\
+
+A ce moment s'est présentée une phase de réflexion sur ce que nous souhaitions vraiment, et s'il était vraiment pertinent de supprimer autant de parties.
+En me renseignant auprès de Sebastian, mon référant technique pour ce projet, j'ai appris que les datasets se référant à un sondage conduit pour la recherche comptent, ainsi que les parties de datasets utilisées (Ex: La 1ère vague de tel dataset).
+Plus spécifiquement, j'ai appris que l'Introduction ne devait pas être supprimée, ni les descriptions de Tableaux ou Figures.
+
+Dans un premier temps, j'ai tenté de trouver un moyen de supprimer les tableaux de fichiers PDF.
+Certains packages Python existaient pour extraire les tableaux en Dataframes, mais ne permettaient pas de les supprimer du fichier, et surtout ne reconnaissaient pas les tableaux contenant seulement des bordures de lignes et non de colonnes.
+D'autres packages ayant l'air intéressant ne pouvaient simplement pas être installés à la Bundesbank, recquérant trop de dépendances ou autres logiciels (ex: Anaconda).
+
+Après de longues recherches, j'ai conclu qu'il était nécessaire d'obtenir un format structuré à partir des PDF.
+
+J'ai tenté de trouver un convertisseur Markdown, mais aucun n'existait pour Python, sauf payant.
+J'ai ensuite essayé de convertir en HTML, mais les balises résultantes étaient toutes des <span>, y compris pour les tableaux.
+\\
+
+Finalement, ma solution était de convertir les PDF en DOCX (package pdf2docx). 
+Les tableaux y étaient après directement détectables, et grâce au package docx, il était possible de faire toutes sortes de modifications sur les docx, y compris supprimer les tableaux.
+De nombreuses possibilités s'ouvraient alors : il était désormais possible de trouver les caractères en gras (toujours des titres) et de supprimer le texte en 2 titres.
+J'ai donc pu supprimer la section Références beaucoup plus efficacement et en moins de lignes que ce qu'avait précédemment fait ma collègue.
+Le lien présent en bas de chaque a également pu être ainsi supprimé.
+A la fin, le docx pouvait être reconvertir en PDF grâce au package docx2pdf.
+La conversion en docx n'a simplement pas fonctionné sur 1 pdf sur 6. J'ai donc aussi traité les exceptions.
+
+Pour ce qui est de la suppression de la page titre, j'ai simplement repris le code de ma collègue qui fonctionnait sur les papiers en format txt découpés en pages grâce à Fitz, car le format docx ne reconnait pas les numéros de pages. 
+Il y a donc 2 phases de filtrage.
+\\
+
+Sebastian a en parallèle écrit un code visant à communiquer avec l'API de ChatGPT qui lui envoie les extraits de textes et enregistre les réponses dans des txt, ce qui est très utile pour automatiser les requêtes et avoir accès à plus d'options.
+La prochaine étape était donc l'incorporation de mon filtre au processus de questionnement de ChatGPT.
+J'ai pu dans ce contexte apprendre à utiliser les classes en Python.
+Une difficulté que j'ai rencontrée était de comprendre le code déja fait et de s'y adapter le mieux possible pour incorporer proprement mon code.
 
 \subsection{Planning général suivi}
