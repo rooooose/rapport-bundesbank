@@ -38,7 +38,9 @@
 \contentsline {subsubsection}{\numberline {B.3}Projet CSDB}{22}{subsubsection.3.2.3}%
 \contentsline {subsubsection}{\numberline {B.4}Projet NFIG}{24}{subsubsection.3.2.4}%
 \contentsline {subsubsection}{\numberline {B.5}Projet de recherche NLP}{26}{subsubsection.3.2.5}%
-\contentsline {subsection}{\numberline {C}Planning général suivi}{28}{subsection.3.3}%
-\contentsline {section}{Conclusion}{29}{section*.20}%
-\contentsline {section}{Bibliographie}{}{section*.21}%
-\contentsline {section}{Table des figures}{}{section*.21}%
+\contentsline {subsection}{\numberline {C}Planning général suivi}{30}{subsection.3.3}%
+\contentsline {paragraph}{IDA PySpark}{31}{figure.caption.22}%
+\contentsline {paragraph}{IDA Dashboard}{31}{figure.caption.22}%
+\contentsline {section}{Conclusion}{32}{section*.23}%
+\contentsline {section}{Bibliographie}{}{section*.24}%
+\contentsline {section}{Table des figures}{}{section*.24}%

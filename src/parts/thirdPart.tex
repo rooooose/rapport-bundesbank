@@ -233,7 +233,7 @@ Ces résultats étaient donc plutôt bons et ont satisfait l'équipe Gaia.
 
 Pour ce projet, ma mission était très courte et devait être réalisée en 8 jours maximum, et en 5 jours elle était terminée. 
 
-Je devais donc reprendre le code écrit précédemment pour la comparaison bilatérale des sources de données, et mettre à jour la présentation existante avec les nouveaux résultats.
+Je devais donc reprendre le code écrit précédemment pour la comparaison bilatérale des sources de données, l'adapter à la nouvelle analyse, et mettre à jour la présentation existante avec les nouveaux résultats.
 
 La fusion des 3 datasets sur le code ISIN des entreprises menait à un échantillion assez restreint d'observations, mais suffisant pour les représenter graphiquement.
 
@@ -325,7 +325,7 @@ Après cela, il m'a été conseillé de me concentrer sur le nouveau projet d'NL
 
 \subsubsection{Projet NFIG}
 
-Tout comme le projet CSDB Exchange, celui-ci n'a duré que 5 jours pour la génération du rapport.
+Tout comme le projet CSDB Exchange, ce projet était très court, n'ayant duré que 3 jours pour la génération du rapport.
 
 Avant cela, j'avais dû essayer de comprendre le code déjà écrit pour trouver automatiquement les fichiers générés dans le code, au moment où nous croyions encore avec mon collègue qua nous allions travailler là-dessus.
 
@@ -371,7 +371,6 @@ Ce que nous souhaiterions dans l'idéal atteindre est de trouver seulement les d
 La 2nde tâche était de diviser les papiers de recherche en phrases, afin de pouvoir plus tard les fournir une à une à ChatGPT. 
 Pour cela, j'ai utilisé le package de NLP nltk, mais ai dû ajouter à la main quelques règles, notamment pour "et al." et "N." pour numéro, où les points étaient là considérés comme des fins de phrases.
 J'ai alors dû mettre en place une fonction récursive, ce qui était assez délicat mais très formateur.
-Installer le package NLTK n'était également pas des plus simple à la Bundesbank, certaines dépendances devaient être téléchargées à la main, dû aux diverses autorisations.
 \\
 
 Une fois cela terminé, ma mission était de libeller quelques phrases contenant des mentions de datasets et d'autres n'en contenant pas, puis de fournir ces phrases à ChatGPT et d'observer les résultats.
@@ -423,5 +422,79 @@ Sebastian a en parallèle écrit un code visant à communiquer avec l'API de Cha
 La prochaine étape était donc l'incorporation de mon filtre au processus de questionnement de ChatGPT.
 J'ai pu dans ce contexte apprendre à utiliser les classes en Python.
 Une difficulté que j'ai rencontrée était de comprendre le code déja fait et de s'y adapter le mieux possible pour incorporer proprement mon code.
+\\
+
+Ensuite est venue l'étape de test du code puis de l'amélioration du contenu du prompt.
+Il était assez compliqué de trouver un prompt parfait, comme les résultats changeaient plus ou moins à chaque requête, malgré le réglage de la température à 0.
+De plus, certaines parties du résultat ne faisaient pas toujours sens, mais en modifiant le prompt, j'ai pu minimiser ce problème.
+Au final, il comprend la définition d'un dataset, demande la liste de datasets et de data-sources utilisés dans la recherche.
+Voici un exemple de résultat (une liste de datasets par page de papier de recherche) :
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{result chatgpt.png}
+    \caption{Résultat de la recherche par ChatGPT des datasets dans une page d'un papier de recherche (en haut) - avec l'extrait correspondant en-dessous}
+\end{figure}
+
+J'ai après cela émis quelques idées pour mesurer la qualité des résultats : système à base de regles pour comparer les labels et les résultats, ou utilisation de ChatGPT pour cela.
+
+En parallèle l'écriture de la Méthodologie / Procédure pour mon papier de recherche devait être faite.
+
+Après la présentation des résultats à Sebastian, j'ai eu pour nouvelle mission de faire mesurer la qualité des résultats à ChatGPT lui-même, grâce à une consigne dans le rôle "system", permettant de donner des "méta-instructions" pour la conversation.
+Il est alors possible de donner ici la liste des datasets étant censés être trouvés dans le papier, et de lui demander de trouver ceux-ci dans ses anciennes trouvailles.
+Le résultat est l'affichage de quels datasets ont bien été trouvés, avec le rappel des anciennes trouvailles.
+
+Il fallait donc en amont concaténer les résultats de chaque page en un seul fichier pour pouvoir mesurer leur qualité pour l'ensemble du PDF en 1 seule fois.
+
+Là-encore, il était important de faire du prompt-engineering afin d'obtenir les meilleurs résultats possibles. Les observations sont les suivantes :\\
+- mettre des noms de variables dans les instructions le rend confus\\
+- préciser que les datasets recherchés viennent de la Bundesbank l’aide
+
+Au final, voici un exemple de résultats obtenus pour la qualité :
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{quality results chatgpt.png}
+    \caption{Résultat de la recherche par ChatGPT des datasets dans une page d'un papier de recherche (en haut) - avec l'extrait correspondant en-dessous}
+\end{figure}
+
 
 \subsection{Planning général suivi}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{gantt.png}
+    \caption{Planning Gantt général}
+\end{figure}
+
+J'ai ajouté ici une Swimlane pour les projets IDA, car je vais beaucoup y travailler dans la suite de mon stage (se terminant le 8 septembre).
+
+L'IDA est une plateforme de bases de données relationnelles, intégrée à la banque il y a peu d'années. 
+
+Elle est composée de plusieurs services, notamment le Preshop, sur lequel je vais travailler, qui permet le développement de prototypes de produits de données "en self-service" avant leur mise à disposition dans le DataShop.
+Cette étape permet beaucoup plus de rapidité et d'indépendance dans le processus d'ajoute de données au DataShop.
+
+J'explique ci-dessous les 2 projets IDA auxquels je vais participer.
+
+\paragraph{IDA PySpark}
+
+Ce "mini projet" a pour but d'intégrer les nouvelles tables de Carbon4Finance au Preshop avec le code deja fait, utilisant PySpark. 
+Ma mission est alors de corriger les erreurs pouvant survenir en adaptant le code et faire un schema de base de données pour la table.
+Il s'agit surtout d'un pré-projet permettant de me familiariser avec la plateforme pour avoir un peu d'expérience en commençant le Dashboard IDA.
+\\
+
+\textbf{Pourquoi faire cela ?}
+
+Chaque mois, la banque reçoit des données en csv, et on veut les intégrer dans l'IDA, afin de pouvoir optimiser l’accès aux données et pouvoir faire des requêtes SQL.
+\\
+
+\textbf{Antécédents :}
+
+Le code pour intégrer les tables au preshop est deja fait, mais comme chaque nouvelle table est parfois différente au niveau de la forme, il y a parfois des erreurs et le schéma des tables manque toujours
+
+\paragraph{IDA Dashboard}
+
+Ce projet sera fait pour un autre sous-département, la DSZ30.
+Le but est de faire un dashboard Web permettant de faire des actions sur la plateforme IDA avec moins de liberté et plus de guidance.
+Cela permettra d'élargir la cible d'utilisateurs.
+Le développement utilisera Python notamment pour la connection en live à l'IDA avec pyodbc, et Javasript.
